@@ -17,6 +17,8 @@
 
     move-result-object v0
 
+    #const-string v0, "5c4420e9-f91a-479d-b4b6-0f7ed7b2abf7"
+
     return-object v0
 .end method
 
@@ -105,13 +107,8 @@
 
     .prologue
     .line 42
-    const-string v0, "PREF_FREE_RIDE_COST"
 
-    const/4 v1, 0x0
-
-    invoke-static {v0, v1}, Lso/ofo/abroad/utils/ae;->b(Ljava/lang/String;I)J
-
-    move-result-wide v0
+    const-wide/32 v0, 0xFFFFFFF
 
     return-wide v0
 .end method
@@ -130,6 +127,8 @@
     move-result-wide v0
 
     long-to-int v0, v0
+
+    const v0, 0x17
 
     return v0
 .end method
