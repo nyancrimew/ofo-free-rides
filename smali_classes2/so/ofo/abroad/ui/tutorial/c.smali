@@ -2,22 +2,21 @@
 .super Ljava/lang/Object;
 .source "TutorialPreference.java"
 
+# static fields
+.field private static token:Ljava/lang/String; = ""
 
 # direct methods
 .method public static a()Ljava/lang/String;
-    .locals 2
+    .locals 1
 
     .prologue
     .line 26
-    const-string v0, "PREF_TEMPLATE_TOKEN"
+    #const-string v0, "PREF_TEMPLATE_TOKEN"
+    #const-string v1, ""
+    #invoke-static {v0, v1}, Lso/ofo/abroad/utils/ae;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    #move-result-object v0
 
-    const-string v1, ""
-
-    invoke-static {v0, v1}, Lso/ofo/abroad/utils/ae;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    #const-string v0, "5c4420e9-f91a-479d-b4b6-0f7ed7b2abf7"
+    sget-object v0, Lso/ofo/abroad/ui/tutorial/c;->token:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -40,9 +39,11 @@
 
     .prologue
     .line 22
-    const-string v0, "PREF_TEMPLATE_TOKEN"
+    #const-string v0, "PREF_TEMPLATE_TOKEN"
 
-    invoke-static {v0, p0}, Lso/ofo/abroad/utils/ae;->a(Ljava/lang/String;Ljava/lang/String;)V
+    #invoke-static {v0, p0}, Lso/ofo/abroad/utils/ae;->a(Ljava/lang/String;Ljava/lang/String;)V
+
+    sput-object p0, Lso/ofo/abroad/ui/tutorial/c;->token:Ljava/lang/String;
 
     .line 23
     return-void
