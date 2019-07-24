@@ -60,8 +60,13 @@
     move-result-object v2
 
     .line 46
-    # Ideally randomize this "Android ID" here
-    # const-string v2, "DEADBEEF"
+    invoke-static {}, Ljava/util/UUID;->randomUUID()Ljava/util/UUID;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Ljava/util/UUID;->toString()Ljava/lang/String;
+
+    move-result-object v2
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
