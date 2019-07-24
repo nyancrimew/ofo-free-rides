@@ -49,7 +49,7 @@
 
     move-result v0
 
-    if-eqz v0, :cond_1
+    if-eqz v0, :cond_2
 
     .line 70
     iget-object v0, p0, Lso/ofo/abroad/ui/tutorial/TutorialActivity$2;->a:Lso/ofo/abroad/ui/tutorial/TutorialActivity;

@@ -4364,6 +4364,8 @@
 
     move-result v0
 
+    const v0, 0x0
+
     if-nez v0, :cond_4
 
     const-string v0, "PREF_TOP_UP_RESULT"
