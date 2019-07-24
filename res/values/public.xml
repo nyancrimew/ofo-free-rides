@@ -4833,7 +4833,8 @@
     <public type="string" name="view_last_trip" id="0x7f0e03cc" />
     <public type="string" name="view_last_trip_description" id="0x7f0e03cd" />
     <public type="string" name="visa_account" id="0x7f0e03ce" />
-    <public type="string" name="visitor_free_ride_banner" id="0x7f0e03cf" />
+    <public type="string" name="visitor_free_ride_banner" id="0x7f0e03ff" />
+    <public type="string" name="visitor_free_ride_banner2" id="0x7f0e03cf" />
     <public type="string" name="visitor_last_step" id="0x7f0e03d0" />
     <public type="string" name="walking" id="0x7f0e03d1" />
     <public type="string" name="wallet_group" id="0x7f0e03d2" />

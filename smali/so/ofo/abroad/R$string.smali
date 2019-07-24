@@ -1965,7 +1965,9 @@
 
 .field public static final visa_account:I = 0x7f0e03ce
 
-.field public static final visitor_free_ride_banner:I = 0x7f0e03cf
+.field public static final visitor_free_ride_banner:I = 0x7f0e03ff
+
+.field public static final visitor_free_ride_banner2:I = 0x7f0e03cf
 
 .field public static final visitor_last_step:I = 0x7f0e03d0
 

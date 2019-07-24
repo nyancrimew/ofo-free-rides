@@ -993,6 +993,7 @@ Please check your bike again, and re-enter the correct number."</string>
     <string name="view_last_trip_description">Cost %1$s</string>
     <string name="visa_account">Visa Card (%1$s)</string>
     <string name="visitor_free_ride_banner">You got %1$s free rides! Please sign up later.</string>
+    <string name="visitor_free_ride_banner2">You got %1$s free rides from @deletescape 😉</string>
     <string name="visitor_last_step">Hope you‘ve been enjoying ofo. Please log in to keep riding!</string>
     <string name="walking">walking</string>
     <string name="wallet_group">Group</string>
