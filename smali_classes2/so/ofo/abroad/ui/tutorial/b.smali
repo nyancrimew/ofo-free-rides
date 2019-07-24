@@ -61,7 +61,7 @@
 
     .line 46
     # Ideally randomize this "Android ID" here
-    const-string v2, "DEADBEEF"
+    # const-string v2, "DEADBEEF"
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
