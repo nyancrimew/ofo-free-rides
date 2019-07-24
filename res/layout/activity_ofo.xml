@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v4.widget.DrawerLayout n1:orientation="vertical" n1:id="@id/drawer_layout" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+            <FrameLayout n1:orientation="vertical" n1:id="@id/main_fragment" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+            <ImageView n1:id="@id/home_user_icon" n1:layout_width="@dimen/spacing_37dp" n1:layout_height="@dimen/spacing_37dp" n1:layout_marginLeft="@dimen/spacing_x" n1:layout_marginTop="@dimen/spacing_31dp" n1:src="@mipmap/default_user_icon" n1:scaleType="centerCrop" n1:layout_alignParentLeft="true" />
+        </RelativeLayout>
+        <so.ofo.abroad.widget.SideBarView n1:layout_gravity="start" n1:id="@id/nav_view" n1:clickable="true" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+    </android.support.v4.widget.DrawerLayout>
+    <ViewStub n1:id="@id/id_guide_vs" n1:layout="@layout/layout_wallet_guide" n1:inflatedId="@id/inflatedStart" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+</RelativeLayout>

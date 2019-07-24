@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:fitsSystemWindows="true" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar n1:id="@id/toolbar" n1:background="@android:color/white" n1:layout_width="fill_parent" n1:layout_height="?actionBarSize" n2:navigationIcon="@drawable/actionbar_icon_back" n2:titleTextColor="#ff000000" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <FrameLayout n1:id="@id/frame" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+</LinearLayout>

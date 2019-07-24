@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <RelativeLayout n1:background="@mipmap/free_rides_top_background" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <LinearLayout n1:orientation="horizontal" n1:paddingBottom="50.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true">
+                <TextView n1:textSize="@dimen/font_3x" n1:textStyle="bold" n1:textColor="@color/black" n1:layout_gravity="center_vertical" n1:id="@id/tv_free_rides_tip_two" n1:paddingLeft="@dimen/spacing_3x" n1:paddingTop="@dimen/spacing_10dp" n1:paddingRight="@dimen/spacing_3x" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="3.0" n1:paddingStart="@dimen/spacing_3x" n1:paddingEnd="@dimen/spacing_3x" />
+                <ImageView n1:paddingLeft="@dimen/spacing_10dp" n1:paddingTop="@dimen/spacing_10dp" n1:paddingRight="@dimen/spacing_2x" n1:layout_width="0.0dip" n1:layout_height="@dimen/spacing_140dp" n1:src="@mipmap/free_rides_top_icon" n1:layout_weight="2.0" n1:paddingStart="@dimen/spacing_10dp" n1:paddingEnd="@dimen/spacing_2x" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout n1:background="@drawable/shape_rect_solid_white_t0_r16" n1:paddingBottom="@dimen/spacing_2x" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_215dp">
+            <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+                <TextView n1:textSize="@dimen/font_19sp" n1:textStyle="bold" n1:textColor="@color/black" n1:paddingLeft="@dimen/spacing_3x" n1:paddingTop="@dimen/spacing_2x" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/money_earned" n1:paddingStart="@dimen/spacing_3x" />
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                    <LinearLayout n1:orientation="vertical" n1:paddingLeft="@dimen/spacing_3x" n1:paddingTop="@dimen/spacing_3x" n1:layout_width="@dimen/spacing_0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:paddingStart="@dimen/spacing_3x">
+                        <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                            <ImageView n1:layout_width="@dimen/spacing_23dp" n1:layout_height="@dimen/spacing_23dp" n1:src="@mipmap/invite_success_icon" />
+                            <so.ofo.abroad.widget.IconMoonTypefaceTextView n1:textSize="@dimen/font_48" n1:textColor="@color/color_202020" n1:id="@id/invited_friend_number" n1:paddingLeft="@dimen/spacing_l" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_minus_6dp" n1:includeFontPadding="false" n1:lineSpacingExtra="@dimen/spacing_0dp" n1:paddingStart="@dimen/spacing_l" />
+                        </LinearLayout>
+                        <TextView n1:textColor="@color/color_202020" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/invite_friend_invited" />
+                    </LinearLayout>
+                    <LinearLayout n1:orientation="vertical" n1:paddingLeft="@dimen/spacing_3x" n1:paddingTop="@dimen/spacing_3x" n1:layout_width="@dimen/spacing_0dp" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:paddingStart="@dimen/spacing_3x">
+                        <RelativeLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                            <TextView n1:textSize="@dimen/font_27dp" n1:textColor="@color/color_3d78ff" n1:id="@id/money_earned_currency" n1:layout_width="wrap_content" n1:layout_height="@dimen/spacing_33dp" n1:layout_marginTop="@dimen/spacing_minus_6dp" n1:layout_alignParentTop="true" />
+                            <so.ofo.abroad.widget.IconMoonTypefaceTextView n1:textSize="@dimen/font_48" n1:textColor="@color/color_202020" n1:id="@id/money_earned_tv" n1:paddingLeft="@dimen/spacing_l" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_minus_6dp" n1:includeFontPadding="false" n1:layout_toRightOf="@id/money_earned_currency" n1:lineSpacingExtra="@dimen/spacing_0dp" n1:paddingStart="@dimen/spacing_l" />
+                        </RelativeLayout>
+                        <TextView n1:textColor="@color/color_202020" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/money_earned" />
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView n1:textSize="@dimen/font_14sp" n1:textColor="@color/blue_3d78ff" n1:id="@id/invite_friend_received" n1:paddingLeft="@dimen/spacing_3x" n1:paddingTop="@dimen/spacing_x" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/invite_friends_received_invite_code" n1:paddingStart="@dimen/spacing_3x" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:paddingBottom="@dimen/spacing_10dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/home_report_rectangle" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/spacing_31dp" n1:src="@mipmap/yellow_rectangle" n1:layout_alignParentRight="true" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/report_view_container" n1:background="@drawable/shape_rect_soild_yellow_t0_r12" n1:paddingLeft="@dimen/spacing_26dp" n1:paddingTop="@dimen/spacing_4x" n1:paddingBottom="@dimen/spacing_4x" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_10dp" n1:layout_marginRight="@dimen/spacing_10dp" n1:layout_below="@id/home_report_rectangle" n1:paddingStart="@dimen/spacing_26dp" />
+</RelativeLayout>

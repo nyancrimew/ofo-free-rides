@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:paddingLeft="@dimen/spacing_3x" n1:paddingBottom="@dimen/spacing_3x" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <so.ofo.abroad.widget.ButtonLoadingView n1:id="@id/group_pass_add_more_btn" n1:background="@drawable/repair_submit_btn_selector" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_54dp" n1:layout_marginTop="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_3x" n1:layout_marginBottom="@dimen/spacing_18dp" n2:lb_caps="true" n2:lb_text="@string/group_pass_manage_member" n2:lb_textcolor="@color/submit_button_textcolor" n2:lb_textsize="@dimen/font_17sp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <TextView n1:id="@id/group_pass_share_text" n1:paddingTop="@dimen/spacing_2x" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/spacing_3x" n1:text="@string/group_pass_add_more_tip" />
+    <TextView n1:textColor="@color/blue_3d78ff" n1:id="@id/tv_group_pass_learn_more" n1:paddingTop="@dimen/spacing_2x" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/learn_more_about_group_pass" />
+</LinearLayout>

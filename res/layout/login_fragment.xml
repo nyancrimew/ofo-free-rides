@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:paddingLeft="@dimen/spacing_3x" n1:paddingRight="@dimen/spacing_3x" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_19sp" n1:textColor="@color/color_202020" n1:id="@id/content_command_top" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_3x" />
+    <so.ofo.abroad.widget.AutoStyledEditText n1:id="@id/enter_mail_editext" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_3x" n1:layout_below="@id/content_command_top" n2:edit_padding_bottom="@dimen/spacing_13dp" n2:hint="@string/login_email_hint" n2:input_line_color="@color/color_202020" n2:normal_line_color="@color/repair_input_line_color" n2:text_color="@color/color_202020" n2:text_size="@dimen/font_17sp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/id_login_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_3x" n1:layout_below="@id/enter_mail_editext">
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/id_login_flag_layout" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <ImageView n1:id="@id/id_login_flag_iv" n1:layout_width="29.0dip" n1:layout_height="21.0dip" n1:src="@mipmap/flag_cn" />
+            <ImageView n1:layout_gravity="center_vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_l" n1:src="@mipmap/country_expand_icon" />
+        </LinearLayout>
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textStyle="bold" n1:textColor="@color/color_202020" n1:id="@id/id_login_country_code_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_14dp" n1:text="+86" />
+        <EditText n1:textSize="@dimen/font_17sp" n1:textColorHint="@color/color_66202020" n1:id="@id/mobile_edit_text" n1:background="@null" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_marginLeft="@dimen/spacing_10dp" n1:hint="\ 123456789" n1:maxLength="15" n1:layout_weight="1.0" n1:inputType="number" n1:textCursorDrawable="@drawable/shape_cursor_3d78ff" />
+        <ImageView n1:layout_gravity="center_vertical" n1:id="@id/delete_mobile_iv" n1:paddingLeft="@dimen/spacing_m" n1:paddingRight="@dimen/spacing_m" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/del" />
+    </LinearLayout>
+    <View n1:id="@id/login_inputline" n1:background="@color/repair_input_line_color" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_1dp" n1:layout_marginTop="@dimen/spacing_l" n1:layout_below="@id/id_login_layout" />
+    <TextView n1:textSize="@dimen/font_s" n1:textColor="@color/red" n1:id="@id/id_login_msg_tv" n1:visibility="invisible" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_x" n1:layout_marginTop="@dimen/spacing_m" n1:layout_marginRight="@dimen/spacing_x" n1:text="@string/mobile_invalid" n1:layout_below="@id/id_login_layout" />
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_s" n1:textColor="@color/gray" n1:id="@id/policy_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/spacing_6x" n1:text="@string/sign_up_policy_text" n1:layout_alignParentBottom="true" />
+    <include n1:id="@id/facebook_login" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_above="@id/policy_tv" layout="@layout/facebook_login" />
+</RelativeLayout>

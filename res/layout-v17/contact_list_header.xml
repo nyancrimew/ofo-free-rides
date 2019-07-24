@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/head_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <TextView n1:textSize="@dimen/font_3x" n1:textStyle="bold" n1:textColor="@color/black" n1:layout_gravity="center_vertical" n1:id="@id/tv_invite_friend_header_tip" n1:paddingLeft="@dimen/spacing_2x" n1:paddingTop="@dimen/spacing_10dp" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="5.0" n1:paddingStart="@dimen/spacing_2x" />
+        <ImageView n1:paddingLeft="@dimen/spacing_10dp" n1:paddingTop="@dimen/spacing_10dp" n1:paddingRight="@dimen/spacing_2x" n1:layout_width="0.0dip" n1:layout_height="@dimen/spacing_140dp" n1:src="@mipmap/invite_friend_header_icon" n1:layout_weight="4.0" n1:paddingStart="@dimen/spacing_10dp" n1:paddingEnd="@dimen/spacing_2x" />
+    </LinearLayout>
+</RelativeLayout>

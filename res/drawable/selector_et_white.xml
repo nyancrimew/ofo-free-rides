@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item n1:state_focused="true" n1:state_pressed="true" n1:drawable="@mipmap/edit_line_press"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:state_focused="false" n2:state_pressed="true" n2:drawable="@mipmap/edit_line_press"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:state_selected="true" n3:drawable="@mipmap/edit_line_press"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:state_focused="true" n4:drawable="@mipmap/edit_line_press"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:state_window_focused="false" n5:drawable="@mipmap/edit_line_normal"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <item n6:drawable="@mipmap/edit_line_normal"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+</selector>

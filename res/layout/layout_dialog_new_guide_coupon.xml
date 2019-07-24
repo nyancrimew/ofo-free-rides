@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_l" n1:textColor="@color/white" n1:gravity="center" n1:id="@id/new_guide_tip_tv" n1:padding="@dimen/spacing_3x" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/spacing_2x" n1:text="@string/new_guide_tip" n1:lineSpacingMultiplier="1.1" />
+    <LinearLayout n1:layout_gravity="center_horizontal" n1:background="@drawable/new_guide_frame_white" n1:paddingLeft="@dimen/spacing_m" n1:paddingTop="@dimen/spacing_m" n1:paddingRight="@dimen/spacing_m" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <ImageView n1:layout_gravity="center" n1:background="@mipmap/use_bike_meng_free" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    </LinearLayout>
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_m" n1:textStyle="bold" n1:textColor="@color/white" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/trip_start_tv" n1:background="@drawable/shape_rect_solid_yellow_t0_r0" n1:layout_width="@dimen/new_guide_width" n1:layout_height="@dimen/spacing_8x" n1:layout_margin="@dimen/spacing_5x" n1:text="@string/trip_to_start_ride" n1:textAllCaps="false" />
+</LinearLayout>

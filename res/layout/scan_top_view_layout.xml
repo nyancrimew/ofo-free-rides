@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:gravity="center" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <FrameLayout n1:id="@id/capture_crop_view" n1:background="@drawable/scan_crop_bg" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true">
+            <ImageView n1:layout_gravity="center_horizontal" n1:id="@id/capture_scan_line" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:src="@drawable/scan_progress" />
+        </FrameLayout>
+        <ImageView n1:id="@id/top" n1:background="@color/half_alpha" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_above="@id/capture_crop_view" n1:layout_alignParentTop="true" />
+        <ImageView n1:id="@id/bottom" n1:background="@color/half_alpha" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_below="@id/capture_crop_view" n1:layout_alignParentBottom="true" />
+        <ImageView n1:background="@color/half_alpha" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_toLeftOf="@id/capture_crop_view" n1:layout_above="@id/bottom" n1:layout_below="@id/top" n1:layout_alignParentLeft="true" />
+        <ImageView n1:background="@color/half_alpha" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_toRightOf="@id/capture_crop_view" n1:layout_above="@id/bottom" n1:layout_below="@id/top" n1:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TextView n1:textSize="16.0dip" n1:textColor="#99ffffff" n1:layout_gravity="center|top" n1:id="@id/scan_tip_view" n1:paddingTop="140.0dip" n1:paddingBottom="19.0dip" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+</FrameLayout>

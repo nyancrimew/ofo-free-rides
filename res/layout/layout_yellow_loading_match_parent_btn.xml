@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <so.ofo.abroad.widget.ButtonLoadingView n1:id="@id/id_option_tv" n1:background="@color/color_ffe300" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:lb_caps="true" n2:lb_isBold="true" n2:lb_textcolor="@color/color_202020" n2:lb_textsize="@dimen/font_17sp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

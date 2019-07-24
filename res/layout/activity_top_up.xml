@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="@color/white" n1:paddingLeft="@dimen/spacing_2x" n1:paddingRight="@dimen/spacing_2x" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ScrollView n1:scrollbars="none" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:textSize="@dimen/font_16sp" n1:textColor="@color/color_cc202020" n1:id="@id/balance_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+            <View n1:id="@id/devide_line" n1:background="@color/color_ededed" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_1dp" n1:layout_marginTop="@dimen/spacing_3x" />
+            <so.ofo.abroad.ui.wallet.topup.widget.TopUpAdView n1:id="@id/id_top_up_ad_view" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_18dp" />
+            <android.support.v7.widget.RecyclerView n1:id="@id/id_top_up_lv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:divider="@null" />
+            <RelativeLayout n1:id="@id/auto_recharge_view" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_3x">
+                <TextView n1:textSize="@dimen/font_19sp" n1:textColor="@color/color_202020" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/auto_recharge_title" n1:layout_alignParentLeft="true" />
+                <Switch n1:id="@id/auto_recharge_switch" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:textOn="" n1:textOff="" n1:thumb="@drawable/switch_thumb_selector" n1:layout_alignParentRight="true" n1:track="@drawable/switch_track_selector" n1:switchMinWidth="@dimen/spacing_46dp" />
+            </RelativeLayout>
+            <TextView n1:textSize="@dimen/font_14sp" n1:textColor="@color/color_99202020" n1:id="@id/auto_recharge_tips" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_13dp" n1:layout_marginBottom="260.0dip" n1:text="@string/auto_recharge_tips" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

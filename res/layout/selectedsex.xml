@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/maleBtn" n1:background="@drawable/shape_rect_stroke_e8e8e8_r6" n1:layout_width="0.0dip" n1:layout_height="@dimen/spacing_12x" n1:layout_weight="1.0">
+        <ImageView n1:layout_gravity="bottom" n1:id="@id/maleImg" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/maleunselect" />
+        <TextView n1:textColor="@color/color_e8e8e8" n1:gravity="center" n1:id="@id/maleText" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:text="@string/male" />
+    </LinearLayout>
+    <View n1:layout_width="@dimen/spacing_27dp" n1:layout_height="fill_parent" />
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/famaleBtn" n1:background="@drawable/shape_rect_fill_f94491_r6" n1:layout_width="0.0dip" n1:layout_height="@dimen/spacing_12x" n1:layout_weight="1.0">
+        <ImageView n1:layout_gravity="bottom" n1:id="@id/famleImg" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/famaleselected" />
+        <TextView n1:textColor="@color/color_ffebebeb" n1:gravity="center" n1:id="@id/famaleText" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:text="@string/female" />
+    </LinearLayout>
+</LinearLayout>

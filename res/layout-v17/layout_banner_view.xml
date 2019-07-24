@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/id_banner_layout" n1:background="@drawable/shape_rect_solid_white_down_t0_r16" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/banner_content_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentTop="true">
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/banner_content" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentTop="true">
+            <ImageView n1:id="@id/home_user_icon" n1:visibility="invisible" n1:layout_width="@dimen/spacing_27dp" n1:layout_height="@dimen/spacing_27dp" n1:layout_marginLeft="@dimen/spacing_x" n1:layout_marginTop="@dimen/spacing_31dp" n1:src="@mipmap/default_user_icon" n1:layout_marginStart="@dimen/spacing_x" />
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_s" n1:textColor="@color/color_202020" n1:gravity="start" n1:id="@id/id_banner_content_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_x" n1:layout_marginTop="@dimen/spacing_30" n1:layout_marginRight="@dimen/spacing_x" n1:layout_marginStart="@dimen/spacing_x" n1:layout_marginEnd="@dimen/spacing_x" />
+        </LinearLayout>
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_xs" n1:textColor="@color/color_68202020" n1:id="@id/id_banner_link_tv" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_6dp" n1:layout_marginRight="@dimen/spacing_x" n1:layout_below="@id/banner_content" n1:layout_alignParentRight="true" n1:layout_marginEnd="@dimen/spacing_x" />
+    </RelativeLayout>
+    <View n1:layout_gravity="center_horizontal" n1:background="@color/color_ffe300" n1:layout_width="33.0dip" n1:layout_height="5.0dip" n1:layout_marginTop="@dimen/spacing_11dp" n1:layout_marginBottom="5.0dip" n1:layout_below="@id/banner_content_layout" n1:layout_centerHorizontal="true" />
+</RelativeLayout>

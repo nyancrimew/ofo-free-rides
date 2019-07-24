@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/id_note_root_layout" n1:background="@drawable/shape_rect_solid_ffffff_bl_br16_shadow_1a000000" n1:paddingTop="@dimen/spacing_5x" n1:paddingBottom="@dimen/spacing_2x" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:paddingTop="@dimen/spacing_s" n1:layout_width="@dimen/spacing_s" n1:layout_height="@dimen/spacing_l" n1:src="@drawable/shape_rect_solid_ffe300_tr_br3" />
+    <android.support.constraint.ConstraintLayout n1:paddingLeft="@dimen/spacing_x" n1:paddingRight="@dimen/spacing_x" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:id="@id/id_note_title_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:includeFontPadding="false" />
+        <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_15" n1:textColor="@color/color_99202020" n1:id="@id/id_note_content_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_6dp" n1:includeFontPadding="false" n2:layout_constraintTop_toBottomOf="@id/id_note_title_tv" n2:layout_goneMarginTop="0.0dip" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <TextView n1:textSize="@dimen/font_xs" n1:textColor="@color/gray_20" n1:id="@id/id_note_jump_prompt_tv" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_m" n1:includeFontPadding="false" n3:layout_constraintRight_toRightOf="parent" n3:layout_constraintTop_toBottomOf="@id/id_note_content_tv" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </android.support.constraint.ConstraintLayout>
+</RelativeLayout>

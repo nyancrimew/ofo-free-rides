@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_m" n1:textColor="@color/black_30" n1:gravity="center" n1:id="@id/dialog_error" n1:padding="@dimen/spacing_2x" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/api_error_io_error" n1:drawablePadding="10.0dip" n1:layout_toRightOf="@id/no_top" />
+    <View n1:id="@id/v_line" style="@style/line" />
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <so.ofo.abroad.widget.TypefaceTextView n1:textSize="@dimen/font_2x" n1:textColor="@color/black_30" n1:gravity="center" n1:id="@id/dialog_error_cancel" n1:layout_width="0.0dip" n1:layout_height="@dimen/spacing_10x" n1:text="@string/cancel" n1:layout_weight="1.0" />
+        <View n1:background="@color/gray_40" n1:layout_width="0.5dip" n1:layout_height="@dimen/spacing_10x" />
+        <so.ofo.abroad.widget.TypefaceTextView n1:textSize="@dimen/font_2x" n1:textColor="@color/black_30" n1:gravity="center" n1:id="@id/dialog_error_done" n1:layout_width="0.0dip" n1:layout_height="@dimen/spacing_10x" n1:text="@string/retry" n1:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

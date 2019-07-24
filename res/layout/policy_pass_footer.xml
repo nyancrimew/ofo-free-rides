@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_18dp" n1:layout_marginRight="@dimen/spacing_3x"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <View n1:id="@id/flag" n1:background="@drawable/repair_content_flag" n1:layout_width="@dimen/spacing_m" n1:layout_height="@dimen/spacing_m" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" />
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_13sp" n1:textColor="@color/color_80202020" n1:gravity="left" n1:paddingTop="@dimen/spacing_5dp" n1:paddingBottom="@dimen/spacing_5dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_m" n1:text="@string/pass_includes" n1:layout_toRightOf="@id/flag" />
+    </RelativeLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/pass_rules_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+</LinearLayout>

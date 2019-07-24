@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:paddingBottom="@dimen/spacing_10dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:background="@drawable/shape_rect_soild_yellow_t0_r12" n1:paddingLeft="@dimen/spacing_14dp" n1:paddingRight="@dimen/spacing_14dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_10dp" n1:layout_marginRight="@dimen/spacing_10dp">
+        <TextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:id="@id/tv_auto_failed_tip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_3x" n1:layout_marginBottom="@dimen/spacing_l" n1:text="@string/renew_home_bottom_renew_fail" n1:maxLines="3" />
+        <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/tv_home_manually_renew" n1:background="@drawable/shape_rect_solid_white_t0_r12" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_53" n1:layout_marginBottom="@dimen/spacing_6dp" n1:text="@string/pass_renew_button" n1:singleLine="true" n1:textAllCaps="true" />
+        <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_80202020" n1:gravity="center" n1:id="@id/tv_home_remind_later" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_53" n1:layout_marginBottom="@dimen/spacing_3x" n1:text="@string/renew_remind_later" n1:singleLine="true" n1:textAllCaps="true" />
+    </LinearLayout>
+</RelativeLayout>

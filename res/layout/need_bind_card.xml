@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_18dp" n1:layout_marginRight="@dimen/spacing_3x" n1:layout_marginBottom="@dimen/spacing_3x"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:background="@mipmap/bind_card_logo" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <LinearLayout n1:orientation="vertical" n1:background="@drawable/shape_rect_stroke_bottom_e2e2e2_r12" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:id="@id/bind_card_content_tv" n1:padding="@dimen/spacing_l" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/need_bind_card_text" />
+        <View n1:background="@color/color_e2e2e2" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_1dp" />
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textStyle="bold" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/bind_card_now" n1:paddingTop="@dimen/spacing_17dp" n1:paddingBottom="@dimen/spacing_17dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/add_card" />
+    </LinearLayout>
+</LinearLayout>

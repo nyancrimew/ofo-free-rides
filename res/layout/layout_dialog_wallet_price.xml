@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:paddingBottom="@dimen/spacing_10x" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <ImageView n1:id="@id/pricing_dialog_close" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/spacing_2x" n1:src="@mipmap/activities_close" n1:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <so.ofo.abroad.widget.TypefaceTextView n1:textSize="@dimen/font_5x" n1:textColor="@color/black" n1:gravity="center" n1:id="@id/my_wallet_price_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/pricing" />
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_2x" n1:textColor="@color/yellow" n1:gravity="center" n1:id="@id/price_cost_rule_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_m" n1:text="$1/Trip" />
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_m" n1:textColor="@color/gray" n1:gravity="center" n1:id="@id/pricing_instruction_tv" n1:padding="@dimen/font_3x" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/pricing_instruction" n1:lineSpacingMultiplier="1.3" />
+</LinearLayout>

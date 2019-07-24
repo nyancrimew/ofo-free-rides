@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="@dimen/spacing_90" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_66" n1:layout_marginRight="@dimen/spacing_4x" n1:layout_alignParentTop="true" n1:layout_alignParentRight="true">
+        <TextView n1:textSize="@dimen/font_m" n1:textStyle="bold" n1:textColor="@color/gray" n1:gravity="center" n1:id="@id/id_filter_scooter_cb" n1:background="@drawable/selector_charge_filter" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/scooter" />
+        <TextView n1:textSize="@dimen/font_m" n1:textStyle="bold" n1:textColor="@color/gray" n1:gravity="center" n1:id="@id/id_filter_dspot_cb" n1:background="@drawable/selector_charge_filter" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_14dp" n1:text="@string/dspot" />
+    </LinearLayout>
+    <RelativeLayout n1:background="@drawable/shape_rect_solid_3d78ff_tl_tr6" n1:paddingLeft="@dimen/spacing_5x" n1:paddingTop="@dimen/spacing_50" n1:paddingRight="@dimen/spacing_5x" n1:paddingBottom="@dimen/spacing_38dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true">
+        <ImageView n1:id="@id/id_charge_scooter_list_iv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/report_others_icon" n1:layout_alignBottom="@id/id_charge_scan_iv" n1:layout_alignParentLeft="true" />
+        <ImageView n1:id="@id/id_charge_scan_iv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/scan_charge" n1:layout_centerHorizontal="true" />
+        <ImageView n1:id="@id/id_charge_wallet_iv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/add_payment_method_icon" n1:layout_alignBottom="@id/id_charge_scan_iv" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

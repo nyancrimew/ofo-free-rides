@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="@drawable/shape_rect_stroke_e2e2e2_r12" n1:paddingLeft="@dimen/spacing_18dp" n1:paddingTop="@dimen/spacing_15dp" n1:paddingRight="@dimen/spacing_l" n1:paddingBottom="@dimen/spacing_15dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:paddingStart="@dimen/spacing_18dp" n1:paddingEnd="@dimen/spacing_l"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/id_payment_logo_iv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentLeft="true" n1:layout_alignParentStart="true" />
+    <ImageView n1:id="@id/id_arrow_iv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/arrow_right2" n1:layout_alignParentRight="true" n1:layout_alignParentEnd="true" />
+    <TextView n1:textSize="@dimen/font_s" n1:textColor="@color/color_222222" n1:id="@id/id_payment_name_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_l" n1:layout_marginRight="@dimen/spacing_l" n1:maxLines="1" n1:layout_toLeftOf="@id/id_arrow_iv" n1:layout_toRightOf="@id/id_payment_logo_iv" n1:layout_toStartOf="@id/id_arrow_iv" n1:layout_toEndOf="@id/id_payment_logo_iv" />
+</RelativeLayout>

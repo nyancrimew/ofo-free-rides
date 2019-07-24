@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape n1:shape="rectangle"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <solid n1:color="@color/white" />
+    <stroke n1:width="@dimen/spacing_1dp" n1:color="@color/repair_input_line_color" />
+    <corners n1:radius="12.0dip" />
+</shape>

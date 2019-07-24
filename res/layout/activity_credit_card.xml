@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:background="@color/black_30" n1:fitsSystemWindows="true" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/id_safe_layout" n1:background="@color/color_3d78ff" n1:paddingTop="@dimen/spacing_10dp" n1:paddingBottom="@dimen/spacing_10dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentLeft="true" n1:layout_alignParentTop="true">
+        <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/safe" />
+        <TextView n1:textSize="@dimen/font_m" n1:textStyle="bold" n1:textColor="@color/white" n1:gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_9dp" n1:text="@string/safe_prompt" />
+    </LinearLayout>
+    <include n1:id="@id/id_payment_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="@dimen/spacing_3x" n1:layout_below="@id/id_safe_layout" layout="@layout/layout_add_payment_card" />
+    <TextView n1:textSize="@dimen/font_14sp" n1:textColor="@color/white" n1:id="@id/id_add_credit_card_tv" n1:paddingLeft="@dimen/spacing_23dp" n1:paddingRight="@dimen/spacing_23dp" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/add_credit_card_prepay" n1:layout_below="@id/id_payment_layout" />
+    <TextView n1:textSize="@dimen/font_13sp" n1:textColor="@color/white_60" n1:gravity="center" n1:paddingLeft="@dimen/spacing_2x" n1:paddingRight="@dimen/spacing_2x" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/spacing_2x" n1:text="@string/bind_card_prompt" n1:layout_alignParentBottom="true" />
+</RelativeLayout>

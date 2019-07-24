@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:paddingLeft="@dimen/spacing_2x" n1:paddingRight="@dimen/spacing_2x" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <so.ofo.abroad.ui.wallet.PaymentSelectedView n1:id="@id/id_payment_select_view" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <TextView n1:textSize="@dimen/font_xs" n1:textColor="@color/black_50" n1:id="@id/nonrefund_policy_tv" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_m" />
+    <so.ofo.abroad.widget.ButtonLoadingView n1:id="@id/id_option_tv" n1:background="@drawable/shape_rect_soild_yellow_t0_r12" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_18dp" n1:layout_marginBottom="@dimen/spacing_18dp" n2:lb_caps="true" n2:lb_isBold="true" n2:lb_textcolor="@color/color_202020" n2:lb_textsize="@dimen/font_17sp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

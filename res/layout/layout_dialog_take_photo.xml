@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RadioGroup n1:orientation="vertical" n1:id="@id/take_phone_rg" n1:background="@drawable/shape_rect_solid_white_t0_r5" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <RadioButton n1:id="@id/take_phone_rb" n1:text="@string/take_photo" style="@style/RadioButtonTakePhoto" />
+        <View n1:background="@color/gray_40" n1:layout_width="fill_parent" n1:layout_height="0.5dip" />
+        <RadioButton n1:id="@id/choose_phone_rb" n1:text="@string/choose_photo" style="@style/RadioButtonTakePhoto" />
+    </RadioGroup>
+    <so.ofo.abroad.widget.AutoSizingTextView n1:id="@id/take_phone_cancel_tv" n1:background="@drawable/shape_rect_solid_white_t0_r5" n1:layout_marginTop="@dimen/spacing_s" n1:layout_marginBottom="@dimen/spacing_x" n1:text="@string/cancel" style="@style/RadioButtonTakePhoto" />
+</LinearLayout>

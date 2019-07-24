@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_vertical" n1:id="@id/id_pay_page_title_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_19sp" n1:textColor="@color/color_202020" n1:gravity="start" n1:id="@id/tv_pay_title" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/this_trip_cost_me" n1:layout_weight="1.0" />
+        <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_19sp" n1:textColor="@color/color_3d78ff" n1:gravity="center_horizontal" n1:id="@id/id_pay_cost_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/id_pay_detail_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_7x">
+        <LinearLayout n1:gravity="center" n1:id="@id/id_pay_detail_price_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_15" n1:textColor="@color/color_99202020" n1:gravity="start" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/price_amount" n1:layout_weight="1.0" />
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_15" n1:textColor="@color/color_99202020" n1:gravity="center_horizontal" n1:id="@id/id_pay_detail_price_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout n1:gravity="center" n1:id="@id/id_pay_detail_unlock_price_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_31dp">
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_15" n1:textColor="@color/color_99202020" n1:gravity="start" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/unlock_price_prompt" n1:layout_weight="1.0" />
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_15" n1:textColor="@color/color_3d78ff" n1:gravity="center_horizontal" n1:id="@id/id_pay_unlock_price_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout n1:gravity="center" n1:id="@id/id_pay_detail_ride_price_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_31dp">
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_15" n1:textColor="@color/color_99202020" n1:gravity="start" n1:id="@id/id_pay_detail_ride_price_prompt_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/ride_time_price_prompt" n1:layout_weight="1.0" />
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_15" n1:textColor="@color/color_99202020" n1:gravity="center_horizontal" n1:id="@id/id_pay_ride_time_price_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout n1:gravity="center" n1:id="@id/id_pay_detail_coupon_price_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_31dp">
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_15" n1:textColor="@color/color_3d78ff" n1:gravity="start" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/coupon_amount" n1:layout_weight="1.0" />
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_15" n1:textColor="@color/color_3d78ff" n1:gravity="center_horizontal" n1:id="@id/id_pay_detail_coupon_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout n1:gravity="center" n1:id="@id/id_pay_detail_pass_price_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_31dp">
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_15" n1:textColor="@color/color_3d78ff" n1:gravity="start" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/ofo_pass" n1:layout_weight="1.0" />
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_15" n1:textColor="@color/color_3d78ff" n1:gravity="center_horizontal" n1:id="@id/id_pay_detail_pass_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        </LinearLayout>
+        <RelativeLayout n1:id="@id/id_pay_detail_penalty_price_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_31dp">
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_15" n1:textColor="@color/color_f14c64" n1:id="@id/id_pay_detail_penalty_prompt_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/rebalance_fee_prompt" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" />
+            <ImageView n1:id="@id/id_pay_detail_price_question_iv" n1:paddingLeft="@dimen/spacing_14dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/question" n1:layout_toRightOf="@id/id_pay_detail_penalty_prompt_tv" n1:layout_centerVertical="true" />
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_15" n1:textColor="@color/color_f14c64" n1:id="@id/id_pay_penalty_price_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <so.ofo.abroad.ui.wallet.PaymentSelectedView n1:id="@id/id_payment_view" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_49" n2:layout_constraintTop_toBottomOf="@id/id_pay_detail_layout" n2:layout_goneMarginTop="@dimen/spacing_30" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textStyle="bold" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/id_pay_confirm_btn" n1:background="@drawable/shape_rect_solid_ffe300_r12" n1:padding="@dimen/spacing_17dp" n1:visibility="visible" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_7x" n1:text="@string/confirm_and_pay" n1:textAllCaps="true" n3:layout_constraintTop_toBottomOf="@id/id_payment_view" n3:layout_goneMarginTop="@dimen/spacing_30" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

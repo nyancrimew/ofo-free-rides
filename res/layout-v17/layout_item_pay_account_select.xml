@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@color/white" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/id_card_layout" n1:paddingTop="@dimen/spacing_3x" n1:paddingBottom="@dimen/spacing_3x" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <ImageView n1:id="@id/id_card_brand_iv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" n1:layout_alignParentStart="true" />
+        <ImageView n1:id="@id/id_card_select_iv" n1:layout_width="@dimen/spacing_23dp" n1:layout_height="@dimen/spacing_23dp" n1:src="@mipmap/select_blue" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n1:layout_alignParentEnd="true" />
+        <TextView n1:textSize="@dimen/font_m" n1:textColor="@color/color_202020" n1:gravity="start" n1:id="@id/id_card_name_iv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_17dp" n1:layout_marginRight="@dimen/spacing_17dp" n1:layout_toLeftOf="@id/id_card_select_iv" n1:layout_toRightOf="@id/id_card_brand_iv" n1:layout_centerVertical="true" n1:layout_marginStart="@dimen/spacing_17dp" n1:layout_marginEnd="@dimen/spacing_17dp" n1:layout_toStartOf="@id/id_card_select_iv" n1:layout_toEndOf="@id/id_card_brand_iv" />
+    </RelativeLayout>
+    <View n1:background="@color/color_efefef" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_2px" />
+</LinearLayout>

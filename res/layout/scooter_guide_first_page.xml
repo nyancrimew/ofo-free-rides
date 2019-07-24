@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_5x" n1:textStyle="bold" n1:textColor="@color/color_202020" n1:gravity="left" n1:id="@id/scooter_first_guide_title" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_85" n1:text="@string/find_unlock" n1:layout_alignParentTop="true" />
+    <RelativeLayout n1:id="@id/scooter_first_guide_row_top" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_2x" n1:layout_marginRight="@dimen/spacing_3x" n1:layout_below="@id/scooter_first_guide_title">
+        <ImageView n1:id="@id/scooter_first_guide_right" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/e_scooter_guide_first_right" n1:layout_alignParentRight="true" />
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:id="@id/left_guide_content" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/spacing_11dp" n1:text="@string/find_scooter_from_app" n1:layout_toLeftOf="@id/scooter_first_guide_right" />
+    </RelativeLayout>
+    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_53" n1:layout_marginRight="@dimen/spacing_3x" n1:layout_below="@id/scooter_first_guide_row_top">
+        <ImageView n1:id="@id/scooter_first_guide_left" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/e_scooter_guide_first_left" n1:layout_alignParentLeft="true" />
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:id="@id/right_guide_content" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_18dp" n1:text="@string/scan_qr_code_unlock" n1:layout_toRightOf="@id/scooter_first_guide_left" />
+    </RelativeLayout>
+</RelativeLayout>

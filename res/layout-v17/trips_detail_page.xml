@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/trip_detail_data_area" n1:background="@drawable/shape_rect_solid_white_t0_r16" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true">
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_34dp">
+            <ImageView n1:id="@id/trip_detail_user_icon" n1:background="@drawable/profile_bg" n1:layout_width="47.0dip" n1:layout_height="47.0dip" n1:layout_marginLeft="@dimen/spacing_5x" n1:src="@mipmap/default_user_icon" />
+            <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_15dp" n1:layout_marginStart="@dimen/spacing_15dp">
+                <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_x" n1:textStyle="bold" n1:textColor="@color/color_202020" n1:id="@id/trip_detail_user_name" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                <so.ofo.abroad.widget.AutoSizingTextView n1:gravity="center_vertical" n1:id="@id/trip_detail_numb" n1:layout_width="wrap_content" n1:layout_height="wrap_content" style="@style/TextNumber14_60_transparent_black" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_6x">
+            <LinearLayout n1:gravity="left" n1:id="@id/distance_layout" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+                <ImageView n1:layout_width="@dimen/spacing_15dp" n1:layout_height="@dimen/spacing_15dp" n1:layout_marginLeft="@dimen/spacing_5x" n1:src="@mipmap/trip_detail_distance_icon" />
+                <LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_7dp">
+                    <so.ofo.abroad.widget.IconMoonTypefaceTextView n1:gravity="center|left" n1:id="@id/trip_detail_distance_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" style="@style/TextNumber37_color202020" />
+                    <so.ofo.abroad.widget.AutoSizingTextView n1:gravity="left" n1:id="@id/trip_detail_distance_unit" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" style="@style/TextNumber14_60_transparent_black" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout n1:gravity="left" n1:orientation="horizontal" n1:id="@id/duration_layout" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+                <ImageView n1:layout_width="@dimen/spacing_15dp" n1:layout_height="@dimen/spacing_15dp" n1:layout_marginLeft="@dimen/spacing_5x" n1:src="@mipmap/trip_duration" />
+                <LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_7dp">
+                    <so.ofo.abroad.widget.IconMoonTypefaceTextView n1:gravity="center|left" n1:id="@id/trip_detail_duration_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:maxLines="1" style="@style/TextNumber37_color202020" />
+                    <so.ofo.abroad.widget.AutoSizingTextView n1:gravity="left" n1:id="@id/trip_detail_duration_unit" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:maxLines="1" style="@style/TextNumber14_60_transparent_black" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_6x">
+            <LinearLayout n1:gravity="left" n1:orientation="horizontal" n1:id="@id/calories_layout" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+                <ImageView n1:layout_width="@dimen/spacing_15dp" n1:layout_height="@dimen/spacing_15dp" n1:layout_marginLeft="@dimen/spacing_5x" n1:src="@mipmap/trip_calories" />
+                <LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_7dp">
+                    <so.ofo.abroad.widget.IconMoonTypefaceTextView n1:gravity="left" n1:id="@id/trip_detail_calories_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" style="@style/TextNumber37_color202020" />
+                    <so.ofo.abroad.widget.AutoSizingTextView n1:gravity="left" n1:id="@id/trip_detail_calories_unit" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" style="@style/TextNumber14_60_transparent_black" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout n1:gravity="left" n1:orientation="horizontal" n1:id="@id/carbon_layout" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+                <ImageView n1:layout_width="@dimen/spacing_15dp" n1:layout_height="@dimen/spacing_15dp" n1:layout_marginLeft="@dimen/spacing_5x" n1:src="@mipmap/trip_corbon" />
+                <LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_7dp">
+                    <so.ofo.abroad.widget.IconMoonTypefaceTextView n1:gravity="left" n1:id="@id/trip_detail_carbon_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" style="@style/TextNumber37_color202020" />
+                    <so.ofo.abroad.widget.AutoSizingTextView n1:gravity="left" n1:id="@id/trip_detail_carbon_unit" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" style="@style/TextNumber14_60_transparent_black" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/trip_detail_share_tv" n1:background="@drawable/shape_rect_soild_yellow_selector" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_54dp" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_9x" n1:layout_marginRight="@dimen/spacing_3x" n1:layout_marginBottom="@dimen/spacing_18dp" n1:text="SHARE" />
+    </LinearLayout>
+    <FrameLayout n1:orientation="vertical" n1:id="@id/ll_my_trips_map" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_above="@id/trip_detail_data_area">
+        <fragment n1:name="com.google.android.gms.maps.SupportMapFragment" n1:id="@id/my_trips_map" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+        <ImageView n1:id="@id/my_trips_screen_capture" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+    </FrameLayout>
+</RelativeLayout>

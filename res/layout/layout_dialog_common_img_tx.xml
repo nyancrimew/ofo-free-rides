@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_gravity="center_horizontal" n1:background="@color/white" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/id_common_img_iv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_x" n1:layout_centerHorizontal="true" />
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_m" n1:textColor="@color/gray" n1:gravity="center" n1:id="@id/id_common_content_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_2x" n1:layout_marginBottom="@dimen/spacing_x" n1:layout_below="@id/id_common_img_iv" n1:layout_alignLeft="@id/id_common_img_iv" n1:layout_alignRight="@id/id_common_img_iv" />
+</RelativeLayout>

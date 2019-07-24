@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_m" n1:textColor="@color/gray" n1:gravity="center" n1:id="@id/only_text_tv" n1:paddingLeft="@dimen/spacing_3x" n1:paddingTop="@dimen/spacing_x" n1:paddingRight="@dimen/spacing_3x" n1:paddingBottom="@dimen/spacing_x" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:text="@string/use_bike_price_dialog_not_have_bike" n1:layout_centerHorizontal="true" />
+</LinearLayout>

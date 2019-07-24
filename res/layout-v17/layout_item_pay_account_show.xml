@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/id_card_layout" n1:paddingLeft="@dimen/spacing_l" n1:paddingTop="@dimen/spacing_l" n1:paddingRight="@dimen/spacing_l" n1:paddingBottom="@dimen/spacing_25dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/spacing_18dp" n1:paddingStart="@dimen/spacing_l" n1:paddingEnd="@dimen/spacing_l">
+        <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_38dp">
+            <LinearLayout n1:gravity="bottom" n1:orientation="horizontal" n1:id="@id/id_card_info_layout" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:layout_marginLeft="@dimen/spacing_11dp" n1:layout_alignParentLeft="true" n1:layout_marginStart="@dimen/spacing_11dp" n1:layout_alignParentStart="true">
+                <ImageView n1:id="@id/id_card_brand_iv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                <TextView n1:textSize="@dimen/font_x" n1:textStyle="bold" n1:textColor="@color/white" n1:id="@id/id_card_name_iv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" />
+            </LinearLayout>
+            <LinearLayout n1:gravity="end|center" n1:orientation="horizontal" n1:id="@id/id_card_default_tag_layout" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_toRightOf="@id/id_card_info_layout" n1:layout_alignParentRight="true" n1:layout_alignParentBottom="true" n1:layout_alignParentEnd="true">
+                <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_13sp" n1:textColor="@color/white" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/default_payment_option" n1:maxLines="1" />
+                <ImageView n1:layout_width="@dimen/spacing_23dp" n1:layout_height="@dimen/spacing_23dp" n1:layout_marginLeft="@dimen/spacing_s" n1:src="@mipmap/select_white" n1:layout_marginStart="@dimen/spacing_s" />
+            </LinearLayout>
+        </RelativeLayout>
+        <so.ofo.abroad.widget.IconMoonTypefaceTextView n1:textSize="@dimen/font_27dp" n1:textColor="@color/white" n1:gravity="center_vertical" n1:id="@id/id_card_number_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_11dp" n1:layout_marginTop="@dimen/spacing_18dp" n1:minHeight="@dimen/spacing_31dp" n1:maxLines="1" n1:layout_marginStart="@dimen/spacing_11dp" />
+    </LinearLayout>
+</LinearLayout>

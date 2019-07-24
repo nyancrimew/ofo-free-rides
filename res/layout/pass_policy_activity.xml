@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <so.ofo.abroad.widget.ButtonLoadingView n1:id="@id/id_pass_policy_bottom_btn" n1:background="@drawable/repair_submit_btn_selector" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_54dp" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_18dp" n1:layout_marginBottom="@dimen/spacing_18dp" n1:layout_alignParentBottom="true" n2:lb_caps="true" n2:lb_text="@string/pass_purchase_button" n2:lb_textcolor="@color/submit_button_textcolor" n2:lb_textsize="@dimen/font_17sp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <android.support.v7.widget.RecyclerView n1:id="@id/id_pass_policy_list" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginBottom="@dimen/spacing_3x" n1:layout_above="@id/id_pass_policy_bottom_btn" />
+</RelativeLayout>

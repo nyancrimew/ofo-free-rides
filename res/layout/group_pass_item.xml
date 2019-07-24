@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:layout_width="fill_parent" n1:layout_height="wrap_content" layout="@layout/group_pass_list_item" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/ll_group_pass_add" n1:paddingLeft="@dimen/spacing_3x" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/ll_group_pass_add_member" n1:paddingTop="@dimen/spacing_m" n1:paddingBottom="@dimen/spacing_m" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/group_pass_add_member_icon" />
+            <TextView n1:textSize="@dimen/font_16sp" n1:textColor="@color/color_202020" n1:paddingLeft="@dimen/spacing_15dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/group_pass_invite" />
+        </LinearLayout>
+        <View n1:background="@color/color_d8d8d8" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_05dp" />
+    </LinearLayout>
+</RelativeLayout>

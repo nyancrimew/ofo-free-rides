@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar n1:id="@id/id_toolbar" n1:paddingLeft="@dimen/spacing_m" n1:layout_width="fill_parent" n1:layout_height="?actionBarSize" n1:paddingStart="@dimen/spacing_m" n2:layout_collapseMode="pin" n2:layout_scrollFlags="enterAlways|scroll" n2:theme="@style/ToolbarMenuTheme.Black" n2:titleMarginStart="0.0dip" n2:titleTextAppearance="@style/ToolbarTitleTheme.Black" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/id_container" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_below="@id/id_toolbar" />
+    <FrameLayout n1:id="@id/id_bottom_container" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" />
+</RelativeLayout>

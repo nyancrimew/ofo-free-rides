@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <so.ofo.abroad.widget.TypefaceTextView n1:textSize="@dimen/font_x" n1:textColor="@color/gray_03" n1:gravity="center" n1:id="@id/rate_comment" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_18dp" n1:text="@string/comment_on_rate_the_trip" />
+    <LinearLayout n1:gravity="center_horizontal" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_18dp" n1:layout_marginBottom="@dimen/spacing_5x">
+        <RelativeLayout n1:gravity="center" n1:paddingLeft="@dimen/spacing_10dp" n1:paddingRight="@dimen/spacing_10dp" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:paddingStart="@dimen/spacing_10dp" n1:paddingEnd="@dimen/spacing_10dp">
+            <ImageView n1:id="@id/rate_one" n1:background="@drawable/rate_comment_selector" n1:layout_width="@dimen/spacing_38dp" n1:layout_height="@dimen/spacing_6x" />
+        </RelativeLayout>
+        <RelativeLayout n1:gravity="center" n1:paddingLeft="@dimen/spacing_10dp" n1:paddingRight="@dimen/spacing_10dp" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:paddingStart="@dimen/spacing_10dp" n1:paddingEnd="@dimen/spacing_10dp">
+            <ImageView n1:id="@id/rate_two" n1:background="@drawable/rate_comment_selector" n1:layout_width="@dimen/spacing_38dp" n1:layout_height="@dimen/spacing_6x" />
+        </RelativeLayout>
+        <RelativeLayout n1:gravity="center" n1:paddingLeft="@dimen/spacing_10dp" n1:paddingRight="@dimen/spacing_10dp" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:paddingStart="@dimen/spacing_10dp" n1:paddingEnd="@dimen/spacing_10dp">
+            <ImageView n1:id="@id/rate_three" n1:background="@drawable/rate_comment_selector" n1:layout_width="@dimen/spacing_38dp" n1:layout_height="@dimen/spacing_6x" />
+        </RelativeLayout>
+        <RelativeLayout n1:gravity="center" n1:paddingLeft="@dimen/spacing_10dp" n1:paddingRight="@dimen/spacing_10dp" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:paddingStart="@dimen/spacing_10dp" n1:paddingEnd="@dimen/spacing_10dp">
+            <ImageView n1:id="@id/rate_four" n1:background="@drawable/rate_comment_selector" n1:layout_width="@dimen/spacing_38dp" n1:layout_height="@dimen/spacing_6x" />
+        </RelativeLayout>
+        <RelativeLayout n1:gravity="center" n1:paddingLeft="@dimen/spacing_10dp" n1:paddingRight="@dimen/spacing_10dp" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:paddingStart="@dimen/spacing_10dp" n1:paddingEnd="@dimen/spacing_10dp">
+            <ImageView n1:id="@id/rate_five" n1:background="@drawable/rate_comment_selector" n1:layout_width="@dimen/spacing_38dp" n1:layout_height="@dimen/spacing_6x" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

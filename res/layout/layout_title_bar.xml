@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="horizontal" n1:id="@id/title_bar" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_8x"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textSize="@dimen/font_21sp" n1:textColor="@color/white" n1:gravity="center" n1:id="@id/title_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_m" n1:layout_marginRight="@dimen/spacing_m" n1:maxLines="1" n1:layout_centerInParent="true" n1:layout_centerVertical="true" />
+    <ImageView n1:id="@id/title_left_icon" n1:paddingLeft="@dimen/spacing_3x" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/arrow_back_white" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" />
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_m" n1:textColor="@color/white" n1:gravity="start|center" n1:id="@id/title_left_tv" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_l" n1:maxLines="1" n1:layout_toLeftOf="@id/title_tv" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" />
+    <ImageView n1:id="@id/title_right_icon" n1:visibility="gone" n1:layout_width="@dimen/spacing_23dp" n1:layout_height="@dimen/spacing_23dp" n1:src="@mipmap/close" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_m" n1:textColor="@color/white" n1:gravity="end|center" n1:id="@id/title_right_tv" n1:paddingRight="@dimen/spacing_3x" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:lines="1" n1:layout_toRightOf="@id/title_tv" n1:layout_alignParentRight="true" />
+</RelativeLayout>

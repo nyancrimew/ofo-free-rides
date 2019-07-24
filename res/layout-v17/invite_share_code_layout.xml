@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/black" n1:paddingLeft="@dimen/spacing_3x" n1:paddingTop="@dimen/spacing_23dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/invite_friend_share_invite_code" n1:paddingStart="@dimen/spacing_3x" />
+    <RelativeLayout n1:paddingLeft="@dimen/spacing_3x" n1:paddingRight="@dimen/spacing_3x" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_l" n1:paddingStart="@dimen/spacing_3x" n1:paddingEnd="@dimen/spacing_3x">
+        <TextView n1:enabled="true" n1:textColor="@color/color_7f000000" n1:id="@id/invite_code_text" n1:focusable="true" n1:longClickable="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerVertical="true" n1:textIsSelectable="true" />
+        <ImageView n1:id="@id/invite_share_button" n1:background="@mipmap/invite_share_icon" n1:layout_width="@dimen/spacing_23dp" n1:layout_height="@dimen/spacing_23dp" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n1:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View n1:background="@color/color_202020" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_1dp" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_13dp" n1:layout_marginRight="@dimen/spacing_3x" n1:layout_marginBottom="@dimen/spacing_13dp" />
+</LinearLayout>

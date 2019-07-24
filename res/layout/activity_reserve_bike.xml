@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@color/common_bg" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <so.ofo.abroad.widget.TitleBarView n1:id="@id/title_bar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:title_text="@string/reservation" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ScrollView n1:id="@id/id_reserve_sv" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:fillViewport="true" n1:isScrollContainer="false">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <android.support.v7.widget.CardView n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="@dimen/spacing_2x" n3:cardBackgroundColor="@color/white" n3:cardCornerRadius="@dimen/spacing_xs" xmlns:n3="http://schemas.android.com/apk/res-auto">
+                <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                    <LinearLayout n1:orientation="vertical" n1:id="@id/id_reserve_note_layout" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                        <so.ofo.abroad.widget.TypefaceTextView n1:textSize="@dimen/font_6x" n1:textStyle="bold" n1:textColor="@color/black" n1:gravity="center_horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_6x" n1:layout_marginTop="@dimen/spacing_8x" n1:layout_marginRight="@dimen/spacing_6x" n1:text="@string/reserve_title" />
+                        <TextView n1:textSize="@dimen/font_m" n1:textColor="@color/gray" n1:gravity="center_horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_8x" n1:layout_marginTop="@dimen/spacing_l" n1:layout_marginRight="@dimen/spacing_8x" n1:text="@string/reserve_content" />
+                    </LinearLayout>
+                    <LinearLayout n1:orientation="vertical" n1:id="@id/id_reserve_info_layout" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                        <so.ofo.abroad.widget.TypefaceTextView n1:textSize="@dimen/font_6x" n1:textStyle="bold" n1:textColor="@color/black" n1:gravity="center_horizontal" n1:id="@id/id_reserve_title_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_8x" n1:layout_marginRight="@dimen/spacing_3x" />
+                        <so.ofo.abroad.widget.TypefaceTextView n1:textSize="@dimen/font_11x" n1:textStyle="bold" n1:textColor="@color/yellow" n1:gravity="center_horizontal" n1:id="@id/id_reserve_expired_time_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_8x" n1:layout_marginTop="@dimen/spacing_l" n1:layout_marginRight="@dimen/spacing_8x" />
+                        <so.ofo.abroad.widget.TypefaceTextView n1:textSize="@dimen/font_x" n1:textColor="@color/gray" n1:gravity="center_horizontal" n1:id="@id/id_reserve_bike_no_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_8x" n1:layout_marginRight="@dimen/spacing_8x" />
+                    </LinearLayout>
+                    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                        <ImageView n1:id="@id/id_reserve_bg_iv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:src="@mipmap/ridding_bg" />
+                        <ImageView n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/spacing_4x" n1:src="@mipmap/ridding1" n1:layout_alignBottom="@id/id_reserve_bg_iv" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <so.ofo.abroad.widget.TypefaceTextView n1:textSize="@dimen/font_3x" n1:id="@id/id_reserve_now_tv" n1:background="@drawable/shape_rect_solid_yellow_t0_r0" n1:layout_height="@dimen/spacing_9x" n1:layout_marginBottom="@dimen/spacing_2x" n1:text="@string/make_reserve" style="@style/ConfirmButton" />
+            <so.ofo.abroad.widget.TypefaceTextView n1:textSize="@dimen/font_3x" n1:id="@id/id_reserve_another_now_tv" n1:background="@drawable/shape_rect_solid_yellow_t0_r0" n1:layout_height="@dimen/spacing_9x" n1:layout_marginBottom="@dimen/spacing_2x" n1:text="@string/make_another_reserve" style="@style/ConfirmButton" />
+            <so.ofo.abroad.widget.TypefaceTextView n1:textSize="@dimen/font_3x" n1:id="@id/id_reserve_use_now_tv" n1:background="@drawable/shape_rect_solid_yellow_t0_r0" n1:layout_height="@dimen/spacing_9x" n1:layout_marginBottom="@dimen/spacing_2x" n1:text="@string/use_now" style="@style/ConfirmButton" />
+            <so.ofo.abroad.widget.TypefaceTextView n1:textSize="@dimen/font_3x" n1:textStyle="bold" n1:textColor="@color/black_30" n1:id="@id/id_reserve_cancel_tv" n1:background="@drawable/shape_rect_stroke_gray_t03_r0" n1:layout_height="@dimen/spacing_9x" n1:layout_marginBottom="@dimen/spacing_2x" n1:text="@string/cancel" style="@style/ConfirmButton" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

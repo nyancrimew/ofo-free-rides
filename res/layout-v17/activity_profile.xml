@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/profile_edit" n1:background="@color/white" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:paddingTop="@dimen/spacing_l" n1:paddingBottom="@dimen/spacing_l" n1:layout_width="fill_parent" n1:layout_height="wrap_content" style="@style/PorifleHorizontalMargin">
+            <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_m" n1:textColor="@color/color_202020" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/protrait" />
+            <View n1:layout_width="0.0dip" n1:layout_height="@dimen/spacing_1dp" n1:layout_weight="1.0" />
+            <ImageView n1:layout_gravity="center_horizontal" n1:id="@id/profile_edit_portrait_iv" n1:padding="@dimen/spacing_6dp" n1:layout_width="@dimen/spacing_14x" n1:layout_height="@dimen/spacing_14x" n1:layout_marginRight="8.0dip" n1:src="@mipmap/default_user_icon" />
+            <ImageView n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/proiflearrow" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n1:layout_alignParentEnd="true" />
+        </LinearLayout>
+        <View n1:id="@id/item_line" n1:background="@color/color_efefef" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_2px" n1:layout_alignParentBottom="true" style="@style/PorifleHorizontalMargin" />
+        <so.ofo.abroad.widget.ItemViewMyLayout n1:id="@id/profile_name_ivl" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:item_is_show_arrow="true" n2:item_is_show_line="true" n2:item_line_padding="0.0dip" n2:item_right_context_color="@color/color_66202020" n2:item_title="@string/name" style="@style/PorifleHorizontalMargin" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <so.ofo.abroad.widget.ItemViewMyLayout n1:id="@id/profile_email_ivl" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n3:item_is_show_arrow="true" n3:item_is_show_line="true" n3:item_line_padding="0.0dip" n3:item_right_context_color="@color/color_66202020" n3:item_title="@string/email" style="@style/PorifleHorizontalMargin" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <so.ofo.abroad.widget.ItemViewMyLayout n1:id="@id/profile_gender" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n4:item_is_show_arrow="true" n4:item_is_show_line="true" n4:item_line_padding="0.0dip" n4:item_right_context_color="@color/color_66202020" n4:item_title="@string/gender" style="@style/PorifleHorizontalMargin" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <so.ofo.abroad.widget.ItemViewMyLayout n1:id="@id/profile_birthday" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n5:item_is_show_arrow="true" n5:item_is_show_line="true" n5:item_line_padding="0.0dip" n5:item_right_context_color="@color/color_66202020" n5:item_title="@string/birthday" style="@style/PorifleHorizontalMargin" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <so.ofo.abroad.widget.ItemViewMyLayout n1:id="@id/profile_phone_ivl" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n6:item_is_show_line="true" n6:item_line_padding="0.0dip" n6:item_right_context_color="@color/color_66202020" n6:item_title="@string/phone_number" style="@style/PorifleHorizontalMargin" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <so.ofo.abroad.widget.ItemViewMyLayout n1:id="@id/profile_logout_ivl" n1:layout_width="0.0dip" n1:layout_height="0.0dip" n7:item_title=" " xmlns:n7="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</FrameLayout>

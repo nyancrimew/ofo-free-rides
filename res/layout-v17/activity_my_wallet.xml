@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@color/white" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/wallet_balance_view" n1:background="@drawable/shape_rect_soild_yellow_t0_r12" n1:paddingTop="@dimen/spacing_3x" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_208dp" n1:layout_marginTop="@dimen/spacing_6dp" n1:layout_marginRight="@dimen/spacing_3x" n1:layout_marginEnd="@dimen/spacing_3x">
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/id_my_wallet_info_layout" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginStart="@dimen/spacing_3x">
+            <TextView n1:textSize="@dimen/font_35" n1:textColor="@color/color_202020" n1:id="@id/id_my_wallet_currency_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <TextView n1:textSize="@dimen/font_51" n1:textColor="@color/color_202020" n1:id="@id/id_my_wallet_money_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" />
+        </LinearLayout>
+        <TextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_99202020" n1:id="@id/id_my_wallet_account_name_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:text="@string/balance_account" n1:layout_below="@id/id_my_wallet_info_layout" n1:layout_marginStart="@dimen/spacing_3x" />
+        <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/wallet_big" n1:layout_alignParentRight="true" n1:layout_alignParentBottom="true" n1:layout_alignParentEnd="true" />
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/id_my_wallet_top_up_tv" n1:background="@drawable/shape_rect_solid_white_t0_r12" n1:layout_width="@dimen/spacing_114" n1:layout_height="@dimen/spacing_54dp" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginBottom="@dimen/spacing_3x" n1:text="@string/top_up" n1:layout_alignParentBottom="true" n1:layout_marginStart="@dimen/spacing_3x" />
+    </RelativeLayout>
+    <include n1:id="@id/wallet_pass_view" layout="@layout/wallet_pass_view" />
+    <LinearLayout n1:orientation="vertical" n1:paddingLeft="@dimen/spacing_3x" n1:paddingRight="@dimen/spacing_3x" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <so.ofo.abroad.widget.ItemViewMyLayout n1:id="@id/my_wallet_deposit_ivl" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:item_is_show_arrow="true" n2:item_is_show_line="true" n2:item_title="@string/my_deposit" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <so.ofo.abroad.widget.ItemViewMyLayout n1:id="@id/wallet_payment_ivl" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n3:item_is_show_arrow="true" n3:item_is_show_line="true" n3:item_title="@string/payment_options" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</LinearLayout>

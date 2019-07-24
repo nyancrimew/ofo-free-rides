@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/ll_mining_pass" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <ImageView n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_186" n1:layout_marginLeft="@dimen/spacing_24dp" n1:layout_marginRight="@dimen/spacing_24dp" n1:src="@mipmap/mining_pass_iv" n1:scaleType="fitXY" />
+        <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/spacing_22" n1:textColor="@color/white" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_7x" n1:layout_marginTop="@dimen/spacing_140dp" n1:layout_marginBottom="@dimen/spacing_24dp" n1:text="@string/mining_pass" />
+        <LinearLayout n1:orientation="horizontal" n1:background="@mipmap/mining_pass_bg" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_5x">
+            <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginTop="@dimen/spacing_l">
+                <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/mining_black_logo_iv" />
+                <TextView n1:textSize="@dimen/spacing_l" n1:textColor="@color/color_193351" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/spacing_6dp" n1:text="@string/exclusive" n1:textAllCaps="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_marginLeft="@dimen/spacing_24dp" n1:layout_marginRight="@dimen/spacing_24dp" n1:layout_weight="1.0">
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/auto_renew_ll" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_l">
+            <ImageView n1:layout_width="@dimen/spacing_2x" n1:layout_height="@dimen/spacing_2x" n1:src="@mipmap/mining_auto_renew" />
+            <TextView n1:textSize="@dimen/spacing_x" n1:textColor="@color/color_202020" n1:id="@id/auto_renwe_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_m" />
+        </LinearLayout>
+        <RelativeLayout n1:id="@id/ming_pass_rl" n1:background="@drawable/shape_rect_stroke_ffe300_i2_r12" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_l">
+            <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_17x">
+                <LinearLayout n1:orientation="vertical" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+                    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_x" n1:textColor="@color/color_202020" n1:id="@id/id_pass_currency_tv" n1:paddingLeft="@dimen/spacing_3x" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:paddingStart="@dimen/spacing_3x" />
+                        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_14sp" n1:textColor="@color/color_202020" n1:id="@id/id_pass_livetime" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/spacing_10dp" n1:maxLines="1" n1:layout_toRightOf="@id/id_pass_currency_tv" n1:layout_alignBaseline="@id/id_pass_currency_tv" n1:layout_marginEnd="@dimen/spacing_10dp" />
+                    </RelativeLayout>
+                    <TextView n1:textSize="@dimen/font_s" n1:textColor="@color/color_66202020" n1:id="@id/id_pass_money_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:maxLines="1" />
+                </LinearLayout>
+                <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_m" n1:textColor="@color/white" n1:gravity="center_vertical" n1:layout_gravity="center_vertical" n1:id="@id/id_pass_content" n1:background="@drawable/shape_rect_solid_3d78ff_r6" n1:paddingLeft="@dimen/spacing_m" n1:paddingTop="@dimen/spacing_3dp" n1:paddingRight="@dimen/spacing_m" n1:paddingBottom="@dimen/spacing_3dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_m" n1:layout_marginRight="@dimen/spacing_24dp" n1:text="@string/mining_pass" n1:maxLines="1" />
+            </LinearLayout>
+            <ImageView n1:id="@id/id_top_up_select_iv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/select_yellow" n1:layout_alignParentTop="true" n1:layout_alignParentRight="true" n1:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_l">
+            <ImageView n1:id="@id/pass_img" n1:visibility="gone" n1:layout_width="@dimen/spacing_m" n1:layout_height="@dimen/spacing_m" n1:layout_marginTop="@dimen/spacing_7dp" n1:src="@mipmap/mining_price_img" />
+            <TextView n1:textSize="@dimen/font_14sp" n1:textColor="@color/color_202020" n1:gravity="center_vertical" n1:id="@id/mining_priceDes_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_m" n1:layout_toRightOf="@id/pass_img" />></RelativeLayout>
+    </LinearLayout>
+    <TextView n1:textSize="@dimen/font_xs" n1:textColor="@color/color_66202020" n1:id="@id/mining_passDes_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_24dp" n1:layout_marginRight="@dimen/spacing_24dp" n1:layout_marginBottom="@dimen/spacing_l" />
+    <TextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/id_update_tv" n1:background="@drawable/shape_rect_solid_fed801_r12" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_54dp" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_l" n1:layout_marginRight="@dimen/spacing_3x" n1:layout_marginBottom="@dimen/spacing_15dp" n1:layout_centerHorizontal="true" n1:textAllCaps="true" />
+</LinearLayout>

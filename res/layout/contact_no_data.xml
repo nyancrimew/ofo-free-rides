@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/contact_list_header" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/fail_to_contact" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0">
+        <include layout="@layout/invite_share_code_layout" />
+        <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0">
+            <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:paddingTop="@dimen/spacing_10dp" n1:paddingBottom="@dimen/spacing_10dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_centerInParent="true">
+                <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/ofo_no_data" n1:layout_centerInParent="true" />
+                <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_15" n1:textColor="@color/gray_30" n1:gravity="center" n1:layout_gravity="center_vertical" n1:id="@id/no_data_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_26dp" n1:layout_marginTop="@dimen/spacing_2x" n1:layout_marginRight="@dimen/spacing_26dp" n1:text="@string/invite_friend_setting_tip" />
+                <TextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/black_30" n1:gravity="center" n1:id="@id/contact_setting_button" n1:background="@drawable/shape_setting_button" n1:layout_width="@dimen/spacing_93dp" n1:layout_height="@dimen/spacing_38dp" n1:layout_marginTop="@dimen/spacing_3x" n1:text="@string/setting" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

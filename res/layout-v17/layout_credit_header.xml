@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="horizontal" n1:background="@color/color_3d78ff" n1:layout_width="fill_parent" n1:layout_height="141.0dip" n1:layout_marginRight="@dimen/spacing_3x"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/credit_list_header_icon" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/credit_logo" n1:layout_alignParentRight="true" />
+    <so.ofo.abroad.widget.IconMoonTypefaceTextView n1:textSize="@dimen/font_11x" n1:textColor="@color/white" n1:id="@id/credit_total_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_23dp" n1:layout_marginTop="@dimen/spacing_7x" n1:maxLines="1" n1:layout_alignParentLeft="true" n1:layout_marginStart="@dimen/spacing_23dp" />
+    <TextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/white_60" n1:id="@id/credit_header_time_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_23dp" n1:layout_marginBottom="@dimen/spacing_4x" n1:layout_alignParentLeft="true" n1:layout_alignParentBottom="true" n1:layout_marginStart="@dimen/spacing_23dp" />
+</RelativeLayout>

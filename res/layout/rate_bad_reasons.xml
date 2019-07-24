@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:background="@color/color_e2e2e2" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_1dp" />
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:gravity="left" n1:id="@id/dialog_content_text" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_18dp" n1:text="@string/rate_questions" />
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/horizontal_button_group" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_18dp" n1:layout_marginBottom="@dimen/spacing_18dp">
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/black_30" n1:gravity="center" n1:id="@id/rate_expand_no_btn" n1:background="@drawable/shape_rect_solid_ffffff_stroke_d2d2d2_r12" n1:paddingLeft="@dimen/spacing_l" n1:paddingRight="@dimen/spacing_l" n1:layout_width="0.0dip" n1:layout_height="@dimen/spacing_54dp" n1:layout_marginRight="@dimen/spacing_6dp" n1:text="@string/no" n1:layout_weight="1.0" />
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/rate_expand_yes_btn" n1:background="@drawable/shape_rect_solid_ffffff_stroke_d2d2d2_r12" n1:paddingLeft="@dimen/spacing_l" n1:paddingRight="@dimen/spacing_l" n1:layout_width="0.0dip" n1:layout_height="@dimen/spacing_54dp" n1:layout_marginLeft="@dimen/spacing_6dp" n1:text="@string/yes" n1:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

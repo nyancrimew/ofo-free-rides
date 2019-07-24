@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/rv_topbar" n1:background="@color/pickerview_bg_topbar" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <Button n1:textSize="@dimen/pickerview_topbar_btn_textsize" n1:textColor="@drawable/selector_pickerview_btn" n1:gravity="center|left" n1:id="@id/btnCancel" n1:background="@android:color/transparent" n1:paddingLeft="@dimen/pickerview_topbar_padding" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:text="@string/pickerview_cancel" />
+    <TextView n1:textSize="@dimen/pickerview_topbar_title_textsize" n1:textColor="@color/pickerview_topbar_title" n1:gravity="center" n1:id="@id/tvTitle" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_toLeftOf="@id/btnSubmit" n1:layout_toRightOf="@id/btnCancel" n1:layout_centerVertical="true" />
+    <Button n1:textSize="@dimen/pickerview_topbar_btn_textsize" n1:textColor="@drawable/selector_pickerview_btn" n1:gravity="center|right" n1:id="@id/btnSubmit" n1:background="@android:color/transparent" n1:paddingRight="@dimen/pickerview_topbar_padding" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:text="@string/pickerview_submit" n1:layout_alignParentRight="true" />
+</RelativeLayout>

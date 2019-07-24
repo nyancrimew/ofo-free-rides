@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="@color/white" n1:layout_width="@dimen/spacing_290dp" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/sidebar_bottom_settings" n1:background="@drawable/shape_bordertop_stroke_444444" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true">
+        <TextView n1:id="@id/setting" n1:paddingLeft="@dimen/spacing_4x" n1:paddingRight="@dimen/spacing_58dp" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:text="@string/settings" style="@style/SideBar_Bottom" />
+        <TextView n1:id="@id/userGuide" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:text="@string/user_guide" style="@style/SideBar_Bottom" />
+    </LinearLayout>
+    <ScrollView n1:scrollbars="none" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_above="@id/sidebar_bottom_settings">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+            <include layout="@layout/sidebar_info" />
+            <RelativeLayout n1:id="@id/sidebar_changer_mode_layout" n1:background="@color/color_3a3a3a" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_59">
+                <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_16sp" n1:textColor="@color/white" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_26dp" n1:text="@string/charger_mode" n1:layout_centerVertical="true" />
+                <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/spacing_26dp" n1:src="@mipmap/charger_mode_icon" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+            </RelativeLayout>
+            <include layout="@layout/sidebar_list" />
+            <ImageView n1:id="@id/id_billboardInfo_img" n1:layout_width="@dimen/spacing_238" n1:layout_height="@dimen/spacing_90" n1:layout_marginLeft="@dimen/spacing_26dp" n1:layout_marginTop="@dimen/spacing_24dp" n1:layout_marginRight="@dimen/spacing_26dp" n1:layout_marginBottom="@dimen/spacing_11dp" n1:scaleType="centerCrop" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

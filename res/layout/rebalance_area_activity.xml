@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/fragment" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+    <TextView n1:textSize="@dimen/spacing_13dp" n1:textColor="@color/white" n1:gravity="center" n1:id="@id/rebalance_inside_service_tv" n1:background="@drawable/shape_rect_solid_black_r25" n1:paddingLeft="@dimen/spacing_x" n1:paddingTop="@dimen/spacing_10dp" n1:paddingRight="@dimen/spacing_x" n1:paddingBottom="@dimen/spacing_10dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_26dp" n1:text="@string/rebalance_out_service_tips" n1:layout_centerHorizontal="true" />
+    <LinearLayout n1:orientation="vertical" n1:background="@color/white" n1:layout_width="fill_parent" n1:layout_height="216.0dip" n1:layout_alignParentBottom="true">
+        <TextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:id="@id/rebalance_charge_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="@dimen/spacing_3x" />
+        <TextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_3d78ff" n1:id="@id/jump_rebalance_policy_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_3x" n1:layout_marginBottom="@dimen/spacing_3x" n1:text="@string/jump_rebalance_policy_tips" />
+    </LinearLayout>
+</RelativeLayout>

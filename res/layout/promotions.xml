@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:id="@id/promotion_view" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/promotions_logo" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_39dp" n1:src="@mipmap/promotions" n1:layout_centerHorizontal="true" />
+    <so.ofo.abroad.widget.AutoStyledEditText n1:id="@id/promotions_edittext" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_58dp" n1:layout_marginRight="@dimen/spacing_3x" n1:layout_below="@id/promotions_logo" n2:hint="@string/promotion_hint" n2:normal_line_color="@color/repair_input_line_color" n2:right_drawable="@mipmap/repair_scanner_icon" n2:text_color="@color/color_202020" n2:text_size="@dimen/font_17sp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

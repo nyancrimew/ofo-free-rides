@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set n1:duration="@android:integer/config_shortAnimTime"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <objectAnimator n1:valueFrom="0.5" n1:valueTo="1.0" n1:valueType="floatType" n1:propertyName="alpha" />
+    <objectAnimator n1:valueFrom="1.0" n1:valueTo="1.2" n1:valueType="floatType" n1:propertyName="scaleX" />
+    <objectAnimator n1:valueFrom="1.0" n1:valueTo="1.2" n1:valueType="floatType" n1:propertyName="scaleY" />
+</set>

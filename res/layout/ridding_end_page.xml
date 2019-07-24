@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_3x" n1:textStyle="bold" n1:textColor="@color/color_202020" n1:gravity="left" n1:id="@id/trip_end_costs_tv" n1:paddingLeft="@dimen/spacing_3x" n1:paddingRight="@dimen/spacing_3x" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/trips_end_costs_price" />
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_s" n1:textColor="@color/color_3d78ff" n1:id="@id/questions_about_the_cost" n1:paddingLeft="@dimen/spacing_3x" n1:paddingRight="@dimen/spacing_3x" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_l" n1:layout_marginBottom="@dimen/spacing_l" n1:text="@string/questions_about_the_cost" />
+        <LinearLayout n1:orientation="vertical" n1:id="@id/ll_pass_show_layout" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <ImageView n1:id="@id/trip_pass_img" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:src="@mipmap/trip_pass_img" n1:adjustViewBounds="true" />
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_m" n1:textColor="@color/color_202020" n1:id="@id/atv_recommend_content" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_17dp" n1:layout_marginRight="@dimen/spacing_3x" n1:layout_marginBottom="@dimen/spacing_17dp" />
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/atv_jump_pass" n1:background="@drawable/shape_rect_four_yellow_selector" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_50" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_3x" n1:layout_marginBottom="@dimen/spacing_17dp" />
+        </LinearLayout>
+        <include layout="@layout/devider" />
+        <LinearLayout n1:orientation="vertical" n1:id="@id/trip_share_container" n1:visibility="visible" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_13dp" n1:layout_marginBottom="@dimen/spacing_14dp">
+                <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_m" n1:textColor="@color/color_202020" n1:layout_gravity="center_vertical" n1:layout_width="@dimen/spacing_0dp" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_26dp" n1:text="@string/trip_finished_share_description" n1:layout_weight="2.0" />
+                <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_m" n1:textColor="@color/color_202020" n1:gravity="center" n1:layout_gravity="center_vertical" n1:id="@id/trip_share" n1:background="@drawable/shape_rect_four_yellow_selector" n1:layout_width="@dimen/spacing_0dp" n1:layout_height="@dimen/spacing_6x" n1:layout_marginRight="@dimen/spacing_3x" n1:text="@string/share" n1:layout_weight="1.0" />
+            </LinearLayout>
+            <View n1:background="@color/color_e2e2e2" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_1dp" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_3x" />
+        </LinearLayout>
+        <RelativeLayout n1:id="@id/rl_repair_need" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_62dp">
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_m" n1:textColor="@color/color_202020" n1:id="@id/trip_end_repair_needed_tv" n1:paddingLeft="@dimen/spacing_3x" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/need_repair" n1:layout_centerVertical="true" />
+            <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/spacing_3x" n1:src="@mipmap/icons_back" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View n1:background="@color/color_e2e2e2" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_1dp" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_3x" />
+        <LinearLayout n1:orientation="vertical" n1:id="@id/rate_and_share_container" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <LinearLayout n1:orientation="vertical" n1:paddingLeft="@dimen/spacing_3x" n1:paddingRight="@dimen/spacing_3x" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_62dp">
+                    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_m" n1:textColor="@color/color_202020" n1:gravity="center|left" n1:paddingTop="@dimen/spacing_18dp" n1:paddingBottom="@dimen/spacing_18dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/rate_this_trip" n1:layout_alignParentLeft="true" />
+                    <ImageView n1:id="@id/rate_bad" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_22" n1:layout_marginBottom="@dimen/spacing_15dp" n1:src="@drawable/rate_bad_selector" n1:layout_alignParentRight="true" />
+                    <ImageView n1:id="@id/rate_good" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_17dp" n1:layout_marginRight="@dimen/spacing_66" n1:layout_marginBottom="@dimen/spacing_2x" n1:src="@drawable/rate_good_selector" n1:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <include n1:id="@id/rate_expand_reasons" layout="@layout/rate_bad_reasons" />
+            </LinearLayout>
+            <include layout="@layout/devider" />
+        </LinearLayout>
+        <include n1:id="@id/bind_card_view" layout="@layout/need_bind_card" />
+        <RelativeLayout n1:id="@id/gse_card_layout" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="@dimen/spacing_3x">
+            <ImageView n1:id="@id/gse_bg" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:src="@mipmap/gse_bg" n1:scaleType="fitXY" />
+            <TextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/white" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_l" n1:layout_marginTop="@dimen/spacing_2x" n1:layout_marginRight="@dimen/spacing_69dp" n1:text="@string/gse_earned_tv" />
+            <TextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/gse_redirect_detail_tv" n1:background="@drawable/shape_rect_stroke_bottom_e2e2e2_r12" n1:layout_width="fill_parent" n1:layout_height="50.0dip" n1:text="Detail >" n1:layout_below="@id/gse_bg" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

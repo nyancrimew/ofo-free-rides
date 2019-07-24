@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/search_relayout" n1:descendantFocusability="blocksDescendants" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/invite_item_search_layout" n1:background="@drawable/shape_rect_stroke_gray_r6" n1:padding="@dimen/spacing_m" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="@dimen/spacing_2x">
+        <ImageView n1:id="@id/id_contact_search_icon_iv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_6dp" n1:src="@drawable/search_selector" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" />
+        <ImageView n1:id="@id/id_country_content_del_iv" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/del" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+        <TextView n1:textSize="@dimen/font_s" n1:textColor="@color/color_66202020" n1:background="@null" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_14dp" n1:layout_marginRight="@dimen/spacing_l" n1:text="@string/invite_friends_search_tip" n1:layout_toLeftOf="@id/id_country_content_del_iv" n1:layout_toRightOf="@id/id_contact_search_icon_iv" n1:layout_centerVertical="true" n1:textCursorDrawable="@drawable/shape_cursor_3d78ff" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/id_coupon_item_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:textSize="@dimen/font_21sp" n1:id="@id/id_free_week_iv" n1:layout_width="@dimen/spacing_6x" n1:layout_height="@dimen/spacing_6x" n1:layout_marginLeft="@dimen/spacing_31dp" n1:scaleType="fitXY" />
+    <TextView n1:textSize="@dimen/font_2x" n1:textColor="#ff202020" n1:id="@id/id_free_week_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_34dp" />
+</LinearLayout>

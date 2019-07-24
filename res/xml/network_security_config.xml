@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config>
+        <domain includeSubdomains="true">ofo.com</domain>
+        <domain includeSubdomains="true">10.3.0.226</domain>
+        <domain includeSubdomains="true">10.3.0.87</domain>
+        <trust-anchors>
+            <certificates src="@raw/charles" />
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>

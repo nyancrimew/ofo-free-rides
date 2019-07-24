@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/page_item_view" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_3x"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_m" n1:textColor="@color/color_202020" n1:gravity="center|left" n1:id="@id/page_item_title" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_3x" n1:layout_marginBottom="@dimen/spacing_3x" n1:text="Payment method" n1:layout_alignParentLeft="true" />
+    <RelativeLayout n1:id="@id/page_item_right_view" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true">
+        <ImageView n1:id="@id/page_item_arrow" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_3x" n1:layout_marginBottom="@dimen/spacing_3x" n1:src="@mipmap/go_arrow" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_m" n1:textColor="@color/color_66202020" n1:gravity="center|left" n1:id="@id/page_item_content" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_3x" n1:layout_marginBottom="@dimen/spacing_3x" n1:text="ofosupport@ofo.sp" n1:layout_toLeftOf="@id/page_item_arrow" />
+    </RelativeLayout>
+    <View n1:id="@id/page_item_line" n1:layout_below="@id/page_item_title" style="@style/line" />
+</RelativeLayout>

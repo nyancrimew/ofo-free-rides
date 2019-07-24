@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:paddingLeft="@dimen/spacing_30" n1:paddingRight="@dimen/spacing_30" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/id_charge_navigation_iv" n1:background="@drawable/selector_ffffff_ffe300_r12_bg" n1:layout_width="@dimen/spacing_49" n1:layout_height="@dimen/spacing_49" n1:src="@mipmap/navigation" n1:scaleType="center" n1:layout_alignParentLeft="true" n1:layout_alignParentTop="true" />
+    <ImageView n1:id="@id/id_charge_ring_iv" n1:background="@drawable/shape_rect_solid_white_t0_r12" n1:layout_width="@dimen/spacing_49" n1:layout_height="@dimen/spacing_49" n1:src="@mipmap/ring" n1:scaleType="center" n1:layout_alignParentTop="true" n1:layout_alignParentRight="true" />
+</RelativeLayout>

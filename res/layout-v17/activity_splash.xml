@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/parent" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/id_splash_iv" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:scaleType="centerCrop" n1:layout_alignParentLeft="true" n1:layout_alignParentTop="true" n1:layout_alignParentStart="true" />
+    <LinearLayout n1:gravity="center_horizontal" n1:orientation="horizontal" n1:id="@id/id_splash_skip_layout" n1:background="@drawable/shape_rect_solid_gray_t0_r40" n1:paddingLeft="@dimen/spacing_m" n1:paddingTop="@dimen/spacing_s" n1:paddingRight="@dimen/spacing_m" n1:paddingBottom="@dimen/spacing_s" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_2x" n1:layout_marginRight="@dimen/spacing_2x" n1:minWidth="@dimen/spacing_13x" n1:layout_alignParentTop="true" n1:layout_alignParentRight="true">
+        <TextView n1:textSize="@dimen/font_s" n1:textColor="@color/white" n1:id="@id/id_splash_skip_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/spacing_s" n1:text="@string/skip" />
+        <TextView n1:textSize="@dimen/font_s" n1:textColor="@color/white" n1:id="@id/id_splash_timer_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

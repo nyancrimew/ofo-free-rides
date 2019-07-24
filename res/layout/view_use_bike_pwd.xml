@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:id="@id/id_bike_pwd_info_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" layout="@layout/view_use_bike_pwd_info" />
+    <so.ofo.abroad.ui.userbike.usebikelta.BikeLtaView n1:id="@id/id_bike_pwd_lta_layout" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+</LinearLayout>

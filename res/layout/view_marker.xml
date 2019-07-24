@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="@dimen/spacing_43" n1:layout_height="@dimen/spacing_43"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/id_mark_img" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+    <TextView n1:textSize="@dimen/font_17sp" n1:textStyle="bold" n1:textColor="@color/white" n1:id="@id/id_mark_note" n1:paddingBottom="@dimen/spacing_5dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_centerInParent="true" />
+</RelativeLayout>

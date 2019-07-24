@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/about_ofo_logo" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_x" n1:src="@mipmap/about_logo" n1:layout_centerHorizontal="true" />
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_15" n1:textColor="@color/color_202020" n1:gravity="center_horizontal" n1:id="@id/about_ofo_policy" n1:paddingLeft="@dimen/spacing_26dp" n1:paddingRight="@dimen/spacing_26dp" n1:paddingBottom="@dimen/spacing_2x" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_x" n1:text="@string/about_ofo_intro" n1:layout_below="@id/about_ofo_logo" />
+    <View n1:id="@id/page_devider" n1:background="@color/color_f6f6f6" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_l" n1:layout_below="@id/about_ofo_policy" />
+</RelativeLayout>

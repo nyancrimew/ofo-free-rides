@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/id_top_up_item_layout" n1:layout_width="@dimen/spacing_152dp" n1:layout_height="@dimen/spacing_108" n1:layout_marginTop="@dimen/spacing_3x"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:background="@drawable/selector_e3e3e3_ffe300_r12_bg" n1:layout_width="@dimen/spacing_152dp" n1:layout_height="@dimen/spacing_98dp" n1:layout_marginTop="@dimen/spacing_10dp">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_27dp" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/id_top_up_money_tv" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:maxLines="1" n1:layout_weight="1.0" />
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_s" n1:textStyle="italic" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/id_top_up_bonus_tv" n1:background="@drawable/selector_e3e3e3_ffe300_bl_br12_bg" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_37dp" n1:maxLines="1" />
+        </LinearLayout>
+        <ImageView n1:id="@id/id_top_up_select_iv" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/select_yellow" n1:layout_alignParentTop="true" n1:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TextView n1:textSize="@dimen/font_11sp" n1:textColor="@color/white" n1:gravity="center_vertical" n1:id="@id/top_up_poular_tv" n1:background="@drawable/shape_rect_solid_f12475_r11" n1:paddingLeft="8.0dip" n1:paddingRight="8.0dip" n1:layout_width="wrap_content" n1:layout_height="20.0dip" n1:text="@string/most_poular_txt" n1:layout_alignParentTop="true" n1:layout_centerHorizontal="true" />
+</RelativeLayout>

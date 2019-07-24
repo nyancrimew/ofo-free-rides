@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/id_wallet_detail_item_layout" n1:paddingLeft="@dimen/spacing_15dp" n1:paddingRight="@dimen/spacing_15dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:paddingStart="@dimen/spacing_15dp" n1:paddingEnd="@dimen/spacing_15dp"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textSize="@dimen/font_m" n1:textColor="@color/color_202020" n1:id="@id/id_wallet_detail_name_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_15dp" n1:maxLines="1" n1:layout_alignParentTop="true" />
+    <TextView n1:textSize="@dimen/font_13sp" n1:textColor="@color/color_66202020" n1:id="@id/id_wallet_detail_date_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_5dp" n1:layout_marginBottom="@dimen/spacing_x" n1:maxLines="1" n1:layout_below="@id/id_wallet_detail_name_tv" />
+    <TextView n1:textSize="@dimen/font_m" n1:textColor="@color/color_3d78ff" n1:id="@id/id_wallet_money_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_alignBaseline="@id/id_wallet_detail_name_tv" n1:layout_alignParentRight="true" n1:layout_alignParentEnd="true" />
+    <View n1:background="@color/color_efefef" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_1dp" n1:layout_alignParentBottom="true" />
+</RelativeLayout>

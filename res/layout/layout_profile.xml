@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/left_content_view" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:layout_alignParentLeft="true">
+        <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/profile_ll" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0">
+            <ImageView n1:id="@id/profile_portrait_iv" n1:background="@drawable/profile_bg" n1:padding="4.5dip" n1:layout_width="@dimen/spacing_14x" n1:layout_height="@dimen/spacing_14x" n1:src="@mipmap/default_user_icon" />
+            <RelativeLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_x" n1:textColor="@color/black_30" n1:id="@id/user_name_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_s" n1:text="oforider" n1:singleLine="true" n1:layout_centerVertical="true" />
+                <ImageView n1:id="@id/user_info_edit_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_xs" n1:src="@mipmap/profile_edit" n1:layout_toRightOf="@id/user_name_tv" n1:layout_centerVertical="true" />
+            </RelativeLayout>
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_xs" n1:textColor="@color/gray" n1:id="@id/tv_user_credit" n1:paddingBottom="@dimen/spacing_m" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        </LinearLayout>
+        <Space n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="3.0" />
+    </LinearLayout>
+    <LinearLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_toRightOf="@id/left_content_view" />
+</RelativeLayout>

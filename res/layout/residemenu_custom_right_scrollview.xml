@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ScrollView n1:id="@id/sv_right_menu" n1:scrollbars="none" n1:layout_width="150.0dip" n1:layout_height="wrap_content" n1:layout_marginRight="30.0dip" n1:layout_alignParentRight="true" n1:layout_centerVertical="true">
+        <LinearLayout n1:gravity="right" n1:orientation="vertical" n1:id="@id/layout_right_menu" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    </ScrollView>
+</RelativeLayout>

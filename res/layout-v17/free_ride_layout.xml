@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:background="@mipmap/free_ride_icon" n1:paddingLeft="@dimen/spacing_3x" n1:paddingRight="@dimen/spacing_3x" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:paddingStart="@dimen/spacing_3x" n1:paddingEnd="@dimen/spacing_3x">
+        <TextView n1:textSize="@dimen/font_16sp" n1:id="@id/tv_free_rides_text" n1:paddingBottom="@dimen/spacing_3x" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" />
+        <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/spacing_34dp" n1:textColor="@color/color_202020" n1:id="@id/tv_free_rides_tip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/spacing_m" n1:layout_above="@id/tv_free_rides_text" />
+    </RelativeLayout>
+</LinearLayout>

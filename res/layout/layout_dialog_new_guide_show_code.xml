@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:paddingTop="@dimen/spacing_8x" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/new_guide_use_bike_lock_iv" n1:visibility="invisible" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_5x" n1:src="@mipmap/use_bike_lock" n1:layout_centerHorizontal="true" />
+    <RelativeLayout n1:id="@id/new_guide_use_bike_carno_tv" n1:background="@drawable/shape_rect_solid_white_t0_r5" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_2x" n1:layout_marginTop="-20.0dip" n1:layout_marginRight="@dimen/spacing_2x" n1:layout_below="@id/new_guide_use_bike_lock_iv" n1:layout_centerHorizontal="true">
+        <so.ofo.abroad.widget.TypefaceTextView n1:textSize="@dimen/font_5x" n1:textColor="@color/black" n1:gravity="center" n1:id="@id/new_guide_unlock_carno_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_2x" n1:layout_marginBottom="@dimen/spacing_2x" n1:text="@string/use_bike_unlock_desc" n1:maxLines="1" n1:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ImageView n1:id="@id/use_bike_line_iv" n1:visibility="invisible" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_2x" n1:layout_marginRight="@dimen/spacing_2x" n1:layout_below="@id/new_guide_use_bike_carno_tv" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/unlock_pwd_rl" n1:background="@drawable/shape_rect_solid_white_t0_r5" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_2x" n1:layout_marginTop="@dimen/spacing_2x" n1:layout_marginRight="@dimen/spacing_2x" n1:layout_below="@id/use_bike_line_iv" n1:layout_centerHorizontal="true">
+        <LinearLayout n1:gravity="center_horizontal" n1:orientation="horizontal" n1:id="@id/new_guide_unlock_pwd_ll" n1:visibility="visible" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_2x" n1:layout_marginBottom="@dimen/spacing_3x" />
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_xs" n1:textColor="@color/yellow" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/spacing_l" n1:text="@string/new_guide_show_code_tip" />
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_xs" n1:textColor="@color/yellow" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/new_guide_unlock_notice" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/spacing_l" />
+    </LinearLayout>
+    <so.ofo.abroad.widget.TypefaceTextView n1:id="@id/got_it_tv" n1:layout_below="@id/unlock_pwd_rl" n1:layout_centerHorizontal="true" style="@style/GotItTextView" />
+</RelativeLayout>

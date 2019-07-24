@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/root_layout" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:id="@id/contact_no_data_layout" n1:visibility="visible" n1:layout_width="fill_parent" n1:layout_height="fill_parent" layout="@layout/contact_no_data" />
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_centerInParent="true">
+        <android.support.v7.widget.RecyclerView n1:id="@id/contact_recyclerview" n1:visibility="gone" n1:scrollbars="none" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:divider="@null" n1:layout_weight="1.0" />
+        <android.support.v7.widget.RecyclerView n1:id="@id/search_recyclerview" n1:visibility="gone" n1:scrollbars="none" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:divider="@null" n1:layout_weight="1.0" />
+        <so.ofo.abroad.widget.ButtonLoadingView n1:id="@id/invite_go" n1:background="@drawable/selector_enable_view_bg" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:lb_caps="true" n2:lb_isBold="true" n2:lb_text="@string/go_gp" n2:lb_textcolor="@color/selector_enable_text" n2:lb_textsize="@dimen/font_17sp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <RelativeLayout n1:id="@id/id_country_search_layout" n1:background="@color/white" n1:visibility="invisible" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <RelativeLayout n1:background="@drawable/shape_rect_stroke_gray_r6" n1:padding="@dimen/spacing_m" n1:focusable="true" n1:focusableInTouchMode="true" n1:visibility="visible" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="@dimen/spacing_2x">
+            <ImageView n1:id="@id/id_contact_search_icon_iv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_6dp" n1:src="@drawable/search_selector" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" />
+            <ImageView n1:id="@id/id_contact_content_del_iv" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/del" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+            <EditText n1:textSize="@dimen/font_s" n1:textColor="@color/color_202020" n1:textColorHint="@color/color_66202020" n1:id="@id/id_contact_search_et" n1:background="@null" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_14dp" n1:layout_marginRight="@dimen/spacing_l" n1:hint="@string/invite_friends_search_tip" n1:layout_toLeftOf="@id/id_contact_content_del_iv" n1:layout_toRightOf="@id/id_contact_search_icon_iv" n1:layout_centerVertical="true" n1:textCursorDrawable="@drawable/shape_cursor_3d78ff" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <so.ofo.abroad.ui.contactlist.util.SideBar n1:id="@id/sidrbar" n1:visibility="gone" n1:layout_width="@dimen/spacing_30" n1:layout_height="@dimen/spacing_350dp" n1:layout_marginTop="@dimen/spacing_140dp" n1:layout_marginBottom="@dimen/spacing_12x" n1:layout_alignParentRight="true" />
+</RelativeLayout>

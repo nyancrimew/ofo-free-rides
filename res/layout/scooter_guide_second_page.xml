@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_5x" n1:textStyle="bold" n1:textColor="@color/color_202020" n1:gravity="left" n1:id="@id/scooter_second_guide_title" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_85" n1:text="@string/safety_rule" n1:layout_alignParentTop="true" />
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:id="@id/scooter_second_guide_content" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_3x" n1:text="@string/safety_rule_content" n1:layout_below="@id/scooter_second_guide_title" />
+    <ImageView n1:id="@id/scooter_second_guide_image" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_62dp" n1:src="@mipmap/e_scooter_guide_second" n1:layout_below="@id/scooter_second_guide_content" n1:layout_centerHorizontal="true" />
+</RelativeLayout>

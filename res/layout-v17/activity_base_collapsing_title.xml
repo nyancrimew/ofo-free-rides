@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.design.widget.AppBarLayout n1:id="@id/id_app_bar_layout" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_116dp" n2:elevation="0.0dip" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <android.support.design.widget.CollapsingToolbarLayout n1:id="@id/id_toolbar_layout" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n2:collapsedTitleGravity="center_vertical" n2:expandedTitleMarginStart="@dimen/spacing_3x" n2:expandedTitleTextAppearance="@style/CollapsingToolbarTheme.Black" n2:layout_scrollFlags="exitUntilCollapsed|scroll">
+            <android.support.v7.widget.Toolbar n1:id="@id/id_toolbar" n1:paddingLeft="@dimen/spacing_m" n1:layout_width="fill_parent" n1:layout_height="?actionBarSize" n1:paddingStart="@dimen/spacing_m" n2:layout_collapseMode="pin" n2:layout_scrollFlags="enterAlways|scroll" n2:theme="@style/ToolbarMenuTheme.Black" n2:titleMarginStart="0.0dip" n2:titleTextAppearance="@style/ToolbarTitleTheme.Black" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView n1:id="@id/id_container" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:fillViewport="true" n3:layout_behavior="@string/appbar_scrolling_view_behavior" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout n1:layout_gravity="bottom" n1:id="@id/id_bottom_container" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+</android.support.design.widget.CoordinatorLayout>

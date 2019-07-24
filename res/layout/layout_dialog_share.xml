@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@color/sharemodule_color_f7f7f7" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:padding="@dimen/sharemodule_spacing_20dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <so.ofo.abroad.widget.AutoSizingTextView n1:gravity="center" n1:id="@id/share_facebook" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/facebook" n1:drawableTop="@mipmap/facebook_icon" n1:drawablePadding="@dimen/sharemodule_spacing_20dp" n1:layout_weight="1.0" />
+        <so.ofo.abroad.widget.AutoSizingTextView n1:gravity="center" n1:id="@id/share_twitter" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/twitter" n1:drawableTop="@mipmap/twitter" n1:drawablePadding="@dimen/sharemodule_spacing_12dp" n1:layout_weight="1.0" />
+    </LinearLayout>
+    <View style="@style/share_line" />
+    <so.ofo.abroad.widget.AutoSizingTextView n1:gravity="center" n1:id="@id/cancel_tv" n1:layout_width="fill_parent" n1:layout_height="@dimen/sharemodule_spacing_52dp" />
+</LinearLayout>

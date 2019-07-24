@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:paddingLeft="@dimen/spacing_24dp" n1:paddingTop="@dimen/spacing_11dp" n1:paddingRight="@dimen/spacing_24dp" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:layout_gravity="center_horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/pin_code_unlock" n1:scaleType="centerCrop" />
+    <TextView n1:textSize="@dimen/font_19sp" n1:textStyle="bold" n1:textColor="@color/color_202020" n1:gravity="center_horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_54dp" n1:text="@string/lock_accident_prompt" />
+    <TextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:gravity="center_horizontal" n1:id="@id/id_pin_code_bike_no_tv" n1:visibility="invisible" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_5x" n1:text="@string/code_for_bike" />
+    <so.ofo.abroad.widget.UnlockPwdView n1:id="@id/id_pin_code_view" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_18dp" />
+    <TextView n1:layout_gravity="center_horizontal" n1:id="@id/id_pin_code_refresh_tv" n1:background="@drawable/shape_rect_solid_ffffff_stroke_d2d2d2_r12" n1:paddingLeft="@dimen/spacing_25dp" n1:paddingTop="@dimen/spacing_l" n1:paddingRight="@dimen/spacing_25dp" n1:paddingBottom="@dimen/spacing_l" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/refresh" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@drawable/shape_rect_solid_ffffff_tl_tr12" n1:paddingLeft="@dimen/spacing_30" n1:paddingTop="@dimen/spacing_17dp" n1:paddingRight="@dimen/spacing_30" n1:paddingBottom="@dimen/spacing_30" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:background="@drawable/shape_rect_f6f6f6_r8" n1:padding="@dimen/spacing_2x" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_7dp" n1:layout_marginRight="@dimen/spacing_7dp">
+        <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:textSize="@dimen/font_m" n1:textColor="@color/black_30" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/bonus" n1:layout_alignParentLeft="true" n1:textAllCaps="true" />
+            <TextView n1:textSize="@dimen/font_m" n1:textColor="@color/color_3d78ff" n1:id="@id/id_charge_bonus_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true" n1:textAllCaps="true" />
+            <View n1:background="@color/repair_input_line_color" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_1dp" n1:layout_marginTop="@dimen/spacing_5dp" n1:layout_below="@id/id_charge_bonus_tv" />
+        </RelativeLayout>
+        <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_23dp">
+            <TextView n1:textSize="@dimen/font_m" n1:textColor="@color/black_30" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/last_location" n1:layout_alignParentLeft="true" n1:textAllCaps="true" />
+            <TextView n1:textSize="@dimen/font_m" n1:textColor="@color/color_3d78ff" n1:id="@id/id_charge_location_time_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true" n1:textAllCaps="true" />
+            <View n1:background="@color/repair_input_line_color" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_1dp" n1:layout_marginTop="@dimen/spacing_5dp" n1:layout_below="@id/id_charge_location_time_tv" />
+        </RelativeLayout>
+        <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_23dp">
+            <TextView n1:textSize="@dimen/font_m" n1:textColor="@color/black_30" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/battery" n1:layout_alignParentLeft="true" n1:textAllCaps="true" />
+            <TextView n1:textSize="@dimen/font_m" n1:textColor="@color/color_3d78ff" n1:id="@id/id_charge_battery_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true" n1:textAllCaps="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView n1:id="@id/id_charge_collect_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_31dp" n1:text="@string/collect" n1:textAllCaps="true" style="@style/ConfirmBtnBlueStyle" />
+    <TextView n1:id="@id/id_charge_missing_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_15dp" n1:text="@string/missing" n1:textAllCaps="true" style="@style/CancelBtnBlueStyle" />
+</LinearLayout>

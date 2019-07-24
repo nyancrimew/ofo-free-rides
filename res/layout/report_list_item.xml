@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/report_item" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/report_item_logo" n1:padding="@dimen/spacing_1dp" n1:layout_width="@dimen/spacing_23dp" n1:layout_height="@dimen/spacing_23dp" n1:scaleType="fitCenter" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" />
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_m" n1:textColor="@color/color_202020" n1:id="@id/report_item_tv" n1:padding="@dimen/spacing_xs" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_17dp" n1:text="@string/report_broken_bike" n1:layout_toRightOf="@id/report_item_logo" n1:layout_centerVertical="true" />
+</RelativeLayout>

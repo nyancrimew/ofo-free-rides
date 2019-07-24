@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="@color/white" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_66"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_m" n1:textColor="@color/color_202020" n1:id="@id/item_title_tv" n1:paddingTop="@dimen/spacing_23dp" n1:paddingBottom="@dimen/spacing_23dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" />
+    <ImageView n1:id="@id/right_icon_iv" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/arrow_right" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" />
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_m" n1:textColor="@color/color_66202020" n1:gravity="end" n1:id="@id/item_content_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_6dp" n1:layout_marginRight="@dimen/spacing_6dp" n1:layout_toLeftOf="@id/right_icon_iv" n1:layout_toRightOf="@id/item_title_tv" n1:layout_centerVertical="true" />
+    <so.ofo.abroad.widget.AutoSizingTextView n1:id="@id/item_line" n1:background="@color/color_efefef" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_2px" n1:layout_alignParentBottom="true" />
+</RelativeLayout>

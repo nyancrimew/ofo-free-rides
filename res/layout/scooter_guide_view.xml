@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <android.support.v4.view.ViewPager n1:id="@id/scooter_guides_viewpager" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+        <me.relex.circleindicator.CircleIndicator n1:id="@id/scooter_guide_introIndicator" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_2x" n1:layout_marginBottom="@dimen/spacing_39dp" n1:layout_alignParentBottom="true" n2:ci_drawable="@drawable/shape_circular_solid_black" n2:ci_drawable_unselected="@drawable/shape_circular_solid_gray_t10" n2:ci_gravity="center" n2:ci_height="@dimen/spacing_11dp" n2:ci_margin="@dimen/spacing_m" n2:ci_orientation="horizontal" n2:ci_width="@dimen/spacing_11dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <TextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/id_guide_confirm_tv" n1:background="@drawable/shape_rect_soild_yellow_selector" n1:padding="@dimen/spacing_l" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_54dp" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_3x" n1:layout_marginBottom="@dimen/spacing_18dp" n1:text="@string/try_now" n1:layout_alignParentBottom="true" n1:textAllCaps="true" />
+    </RelativeLayout>
+</LinearLayout>

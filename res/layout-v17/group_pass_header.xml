@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_131dp">
+        <LinearLayout n1:orientation="vertical" n1:paddingLeft="@dimen/spacing_3x" n1:paddingTop="@dimen/spacing_18dp" n1:visibility="visible" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="1.0" n1:paddingStart="@dimen/spacing_3x">
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_19sp" n1:textColor="@color/color_202020" n1:id="@id/tv_group_pass_name" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_15" n1:textColor="@color/color_202020" n1:id="@id/tv_group_pass_expire" n1:paddingTop="@dimen/spacing_5dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" />
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_13sp" n1:textColor="@color/color_66202020" n1:gravity="center" n1:id="@id/tv_group_pass_cancel_button" n1:background="@drawable/shape_rect_solid_ffffff_stroke_d2d2d2_r6" n1:paddingLeft="@dimen/spacing_l" n1:paddingTop="@dimen/spacing_s" n1:paddingRight="@dimen/spacing_l" n1:paddingBottom="@dimen/spacing_5dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_l" n1:text="@string/pass_manage_button" n1:paddingStart="@dimen/spacing_l" n1:paddingEnd="@dimen/spacing_l" />
+        </LinearLayout>
+        <ImageView n1:id="@id/iv_group_pass_header_icon" n1:layout_width="@dimen/spacing_200dp" n1:layout_height="@dimen/spacing_131dp" n1:src="@mipmap/group_pass_header_icon" n1:scaleType="centerCrop" />
+    </LinearLayout>
+    <View n1:background="@color/gray_bg" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_l" />
+    <View n1:background="@color/white" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_3x" />
+    <TextView n1:textSize="@dimen/font_19sp" n1:textColor="@color/color_202020" n1:paddingLeft="@dimen/spacing_3x" n1:paddingBottom="@dimen/spacing_15dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Group Pass Member" n1:paddingStart="@dimen/spacing_3x" />
+    <View n1:background="#ffd8d8d8" n1:layout_width="fill_parent" n1:layout_height="0.5dip" />
+</LinearLayout>

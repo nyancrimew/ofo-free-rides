@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="@color/black_30" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageButton n1:id="@id/fork_close_iv" n1:background="@null" n1:paddingLeft="@dimen/spacing_6dp" n1:paddingTop="@dimen/spacing_17dp" n1:paddingRight="@dimen/spacing_3x" n1:paddingBottom="@dimen/spacing_3x" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/fork_close_dialog" n1:layout_alignParentRight="true" n1:paddingStart="@dimen/spacing_6dp" n1:paddingEnd="@dimen/spacing_3x" />
+    <android.support.v4.view.ViewPager n1:id="@id/common_vp" n1:background="@color/black_30" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_268" n1:layout_below="@id/fork_close_iv" />
+    <RelativeLayout n1:id="@id/rl_bottom_two" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_21" n1:layout_marginBottom="@dimen/spacing_21" n1:layout_below="@id/common_vp" n1:layout_centerHorizontal="true">
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/point_group_ll" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        <View n1:id="@id/long_point" n1:background="@drawable/shape_dialog_credit_deep_point" n1:visibility="visible" n1:layout_width="@dimen/spacing_l" n1:layout_height="@dimen/spacing_6dp" />
+    </RelativeLayout>
+</RelativeLayout>

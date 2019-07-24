@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:background="@color/white" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/id_account_sel_title_layout" n1:paddingBottom="@dimen/spacing_15dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_below="@id/id_account_sel_loading" n1:layout_alignParentLeft="true" n1:layout_alignParentStart="true">
+        <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:id="@id/id_account_sel_title_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" />
+    </LinearLayout>
+    <ImageView n1:id="@id/id_account_divide" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:src="@drawable/shape_line" n1:layout_below="@id/id_account_sel_title_layout" />
+    <RelativeLayout n1:id="@id/id_content_center_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_below="@id/id_account_divide">
+        <ListView n1:id="@id/id_account_sel_lv" n1:scrollbars="none" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:divider="@drawable/shape_line" n1:layout_centerInParent="true" />
+        <include n1:id="@id/no_data_layout" layout="@layout/layout_no_data" />
+    </RelativeLayout>
+    <include n1:id="@id/id_account_add_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_below="@id/id_content_center_layout" layout="@layout/layout_add_account" />
+    <so.ofo.abroad.widget.ButtonLoadingView n1:id="@id/id_paylist_bottom_btn" n1:background="@drawable/repair_submit_btn_selector" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_54dp" n1:layout_marginBottom="@dimen/spacing_18dp" n1:layout_below="@id/id_account_add_layout" n2:lb_caps="true" n2:lb_text="@string/pay" n2:lb_textcolor="@color/submit_button_textcolor" n2:lb_textsize="@dimen/font_17sp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ProgressBar n1:id="@id/id_account_sel_loading" n1:visibility="gone" n1:layout_width="@dimen/spacing_4x" n1:layout_height="@dimen/spacing_4x" n1:layout_centerInParent="true" style="?android:progressBarStyleSmall" />
+</RelativeLayout>

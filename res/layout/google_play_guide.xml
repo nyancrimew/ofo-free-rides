@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:background="@mipmap/gp_guide_logo" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_21sp" n1:textStyle="bold" n1:textColor="@color/color_202020" n1:gravity="left" n1:id="@id/atx_dialog_title" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_3x" n1:text="@string/enjoy_ofo" />
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:gravity="left" n1:id="@id/atv_dialog_content" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_l" n1:layout_marginRight="@dimen/spacing_3x" n1:text="@string/gp_guide_content" />
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_54dp" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_3x" n1:layout_marginBottom="@dimen/spacing_18dp">
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/black_30" n1:gravity="center" n1:id="@id/gp_guide_cancel" n1:background="@drawable/shape_rect_solid_ffffff_stroke_d2d2d2_r12" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_marginRight="@dimen/spacing_6dp" n1:text="@string/cancel" n1:layout_weight="1.0" />
+        <so.ofo.abroad.widget.ButtonLoadingView n1:id="@id/gp_guide_go" n1:background="@drawable/shape_rect_soild_yellow_selector" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginLeft="@dimen/spacing_6dp" n1:text="@string/ok" n2:lb_caps="true" n2:lb_isBold="true" n2:lb_text="@string/go_gp" n2:lb_textcolor="@color/selector_enable_text" n2:lb_textsize="@dimen/font_17sp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</LinearLayout>

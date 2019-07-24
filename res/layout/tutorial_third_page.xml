@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="-24.0dip">
+        <ImageView n1:id="@id/third_guide_floor" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginRight="-83.0dip" n1:src="@mipmap/tutorial_three_floor" />
+        <ImageView n1:id="@id/third_guide_bike_left" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_14dp" n1:layout_marginTop="@dimen/spacing_260" n1:src="@mipmap/tutorial_three_bike" />
+        <ImageView n1:id="@id/third_guide_bike_right" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_284" n1:layout_marginRight="-188.0dip" n1:src="@mipmap/tutorial_third_bike2" n1:layout_alignParentRight="true" />
+        <ImageView n1:id="@id/third_guide_tips_icon" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_116dp" n1:layout_marginTop="@dimen/spacing_70" n1:src="@mipmap/tutorial_alpha_tip" />
+    </RelativeLayout>
+</LinearLayout>

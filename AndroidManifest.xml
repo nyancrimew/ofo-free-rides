@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="so.ofo.abroad">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.network" android:required="false"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <permission android:name="so.ofo.abroad.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="so.ofo.abroad.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"/>
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT"/>
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="android.permission.READ_APP_BADGE"/>
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ"/>
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="so.ofo.abroad.AbroadApplication" android:supportsRtl="false" android:theme="@style/AppTheme.Light">
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@mipmap/app_icon"/>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/google_map_key"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.contactlist.ContactListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="so.ofo.abroad.ui.splash.SplashActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="@string/growingio_url_scheme"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="so.ofo.abroad.pagejump.ExternalJumpInActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="international" android:scheme="ofoapphelloworld"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTask" android:name="so.ofo.abroad.ui.home.OfoHomeActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="so.ofo.abroad.ui.login.LoginSignupActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.webview.FullScreenWebViewActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.tutorial.TutorialActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.proifle.ProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.home.RebalanceAreaActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.wallet.topUpDetail.WalletDetailListActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.countrylist.CountryListActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.repair.RepairNewActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.illegalparking.IllegalParkingActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.feedback.FeedbackActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.webview.CommonWebviewActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="so.ofo.abroad.ui.payment.addPayment.AddCreditCardActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Black" android:windowSoftInputMode="adjustUnspecified|stateUnspecified"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.payment.addpayselect.AddPayMethodSelActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.wallet.coupons.CouponListActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.wallet.pass.PurchasePassActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="so.ofo.abroad.ui.userbike.scan.ScanQrCodeActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="so.ofo.abroad.ui.userbike.unlock.UnlockActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.trips.TripsListActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Light"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.trips.TripsDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.trips.RiddingEndActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.settings.SettingsActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Light"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.invitation.InvitationActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.about.AboutOfoActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Light"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.promotions.PromotionActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Light"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.payment.paymentList.PaymentActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="so.ofo.abroad.ui.wallet.mywallet.MyWalletActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.wallet.deposit.DepositOrRefundActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.wallet.deposit.WaiveDepositActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.wallet.deposit.DepositAndTopupActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="so.ofo.abroad.ui.wallet.topup.WalletTopUpActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="so.ofo.abroad.ui.inbox.InboxListActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="so.ofo.abroad.ui.inbox.InboxDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.userbike.fence.FenceDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.proifle.credit.CreditActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="so.ofo.abroad.ui.userbike.home.UseBikeHomeActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.guide.ScooterGuideActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="so.ofo.abroad.ui.testset.TestSetActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="so.ofo.abroad.ui.reserve.ReserveActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.login.fbverifycode.FBVerifyCodeActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.trips.RiddingShareActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Yellow"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.contactlist.invitefriend.InviteFriendActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="so.ofo.abroad.service.LocationRecordService"/>
+        <service android:name="so.ofo.abroad.service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="so.ofo.abroad.ui.userbike.usebikebase.refresh.OrderRefreshService"/>
+        <service android:exported="false" android:name="so.ofo.abroad.leanplum.OfoLeanPlumPushListenerService">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.freeweek.FreeWeekActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.freeweek.FreeWeekCongratulationsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.wallet.pass.grouppass.management.GroupPassActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.renew.auto.AutoRenewActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.renew.manual.ManuallyRenewActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.onboarding.OnboardingActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.userbike.lockanimation.LockAnimationActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.pincode.PinCodeActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.reportqr.ReportQrCodeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:exported="false" android:name="so.ofo.abroad.ui.guide.LtaGuideActivity" android:screenOrientation="portrait"/>
+        <activity android:name="so.ofo.abroad.ui.wallet.pass.miningpass.MiningPassActivity" android:screenOrientation="portrait"/>
+        <activity android:name="so.ofo.abroad.ui.crowdsourcecharge.chargehome.ChargeHomeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="so.ofo.abroad.ui.crowdsourcecharge.chargeinfo.ChargeInfoActivity" android:screenOrientation="portrait"/>
+        <activity android:name="so.ofo.abroad.ui.crowdsourcecharge.earnings.ChargerEarningActivity" android:screenOrientation="portrait"/>
+        <provider android:authorities="so.ofo.abroad.provider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <activity android:name="so.ofo.abroad.ui.crowdsourcecharge.deploy.DeployActivity" android:screenOrientation="portrait"/>
+        <activity android:name="so.ofo.abroad.ui.crowdsourcecharge.myscooterList.MyScooterListActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="so.ofo.abroad.ui.lta.LTABillActivity" android:screenOrientation="portrait"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.leanplum.LeanplumPushReceiver">
+            <intent-filter>
+                <action android:name="com.leanplum.LeanplumPushListenerService"/>
+                <action android:name="com.leanplum.LeanplumPushFirebaseMessagingService"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="false" android:exported="true" android:name="com.google.android.gms.gcm.GcmReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <category android:name="so.ofo.abroad"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.leanplum.LeanplumLocalPushListenerService"/>
+        <service android:enabled="false" android:exported="false" android:name="com.leanplum.LeanplumPushListenerService">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="false" android:exported="false" android:name="com.leanplum.LeanplumPushInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.leanplum.LeanplumPushRegistrationService"/>
+        <service android:enabled="false" android:exported="false" android:name="com.leanplum.LeanplumPushFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="false" android:exported="false" android:name="com.leanplum.LeanplumPushFcmListenerService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="com.leanplum.LeanplumFcmServiceHelper">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.leanplum.ReceiveTransitionsIntentService"/>
+        <meta-data android:name="onesignal_app_id" android:value="9dbdb5d5-88fb-4106-9edb-5336ec89b3c6"/>
+        <meta-data android:name="onesignal_google_project_number" android:value="str:REMOTE"/>
+        <receiver android:name="com.onesignal.GcmBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter android:priority="999">
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="so.ofo.abroad"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.onesignal.NotificationOpenedReceiver"/>
+        <service android:name="com.onesignal.GcmIntentService"/>
+        <service android:name="com.onesignal.GcmIntentJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.onesignal.RestoreJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.onesignal.RestoreKickoffJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.onesignal.SyncService" android:stopWithTask="true"/>
+        <service android:name="com.onesignal.SyncJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:name="com.onesignal.PermissionsActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:name="com.onesignal.NotificationRestoreService"/>
+        <receiver android:name="com.onesignal.BootUpReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.onesignal.UpgradeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="orientation" android:name="com.ofo.ofopay.activities.AuthForAddPaymentActivity" android:screenOrientation="portrait" android:theme="@style/NO_TITLE"/>
+        <service android:exported="true" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="so.ofo.abroad.firebaseperfprovider" android:exported="false" android:initOrder="101" android:name="com.google.firebase.perf.provider.FirebasePerfProvider"/>
+        <service android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.perf.component.FirebasePerfRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="so.ofo.abroad.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <provider android:authorities="com.facebook.app.FacebookContentProvider132400110711428" android:exported="true" android:name="com.facebook.FacebookContentProvider"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:label="@string/app_name" android:name="com.facebook.FacebookActivity" android:theme="@style/com_facebook_activity_theme"/>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.ofo.pay.OfoPayActivity" android:screenOrientation="portrait" android:theme="@style/Pay.Translate">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="pay" android:scheme="ofo"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="asia.bluepay.paysdk.result.PayResultActivity"/>
+        <provider android:authorities="so.ofo.abroad.crashlyticsinitprovider" android:exported="false" android:initOrder="90" android:name="com.crashlytics.android.CrashlyticsInitProvider"/>
+        <receiver android:name="so.ofo.bluetooth.BLEController$BleStatusReceiver"/>
+        <receiver android:name="so.ofo.bluetooth.operation.orderhand.BaseOrderHandler$BleDataChangeReceiver"/>
+        <provider android:authorities="so.ofo.abroad.FacebookInitProvider" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
+    </application>
+</manifest>

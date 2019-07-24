@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/id_rl_deposit" n1:background="@color/white" n1:paddingLeft="@dimen/spacing_3x" n1:paddingRight="@dimen/spacing_3x" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/id_waive_deposit" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_19sp" n1:textStyle="normal" n1:textColor="@color/color_202020" n1:id="@id/id_deposit_title_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_s" n1:text="@string/deposit_free" />
+            <RelativeLayout n1:id="@id/id_rl_deposit_free" n1:background="@drawable/selector_f5f5f5_ffe300_bl_br12_bg" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_18dp">
+                <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_17x">
+                    <LinearLayout n1:orientation="vertical" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+                        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                            <TextView n1:textSize="@dimen/font_3x" n1:textColor="@color/color_202020" n1:id="@id/id_deposit_money_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:maxLines="1" n1:layout_marginStart="@dimen/spacing_3x" />
+                        </LinearLayout>
+                        <TextView n1:textSize="@dimen/spacing_l" n1:textColor="@color/color_202020" n1:id="@id/id_actual_deposit_free" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginStart="@dimen/spacing_3x" />
+                    </LinearLayout>
+                    <TextView n1:textSize="@dimen/spacing_x" n1:textColor="@color/white" n1:gravity="center" n1:background="@drawable/shape_rect_solid_ffea475d_r2" n1:paddingLeft="@dimen/spacing_7dp" n1:paddingTop="@dimen/spacing_3px" n1:paddingRight="@dimen/spacing_7dp" n1:paddingBottom="@dimen/spacing_3px" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/spacing_5x" n1:text="@string/deposit_recommended" />
+                </LinearLayout>
+                <ImageView n1:id="@id/id_top_up_select_iv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/select_yellow" n1:layout_alignParentTop="true" n1:layout_alignParentRight="true" n1:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/id_depositMsg_ll" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_x">
+            <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/deposit_icon" />
+            <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_s" n1:textStyle="normal" n1:textColor="@color/color_202020" n1:id="@id/id_depositMsg_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_5dp" />
+        </LinearLayout>
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/id_bonusMsg_ll" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_l">
+            <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/deposit_icon" />
+            <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_s" n1:textColor="@color/color_202020" n1:id="@id/id_bonusMsg_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_5dp" n1:singleLine="true" />
+        </LinearLayout>
+        <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_19sp" n1:textColor="@color/color_202020" n1:id="@id/tv_deposit_balance_title" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_5dp" n1:layout_marginTop="@dimen/spacing_x" n1:text="@string/deposit_and_balance" n1:singleLine="true" />
+        <RelativeLayout n1:id="@id/id_rl_deposit_balance" n1:background="@drawable/selector_f5f5f5_ffe300_bl_br12_bg" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_18dp">
+            <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_17x">
+                <LinearLayout n1:orientation="vertical" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+                    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                        <TextView n1:textSize="@dimen/font_3x" n1:textColor="@color/color_202020" n1:id="@id/id_deposit_balance_money_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:maxLines="1" n1:layout_marginStart="@dimen/spacing_3x" />
+                    </LinearLayout>
+                    <TextView n1:textSize="@dimen/spacing_l" n1:textColor="@color/color_202020" n1:id="@id/id_actual_deposit_balance" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginStart="@dimen/spacing_3x" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView n1:id="@id/id_top_up_balance_select_iv" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/select_yellow" n1:layout_alignParentTop="true" n1:layout_alignParentRight="true" n1:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <FrameLayout n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0" />
+        <so.ofo.abroad.ui.wallet.PaymentSelectedView n1:id="@id/id_deposit_payment_select_view" n1:visibility="invisible" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_5dp" />
+        <TextView n1:textSize="@dimen/font_xs" n1:textColor="@color/black_50" n1:id="@id/deposit_policy_id" n1:visibility="visible" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_13dp" n1:layout_marginBottom="@dimen/spacing_96dp" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/id_ll_refund" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <LinearLayout n1:gravity="center_horizontal" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_14x">
+            <so.ofo.abroad.widget.IconMoonTypefaceTextView n1:textSize="@dimen/font_21sp" n1:textColor="@color/color_202020" n1:id="@id/id_refund_currency_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <so.ofo.abroad.widget.IconMoonTypefaceTextView n1:textSize="@dimen/font_51" n1:textColor="@color/color_202020" n1:id="@id/id_refund_money_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" />
+        </LinearLayout>
+        <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_s" n1:textStyle="normal" n1:textColor="@color/color_cc202020" n1:gravity="center_horizontal" n1:id="@id/id_defund_prompt_tv" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_x" n1:text="@string/deposit_description" />
+    </LinearLayout>
+    <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/id_ll_waive" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <ImageView n1:id="@id/id_waive_img" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_46dp" n1:src="@mipmap/wallet_big" />
+        <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_21sp" n1:textColor="@color/color_202020" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_7x" n1:text="@string/no_deposit" n1:maxLines="1" />
+        <TextView n1:textSize="@dimen/font_m" n1:textStyle="normal" n1:textColor="@color/color_cc202020" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_l" n1:text="@string/deposit_thanks" />
+    </LinearLayout>
+</RelativeLayout>

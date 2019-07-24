@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:layout_gravity="center" n1:orientation="vertical" n1:id="@id/loading" n1:paddingBottom="@dimen/spacing_17x" n1:layout_width="fill_parent" n1:layout_height="500.0dip" n1:layout_marginBottom="@dimen/spacing_12x"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/custom_image" n1:visibility="gone" n1:layout_width="@dimen/spacing_10x" n1:layout_height="@dimen/spacing_10x" n1:layout_marginTop="@dimen/spacing_s" n1:scaleType="fitCenter" n1:contentDescription="@string/app_name" />
+    <FrameLayout n1:id="@id/error_frame" n1:visibility="gone" n1:layout_width="@dimen/spacing_10x" n1:layout_height="@dimen/spacing_10x" n1:layout_marginTop="@dimen/spacing_s">
+        <View n1:background="@drawable/loading_error_circle" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+        <ImageView n1:id="@id/error_x" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:src="@drawable/loading_error_center_x" n1:scaleType="center" n1:contentDescription="@string/app_name" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/success_frame" n1:visibility="gone" n1:layout_width="@dimen/spacing_10x" n1:layout_height="@dimen/spacing_10x" n1:layout_marginTop="@dimen/spacing_s">
+        <View n1:background="@drawable/loading_success_bow" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+        <View n1:layout_gravity="right" n1:id="@id/mask_right" n1:background="@android:color/transparent" n1:layout_width="@dimen/spacing_6x" n1:layout_height="@dimen/spacing_17x" n1:layout_marginTop="-13.0dip" />
+        <View n1:layout_gravity="left" n1:id="@id/mask_left" n1:background="@android:color/transparent" n1:layout_width="@dimen/spacing_2x" n1:layout_height="@dimen/spacing_12x" n1:layout_marginLeft="-3.0dip" />
+        <View n1:background="@drawable/loading_success_circle" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+        <so.ofo.abroad.widget.loading.SuccessTickView n1:id="@id/success_tick" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/warning_frame" n1:visibility="gone" n1:layout_width="@dimen/spacing_10x" n1:layout_height="@dimen/spacing_10x" n1:layout_marginTop="@dimen/spacing_s">
+        <View n1:background="@drawable/loading_warning_circle" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+        <ImageView n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:src="@drawable/loading_warning_sigh" n1:scaleType="center" n1:contentDescription="@string/app_name" />
+    </FrameLayout>
+    <FrameLayout n1:layout_gravity="center" n1:orientation="vertical" n1:id="@id/progress_dialog" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_m">
+        <so.ofo.abroad.widget.loading.ProgressWheel n1:layout_gravity="center" n1:id="@id/progressWheel" n1:layout_width="@dimen/spacing_10x" n1:layout_height="@dimen/spacing_10x" n2:matProg_progressIndeterminate="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_x" n1:textColor="@color/white" n1:id="@id/title_text" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_2x" n1:text="@string/verification_completed" n1:maxLines="1" />
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_10x" n1:textColor="@color/white" n1:gravity="center" n1:id="@id/content_text" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_l" n1:text="@string/login_success_tip" n1:textAlignment="center" />
+</LinearLayout>

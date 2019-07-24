@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item>
+        <layer-list>
+            <item n1:top="1.0dip" n1:right="1.0dip"
+              xmlns:n1="http://schemas.android.com/apk/res/android">
+                <layer-list>
+                    <item>
+                        <shape n1:shape="oval">
+                            <solid n1:color="#04000000" />
+                            <padding n1:left="3.0px" n1:top="3.0px" n1:right="3.0px" n1:bottom="3.0px" />
+                        </shape>
+                    </item>
+                    <item>
+                        <shape n1:shape="oval">
+                            <solid n1:color="#05000000" />
+                            <padding n1:left="2.0px" n1:top="2.0px" n1:right="2.0px" n1:bottom="2.0px" />
+                        </shape>
+                    </item>
+                    <item>
+                        <shape n1:shape="oval">
+                            <solid n1:color="#06000000" />
+                            <padding n1:left="2.0px" n1:top="2.0px" n1:right="2.0px" n1:bottom="2.0px" />
+                        </shape>
+                    </item>
+                    <item>
+                        <shape n1:shape="oval">
+                            <solid n1:color="#07000000" />
+                            <padding n1:left="1.0px" n1:top="1.0px" n1:right="1.0px" n1:bottom="1.0px" />
+                        </shape>
+                    </item>
+                    <item>
+                        <shape n1:shape="oval">
+                            <solid n1:color="#08000000" />
+                            <padding n1:left="1.0px" n1:top="1.0px" n1:right="1.0px" n1:bottom="1.0px" />
+                        </shape>
+                    </item>
+                    <item>
+                        <shape n1:shape="oval">
+                            <solid n1:color="#09000000" />
+                            <padding n1:left="1.0px" n1:top="1.0px" n1:right="1.0px" n1:bottom="1.0px" />
+                        </shape>
+                    </item>
+                    <item>
+                        <shape n1:shape="oval">
+                            <solid n1:color="#10000000" />
+                            <padding n1:left="1.0px" n1:top="1.0px" n1:right="1.0px" n1:bottom="1.0px" />
+                        </shape>
+                    </item>
+                    <item>
+                        <shape n1:shape="oval">
+                            <solid n1:color="#11000000" />
+                            <padding n1:left="1.0px" n1:top="1.0px" n1:right="1.0px" n1:bottom="1.0px" />
+                        </shape>
+                    </item>
+                    <item>
+                        <shape n1:shape="oval">
+                            <solid n1:color="#12000000" />
+                            <padding n1:left="1.0px" n1:top="1.0px" n1:right="1.0px" n1:bottom="1.0px" />
+                        </shape>
+                    </item>
+                </layer-list>
+            </item>
+        </layer-list>
+        <item>
+            <shape n2:shape="oval"
+              xmlns:n2="http://schemas.android.com/apk/res/android">
+                <solid n2:color="#12000000" />
+            </shape>
+        </item>
+    </item>
+</selector>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<so.ofo.abroad.widget.SlidingButtonView n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <TextView n1:textSize="@dimen/font_m" n1:textColor="@color/white" n1:gravity="center" n1:id="@id/tv_delete" n1:background="@color/color_f14c64" n1:paddingTop="30.0dip" n1:paddingBottom="31.0dip" n1:layout_width="81.0dip" n1:layout_height="wrap_content" n1:layout_marginBottom="0.0dip" n1:text="@string/delete" n1:layout_toRightOf="@id/trip_list_item_content" />
+        <LinearLayout n1:orientation="vertical" n1:id="@id/trip_list_item_content" n1:background="@color/white" n1:paddingLeft="@dimen/spacing_3x" n1:paddingRight="@dimen/spacing_3x" n1:clipChildren="true" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_23dp">
+                <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_m" n1:textColor="@color/color_202020" n1:id="@id/trips_order_time_tv" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0" />
+                <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_m" n1:textColor="@color/color_202020" n1:id="@id/trips_order_price_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            </LinearLayout>
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_13sp" n1:textColor="@color/color_99202020" n1:gravity="left" n1:id="@id/trips_order_duration_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_3dp" n1:layout_marginBottom="@dimen/spacing_21" />
+            <View n1:id="@id/trip_list_item_line" n1:paddingLeft="@dimen/spacing_3x" n1:paddingRight="@dimen/spacing_3x" style="@style/line" />
+        </LinearLayout>
+    </RelativeLayout>
+</so.ofo.abroad.widget.SlidingButtonView>

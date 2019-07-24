@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textSize="@dimen/font_11sp" n1:textColor="@color/black" n1:gravity="center_vertical" n1:id="@id/tv_car_num" n1:background="@drawable/shape_rect_fill_d8d8d8_r12" n1:paddingLeft="@dimen/spacing_14dp" n1:paddingRight="@dimen/spacing_14dp" n1:layout_width="wrap_content" n1:layout_height="@dimen/spacing_24dp" n1:paddingHorizontal="@dimen/spacing_14dp" />
+</LinearLayout>

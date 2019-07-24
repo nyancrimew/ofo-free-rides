@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:background="@drawable/bubble_bg_white" n1:layout_width="wrap_content" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="@dimen/spacing_6dp">
+        <ImageView n1:id="@id/range_bike_icon" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/bike_scooter_small" />
+        <RelativeLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_5dp" n1:layout_marginTop="@dimen/spacing_6dp" n1:layout_marginBottom="@dimen/spacing_6dp" n1:layout_toRightOf="@id/range_bike_icon" n1:layout_alignTop="@id/range_bike_icon" n1:layout_alignBottom="@id/range_bike_icon">
+            <so.ofo.abroad.widget.IconMoonTypefaceTextView n1:textSize="@dimen/font_17sp" n1:textStyle="bold" n1:textColor="@color/color_202020" n1:id="@id/ride_range_value" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentTop="true" />
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_xs" n1:textColor="@color/color_68202020" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_10dp" n1:text="Ride Range" n1:layout_centerVertical="true" />
+            <ImageView n1:id="@id/id_ride_rang_battery_iv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

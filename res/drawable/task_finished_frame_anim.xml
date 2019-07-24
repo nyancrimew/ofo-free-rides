@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list n1:oneshot="false"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <item n1:duration="70" n1:drawable="@mipmap/task_finished_1" />
+    <item n1:duration="70" n1:drawable="@mipmap/task_finished_2" />
+    <item n1:duration="70" n1:drawable="@mipmap/task_finished_3" />
+    <item n1:duration="70" n1:drawable="@mipmap/task_finished_4" />
+    <item n1:duration="70" n1:drawable="@mipmap/task_finished_5" />
+    <item n1:duration="70" n1:drawable="@mipmap/task_finished_6" />
+    <item n1:duration="70" n1:drawable="@mipmap/task_finished_7" />
+    <item n1:duration="70" n1:drawable="@mipmap/task_finished_8" />
+    <item n1:duration="70" n1:drawable="@mipmap/task_finished_9" />
+    <item n1:duration="70" n1:drawable="@mipmap/task_finished_10" />
+    <item n1:duration="70" n1:drawable="@mipmap/task_finished_11" />
+    <item n1:duration="70" n1:drawable="@mipmap/task_finished_12" />
+    <item n1:duration="70" n1:drawable="@mipmap/task_finished_13" />
+    <item n1:duration="70" n1:drawable="@mipmap/task_finished_14" />
+    <item n1:duration="70" n1:drawable="@mipmap/task_finished_15" />
+</animation-list>

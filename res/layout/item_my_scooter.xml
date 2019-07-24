@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:paddingLeft="@dimen/spacing_31dp" n1:paddingRight="@dimen/spacing_31dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/ll_group" n1:background="@color/gray_F8" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_89">
+        <RelativeLayout n1:id="@id/rl_group_select" n1:visibility="gone" n1:layout_width="@dimen/spacing_31dp" n1:layout_height="fill_parent">
+            <ImageView n1:id="@id/iv_select" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/selector_deploy_scooter" n1:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout n1:paddingLeft="@dimen/spacing_15dp" n1:paddingTop="@dimen/spacing_16dp" n1:paddingRight="@dimen/spacing_15dp" n1:paddingBottom="@dimen/spacing_16dp" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <ImageView n1:layout_gravity="center" n1:id="@id/iv_repair" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/spacing_3dp" n1:src="@mipmap/marker" n1:layout_toLeftOf="@id/tv_title" />
+                <TextView n1:textSize="@dimen/font_13sp" n1:textColor="@color/black" n1:id="@id/tv_title_front" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="ofo95273146" />
+                <TextView n1:textSize="@dimen/font_16sp" n1:textColor="@color/black" n1:id="@id/tv_title_after" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="ofo95273146" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="horizontal" n1:background="@drawable/shape_rect_solid_stroke_d2d2d2_r12" n1:paddingLeft="@dimen/spacing_18dp" n1:paddingRight="@dimen/spacing_18dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true">
+                <ImageView n1:layout_gravity="center_vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/spacing_3dp" n1:src="@mipmap/pack_up" />
+                <TextView n1:textSize="@dimen/font_11sp" n1:textColor="@color/black" n1:id="@id/tv_time" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="03/01 08:20" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true">
+                <LinearLayout n1:layout_gravity="center_horizontal" n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                    <ImageView n1:layout_gravity="center_horizontal" n1:id="@id/iv_charging" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/charging" />
+                    <so.ofo.abroad.widget.BatteryView n1:id="@id/iv_battery" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView n1:textSize="@dimen/font_11sp" n1:textColor="@color/black" n1:layout_gravity="center_horizontal" n1:id="@id/tv_power_percent" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="55%" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

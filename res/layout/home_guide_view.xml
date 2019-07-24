@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v4.view.ViewPager n1:id="@id/home_guide_viewpager" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+    <me.relex.circleindicator.CircleIndicator n1:layout_gravity="bottom" n1:id="@id/home_guide_introIndicator" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_2x" n1:layout_marginBottom="30.0dip" n2:ci_drawable="@drawable/shape_circular_solid_black" n2:ci_drawable_unselected="@drawable/shape_circular_solid_gray_t10" n2:ci_gravity="center" n2:ci_height="@dimen/spacing_11dp" n2:ci_margin="@dimen/spacing_m" n2:ci_orientation="horizontal" n2:ci_width="@dimen/spacing_11dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:layout_gravity="bottom" n1:orientation="vertical" n1:id="@id/third_guide_text_layout" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_23sp" n1:textStyle="bold" n1:textColor="@color/color_202020" n1:gravity="left" n1:id="@id/third_guide_title" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_18dp" n1:layout_marginTop="@dimen/spacing_30" n1:layout_marginRight="@dimen/spacing_18dp" n1:text="@string/home_guide_p_three" />
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:gravity="left" n1:id="@id/third_guide_content" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_18dp" n1:layout_marginTop="@dimen/spacing_xs" n1:layout_marginRight="@dimen/spacing_18dp" n1:text="@string/home_guide_c_three" />
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/horizontal_button_group" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_37dp" n1:layout_marginRight="@dimen/spacing_3x" n1:layout_marginBottom="@dimen/spacing_18dp">
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/tutorial_trynow_btn" n1:background="@drawable/shape_rect_soild_yellow_selector" n1:paddingLeft="@dimen/spacing_l" n1:paddingRight="@dimen/spacing_l" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_54dp" n1:layout_marginLeft="@dimen/spacing_6dp" n1:text="@string/try_now" n1:textAllCaps="true" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

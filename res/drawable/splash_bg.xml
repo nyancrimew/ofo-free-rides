@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <bitmap n1:src="@mipmap/splash" n1:scaleType="centerCrop"
+          xmlns:n1="http://schemas.android.com/apk/res/android" />
+    </item>
+</layer-list>

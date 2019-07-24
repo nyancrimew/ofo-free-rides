@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ScrollView n1:scrollbars="none" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/container" n1:paddingLeft="@dimen/spacing_4x" n1:paddingRight="@dimen/spacing_4x" n1:paddingBottom="@dimen/spacing_4x" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:paddingStart="@dimen/spacing_4x" n1:paddingEnd="@dimen/spacing_4x">
+            <TextView n1:textSize="@dimen/font_3x" n1:textStyle="bold" n1:textColor="@color/black" n1:id="@id/textView2" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/invite_friends_tips" />
+            <ImageView n1:layout_gravity="right" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_m" n1:src="@mipmap/img_invite_middle" />
+            <TextView n1:textSize="@dimen/font_m" n1:textColor="@color/black" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_s" n1:text="@string/your_invitation_code" />
+            <TextView n1:textSize="@dimen/font_3x" n1:textStyle="bold|italic" n1:textColor="@color/black" n1:id="@id/tv_invitation_code" n1:background="@drawable/shape_rect_stroke_yellow_t0_r3" n1:paddingLeft="@dimen/spacing_x" n1:paddingTop="@dimen/spacing_l" n1:paddingBottom="@dimen/spacing_l" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_m" n1:textIsSelectable="true" />
+            <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_4x">
+                <TextView n1:textSize="@dimen/font_l" n1:textColor="@color/white" n1:gravity="center" n1:id="@id/btn_share_to_fb" n1:background="@drawable/shape_rect_soild_578cca" n1:paddingTop="@dimen/spacing_l" n1:paddingBottom="@dimen/spacing_l" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/facebook" n1:layout_weight="1.0" />
+                <TextView n1:textSize="@dimen/font_l" n1:textColor="@color/white" n1:gravity="center" n1:id="@id/btn_share_to_tw" n1:background="@drawable/shape_rect_soild_2dbdf0" n1:paddingTop="@dimen/spacing_l" n1:paddingBottom="@dimen/spacing_l" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_x" n1:text="@string/twitter" n1:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

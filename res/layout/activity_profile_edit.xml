@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@color/white" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:clickable="false" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_3x" style="@style/PorifleHorizontalMargin">
+        <TextView n1:textSize="@dimen/font_x" n1:textColor="@color/color_202020" n1:id="@id/editInfoTitle" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Name" n1:layout_alignParentLeft="true" />
+        <ImageView n1:id="@id/closeEdit" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/sel_pay_close" n1:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" style="@style/PorifleHorizontalMargin">
+        <so.ofo.abroad.widget.SelectSex n1:id="@id/selectSex" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_41dp" n1:layout_marginBottom="@dimen/spacing_41dp" />
+        <so.ofo.abroad.widget.AutoStyledEditText n1:id="@id/profile_edit_ed" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_41dp" n1:layout_marginBottom="@dimen/spacing_7x" n2:normal_line_color="@color/color_202020" n2:text_color="@color/color_202020" n2:text_size="@dimen/font_17sp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+    <so.ofo.abroad.widget.ButtonLoadingView n1:id="@id/profile_edit_confirm" n1:background="@drawable/selector_enable_view_bg" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_11dp" n3:lb_isBold="true" n3:lb_text="@string/save" n3:lb_textcolor="@color/selector_enable_text" n3:lb_textsize="@dimen/font_17sp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

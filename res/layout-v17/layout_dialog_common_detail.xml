@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:paddingLeft="@dimen/spacing_4x" n1:paddingRight="@dimen/spacing_4x" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:paddingStart="@dimen/spacing_4x" n1:paddingEnd="@dimen/spacing_4x"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:background="@color/color_4c000000" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <TextView n1:textSize="@dimen/font_19sp" n1:textColor="@color/white" n1:gravity="center" n1:layout_gravity="center_vertical" n1:id="@id/title_name_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_18dp" n1:text="@string/cvv_cvc" n1:singleLine="true" />
+        <ImageView n1:layout_gravity="center_horizontal" n1:id="@id/show_icon_iv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_l" n1:src="@mipmap/card_credit_cvv_front" />
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_15" n1:textColor="@color/white" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/help_des_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_29" n1:layout_marginTop="@dimen/spacing_l" n1:layout_marginRight="@dimen/spacing_29" n1:layout_marginBottom="@dimen/spacing_15dp" n1:text="@string/card_cvc_des" />
+    </LinearLayout>
+</LinearLayout>

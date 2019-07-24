@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@color/white" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_11x" n1:layout_marginLeft="@dimen/spacing_4x">
+            <ImageView n1:id="@id/item_icon" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/spacing_2x" />
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_s" n1:textColor="@color/black_30" n1:id="@id/item_title_tv" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0" />
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_s" n1:textColor="@color/black" n1:id="@id/item_content_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <RelativeLayout n1:layout_width="@dimen/spacing_8x" n1:layout_height="fill_parent">
+                <ImageView n1:id="@id/right_icon_iv" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/arrow_right" n1:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <View n1:id="@id/shade" n1:background="@color/white_60" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_11x" />
+    </RelativeLayout>
+    <so.ofo.abroad.widget.AutoSizingTextView n1:id="@id/item_line" n1:background="@color/gray_40" n1:layout_width="fill_parent" n1:layout_height="1.0px" />
+</LinearLayout>

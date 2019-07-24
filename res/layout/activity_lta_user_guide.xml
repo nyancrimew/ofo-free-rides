@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ScrollView n1:scrollbars="none" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginTop="@dimen/spacing_27dp" n1:layout_above="@id/id_guide_confirm_tv">
+        <LinearLayout n1:orientation="vertical" n1:paddingLeft="@dimen/spacing_24dp" n1:paddingRight="@dimen/spacing_24dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_5x" n1:textColor="@color/color_202020" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/how_to_end_trip" />
+            <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_24dp">
+                <TextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/find_nearby_park_spot" />
+                <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/spacing_17dp" n1:src="@mipmap/guide_park_spot" n1:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_41dp">
+                <TextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/lta_scan_to_end" n1:layout_alignParentRight="true" />
+                <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/guide_lta_scan" />
+            </RelativeLayout>
+            <TextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:id="@id/id_guide_tip_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_38dp" />
+            <TextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_3d78ff" n1:id="@id/id_guide_policy_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_l" />
+        </LinearLayout>
+    </ScrollView>
+    <TextView n1:textSize="@dimen/font_17sp" n1:textStyle="bold" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/id_guide_confirm_tv" n1:background="@color/color_ffe300" n1:paddingTop="@dimen/spacing_15dp" n1:paddingBottom="@dimen/spacing_15dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" n1:textAllCaps="true" />
+</RelativeLayout>

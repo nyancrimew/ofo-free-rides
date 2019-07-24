@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_minus_24dp">
+        <RelativeLayout n1:id="@id/rl_tutorial_bike" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <ImageView n1:id="@id/iv_lock_animation_floor" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/spacing_minus_83dp" n1:src="@mipmap/tutorial_three_floor" />
+            <ImageView n1:id="@id/iv_lock_animation_bike_left" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_14dp" n1:layout_marginTop="@dimen/spacing_260" n1:src="@mipmap/tutorial_three_bike" />
+            <ImageView n1:id="@id/iv_lock_animation_bike_right" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_284" n1:layout_marginRight="@dimen/spacing_minus_188dp" n1:src="@mipmap/tutorial_third_bike2" n1:layout_alignParentRight="true" />
+            <ImageView n1:id="@id/iv_lock_animation_tips_icon" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_116dp" n1:layout_marginTop="@dimen/spacing_70" n1:src="@mipmap/tutorial_alpha_tip" />
+        </RelativeLayout>
+        <RelativeLayout n1:id="@id/rl_tutorial_scooter" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <ImageView n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:src="@mipmap/tutorial_scooter_unlook" n1:adjustViewBounds="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true">
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_23sp" n1:textStyle="bold" n1:textColor="@color/color_202020" n1:gravity="left" n1:id="@id/tv_lock_animation_title" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_18dp" n1:layout_marginTop="@dimen/spacing_30" n1:layout_marginRight="@dimen/spacing_18dp" n1:text="@string/home_guide_p_three" />
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:gravity="left" n1:id="@id/tv_lock_animation_content" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_18dp" n1:layout_marginTop="@dimen/spacing_xs" n1:layout_marginRight="@dimen/spacing_18dp" n1:text="@string/home_guide_c_three" />
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_37dp" n1:layout_marginRight="@dimen/spacing_3x" n1:layout_marginBottom="@dimen/spacing_18dp">
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/tv_lock_animation_cancel" n1:background="@drawable/shape_rect_solid_ffffff_stroke_d2d2d2_r12" n1:paddingLeft="@dimen/spacing_l" n1:paddingRight="@dimen/spacing_l" n1:layout_width="wrap_content" n1:layout_height="@dimen/spacing_54dp" n1:layout_marginRight="@dimen/spacing_3x" n1:text="@string/cancel" n1:layout_weight="1.0" n1:textAllCaps="true" />
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/tv_lock_animation_confirm" n1:background="@drawable/shape_rect_soild_yellow_selector" n1:paddingLeft="@dimen/spacing_l" n1:paddingRight="@dimen/spacing_l" n1:layout_width="wrap_content" n1:layout_height="@dimen/spacing_54dp" n1:text="@string/confirm" n1:layout_weight="1.0" n1:textAllCaps="true" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

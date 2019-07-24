@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_s" n1:textColor="@color/gray_10" n1:gravity="center_vertical" n1:layout_gravity="left" n1:id="@id/letter_header" n1:paddingTop="@dimen/spacing_x" n1:paddingBottom="@dimen/spacing_x" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <View n1:id="@id/view_divider1" n1:background="@color/gray_30" n1:layout_width="fill_parent" n1:layout_height="0.5dip" />
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <ImageView n1:layout_gravity="center_vertical" n1:id="@id/country_flag_iv" n1:background="@mipmap/flag_default" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_m" n1:textColor="@color/black" n1:layout_gravity="center_vertical" n1:id="@id/country_name_tv" n1:paddingTop="@dimen/spacing_x" n1:paddingBottom="@dimen/spacing_x" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_m" />
+    </LinearLayout>
+    <View n1:id="@id/view_divider2" n1:background="@color/gray_30" n1:layout_width="fill_parent" n1:layout_height="0.5dip" />
+</LinearLayout>

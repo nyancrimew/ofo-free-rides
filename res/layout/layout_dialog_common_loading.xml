@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:background="@mipmap/loading_rect" n1:layout_width="141.0dip" n1:layout_height="141.0dip">
+        <com.airbnb.lottie.LottieAnimationView n1:id="@id/animation_view" n1:layout_width="62.0dip" n1:layout_height="58.0dip" n1:layout_marginLeft="50.0dip" n1:layout_marginTop="37.0dip" n1:layout_marginRight="50.0dip" n1:layout_marginBottom="65.0dip" n2:lottie_autoPlay="true" n2:lottie_fileName="loading.json" n2:lottie_loop="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+</LinearLayout>

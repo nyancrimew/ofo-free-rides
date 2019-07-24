@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <so.ofo.abroad.widget.BankCardEditText n1:textColorHint="@color/white_60" n1:id="@id/card_number_ed" n1:hint="@string/card_number" n1:maxLength="23" n1:drawableLeft="@mipmap/bank_card" n1:drawablePadding="@dimen/spacing_x" n1:inputType="number" n1:textCursorDrawable="@drawable/shape_cursor_3d78ff" n1:drawableStart="@mipmap/bank_card" style="@style/AddCardStyle" />
+    <EditText n1:textColorHint="@color/white_60" n1:id="@id/holder_name_ed" n1:background="@drawable/selector_et_white" n1:layout_marginTop="@dimen/spacing_2x" n1:hint="@string/holder_name" n1:drawableLeft="@mipmap/bank_card_holder" n1:drawablePadding="@dimen/spacing_x" n1:inputType="textPersonName" n1:textCursorDrawable="@drawable/shape_cursor_3d78ff" n1:drawableStart="@mipmap/bank_card_holder" style="@style/AddCardStyle" />
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_2x">
+        <so.ofo.abroad.widget.DrawableEditText n1:textColorHint="@color/white_60" n1:id="@id/date_ed" n1:hint="@string/mm_yy" n1:maxLength="5" n1:drawableRight="@mipmap/card_tip" n1:layout_weight="1.0" n1:layout_centerVertical="true" n1:inputType="datetime" n1:textCursorDrawable="@drawable/shape_cursor_3d78ff" style="@style/AddCardStyle" />
+        <View n1:layout_width="@dimen/spacing_7x" n1:layout_height="@dimen/spacing_2x" />
+        <so.ofo.abroad.widget.DrawableEditText n1:textColorHint="@color/white_60" n1:id="@id/cvv_ed" n1:hint="@string/cvv_cvc_cid" n1:maxLength="4" n1:drawableRight="@mipmap/card_tip" n1:layout_weight="1.0" n1:layout_centerVertical="true" n1:inputType="number" n1:textCursorDrawable="@drawable/shape_cursor_3d78ff" style="@style/AddCardStyle" />
+    </LinearLayout>
+</LinearLayout>

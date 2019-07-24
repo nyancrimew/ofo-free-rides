@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:fitsSystemWindows="true" n1:clipToPadding="true" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/verify_code_back" n1:layout_width="23.0dip" n1:layout_height="23.0dip" n1:layout_marginLeft="@dimen/spacing_3x" n1:src="@mipmap/arrow_back_black" />
+    <RelativeLayout n1:background="@drawable/shape_rect_solid_white_t0_r16" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginTop="@dimen/spacing_19dp" n1:layout_below="@id/verify_code_back">
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_19sp" n1:textColor="@color/color_202020" n1:id="@id/id_verify_mobile_prompt_tv" n1:paddingLeft="@dimen/spacing_3x" n1:paddingRight="@dimen/spacing_3x" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_3x" n1:text="@string/login_verifycode_format_str" />
+        <so.ofo.abroad.widget.gridpwd.GridPasswordView n1:layout_gravity="center_horizontal" n1:id="@id/id_verify_pwd" n1:layout_width="wrap_content" n1:layout_height="@dimen/spacing_10x" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_18dp" n1:layout_below="@id/id_verify_mobile_prompt_tv" n2:gpvPadding="@dimen/spacing_5dp" n2:gpvPasswordType="numberPassword" n2:gpvWidth="@dimen/spacing_7x" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <TextView n1:textSize="@dimen/font_15" n1:textColor="@color/color_f14c64" n1:id="@id/id_verify_msg_tv" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_3x" n1:layout_below="@id/id_verify_pwd" n1:layout_alignLeft="@id/id_verify_pwd" />
+        <so.ofo.abroad.widget.AutoSizingTextView n1:enabled="false" n1:textSize="@dimen/font_17sp" n1:textColor="@drawable/selector_text" n1:id="@id/id_verify_send_again_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_3x" n1:text="@string/verifycode_send_again" n1:layout_below="@id/id_verify_msg_tv" />
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_s" n1:textColor="@color/color_66202020" n1:id="@id/id_verify_not_receive_tv" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_18dp" n1:layout_below="@id/id_verify_send_again_tv" />
+        <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true">
+            <include n1:id="@id/id_keyboard_view" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" layout="@layout/layout_keyboard_number" />
+            <so.ofo.abroad.widget.ButtonLoadingView n1:id="@id/verify_go" n1:background="@drawable/selector_enable_view_bg" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_above="@id/id_keyboard_view" n3:lb_caps="true" n3:lb_isBold="true" n3:lb_text="@string/go_gp" n3:lb_textcolor="@color/selector_enable_text" n3:lb_textsize="@dimen/font_17sp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

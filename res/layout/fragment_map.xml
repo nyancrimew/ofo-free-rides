@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="@color/common_bg" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/fragment" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+    <FrameLayout n1:id="@id/center_marker_map" n1:paddingBottom="4.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/center_marker" />
+        <ImageView n1:id="@id/center_point_in_marker" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/center_point_marker" />
+    </FrameLayout>
+    <so.ofo.abroad.ui.home.HomeBottomCard n1:id="@id/bottom_zone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true" />
+    <so.ofo.abroad.ui.home.BannerView n1:id="@id/id_banner_bv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentTop="true" />
+    <so.ofo.abroad.ui.home.PriceBannerView n1:id="@id/price_banner_view" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentTop="true" />
+</RelativeLayout>

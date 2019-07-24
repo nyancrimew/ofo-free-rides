@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="right" n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <RelativeLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <TextView n1:textSize="@dimen/font_15" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/id_home_activity_tv" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_17dp" n1:layout_marginRight="@dimen/spacing_14dp" n1:maxLines="1" n1:layout_alignParentRight="true" />
+            <ImageView n1:id="@id/id_home_task_img" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentTop="true" n1:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <TextView n1:textSize="@dimen/font_15" n1:textColor="@color/white" n1:gravity="center_vertical" n1:id="@id/id_home_free_week_bt" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="-40.0dip" n1:maxLines="1" />
+    </LinearLayout>
+    <ImageView n1:id="@id/top_shadow_view" n1:background="@mipmap/card_shadow" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_minus_25" />
+    <RelativeLayout n1:id="@id/rl_bottom" n1:background="@drawable/shape_rect_solid_white_t0_r0" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <RelativeLayout n1:id="@id/card_top_container" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <RelativeLayout n1:id="@id/unlock_container" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <LinearLayout n1:orientation="vertical" n1:id="@id/get_bike_layout" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_10dp" n1:layout_marginBottom="@dimen/spacing_14dp" n1:layout_centerHorizontal="true">
+                    <ImageView n1:layout_gravity="center_horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/home_unlock_icon" />
+                    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_23sp" n1:textStyle="bold" n1:textColor="@color/color_202020" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/home_unlock_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_l" n1:text="@string/home_unlock" />
+                </LinearLayout>
+                <ImageView n1:id="@id/map_location_iv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_31dp" n1:layout_marginTop="49.0dip" n1:layout_marginBottom="40.0dip" n1:src="@mipmap/map_location" n1:layout_alignParentLeft="true" />
+                <ImageView n1:id="@id/id_report_iv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="49.0dip" n1:layout_marginRight="@dimen/spacing_31dp" n1:layout_marginBottom="40.0dip" n1:src="@mipmap/report" n1:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <LinearLayout n1:orientation="vertical" n1:id="@id/bottom_add_card_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_centerVertical="true" />
+            <LinearLayout n1:orientation="vertical" n1:id="@id/visitor_onlast_step" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_centerVertical="true" />
+        </RelativeLayout>
+        <so.ofo.abroad.widget.CollapseView n1:orientation="vertical" n1:id="@id/report_view_container" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_below="@id/card_top_container" />
+        <so.ofo.abroad.widget.CollapseView n1:orientation="vertical" n1:id="@id/price_pop_view_container" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_below="@id/card_top_container" />
+        <so.ofo.abroad.widget.CollapseView n1:orientation="vertical" n1:id="@id/cv_manually_renew_container" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_below="@id/card_top_container" />
+        <so.ofo.abroad.ui.home.ActiveInbox n1:orientation="vertical" n1:id="@id/inbox_container" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_below="@id/report_view_container" n1:transitionName="@string/inbox_share_view" />
+    </RelativeLayout>
+</LinearLayout>

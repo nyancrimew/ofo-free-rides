@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_21sp" n1:textColor="@color/color_202020" n1:gravity="center_horizontal" n1:id="@id/id_pwd_bike_number_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/end_code_to_unlock" n1:maxLines="1" />
+    <so.ofo.abroad.widget.UnlockPwdView n1:id="@id/id_pwd_view" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_22" />
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_15" n1:textColor="@color/color_99202020" n1:gravity="center_horizontal" n1:id="@id/id_pwd_help_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_2x" n1:text="@string/need_help" n1:maxLines="1" />
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_11dp">
+        <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_s" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/id_pwd_repair_tv" n1:background="@drawable/shape_rect_solid_ffffff_stroke_d2d2d2_r12" n1:paddingTop="@dimen/spacing_18dp" n1:paddingBottom="@dimen/spacing_18dp" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/need_repair" n1:maxLines="1" n1:layout_weight="1.0" n1:textAllCaps="true" />
+        <View n1:visibility="visible" n1:layout_width="@dimen/spacing_11dp" n1:layout_height="@dimen/spacing_11dp" />
+        <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_s" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/id_pwd_how_to_end_tv" n1:background="@drawable/shape_rect_solid_ffffff_stroke_d2d2d2_r12" n1:paddingTop="@dimen/spacing_18dp" n1:paddingBottom="@dimen/spacing_18dp" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/how_to_end_trip" n1:maxLines="1" n1:layout_weight="1.0" n1:textAllCaps="true" />
+        <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_s" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/id_pwd_end_tv" n1:background="@drawable/shape_rect_solid_ffffff_stroke_d2d2d2_r12" n1:paddingTop="@dimen/spacing_18dp" n1:paddingBottom="@dimen/spacing_18dp" n1:visibility="gone" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/trip_completed" n1:maxLines="1" n1:layout_weight="1.0" n1:textAllCaps="true" />
+    </LinearLayout>
+</LinearLayout>

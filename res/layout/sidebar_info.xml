@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:background="@color/yellow_e300" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/myIcon" n1:layout_width="@dimen/spacing_67dp" n1:layout_height="@dimen/spacing_67dp" n1:layout_marginTop="@dimen/spacing_33dp" n1:src="@mipmap/default_user_icon" />
+    <TextView n1:textSize="@dimen/font_x" n1:textColor="@color/color_202020" n1:id="@id/myName" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_l" />
+    <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:background="@drawable/shape_radius_20" n1:paddingLeft="@dimen/spacing_l" n1:paddingTop="@dimen/spacing_5dp" n1:paddingRight="@dimen/spacing_l" n1:paddingBottom="@dimen/spacing_5dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_11dp">
+        <TextView n1:textSize="@dimen/font_13sp" n1:textColor="@color/color_202020" n1:id="@id/scoreTitle" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        <TextView n1:textSize="@dimen/font_13sp" n1:textColor="@color/color_005aff" n1:id="@id/myCreditScore" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3dp" n1:layout_marginRight="@dimen/spacing_3dp" />
+        <TextView n1:textSize="@dimen/font_13sp" n1:textColor="@color/color_202020" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text=">" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_4x">
+        <RelativeLayout n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+            <so.ofo.abroad.widget.IconMoonTypefaceTextView n1:gravity="center" n1:id="@id/distance" n1:padding="@dimen/spacing_5dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:maxLines="1" style="@style/SideBar_TripInfo_top" />
+            <so.ofo.abroad.widget.AutoSizingTextView n1:gravity="center" n1:id="@id/distanceUnit" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/spacing_13dp" n1:maxLines="1" n1:layout_below="@id/distance" style="@style/SideBar_TripInfo_bottom" />
+        </RelativeLayout>
+        <RelativeLayout n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+            <so.ofo.abroad.widget.IconMoonTypefaceTextView n1:gravity="center" n1:id="@id/carbon" n1:padding="@dimen/spacing_5dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:maxLines="1" style="@style/SideBar_TripInfo_top" />
+            <so.ofo.abroad.widget.AutoSizingTextView n1:gravity="center" n1:id="@id/carbonUnit" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/spacing_13dp" n1:maxLines="1" n1:layout_below="@id/carbon" style="@style/SideBar_TripInfo_bottom" />
+        </RelativeLayout>
+        <RelativeLayout n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+            <so.ofo.abroad.widget.IconMoonTypefaceTextView n1:gravity="center" n1:id="@id/calorie" n1:padding="@dimen/spacing_5dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:maxLines="1" style="@style/SideBar_TripInfo_top" />
+            <so.ofo.abroad.widget.AutoSizingTextView n1:gravity="center" n1:id="@id/calorieUnit" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/spacing_13dp" n1:maxLines="1" n1:layout_below="@id/calorie" style="@style/SideBar_TripInfo_bottom" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

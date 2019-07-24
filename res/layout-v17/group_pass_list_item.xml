@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<so.ofo.abroad.widget.SlidingButtonView n1:id="@id/pass_item" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <TextView n1:textSize="@dimen/spacing_15dp" n1:textColor="@color/white" n1:gravity="center" n1:id="@id/tv_delete" n1:background="@color/color_f14c64" n1:paddingTop="@dimen/spacing_19dp" n1:paddingBottom="@dimen/spacing_17dp" n1:layout_width="@dimen/spacing_17x" n1:layout_height="wrap_content" n1:text="@string/group_pass_remove" n1:layout_toRightOf="@id/ll_group_pass" />
+        <LinearLayout n1:orientation="vertical" n1:id="@id/ll_group_pass" n1:background="@color/white" n1:clipChildren="true" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <RelativeLayout n1:paddingLeft="@dimen/spacing_3x" n1:paddingTop="@dimen/spacing_m" n1:paddingBottom="@dimen/spacing_m" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:paddingStart="@dimen/spacing_3x">
+                <ImageView n1:id="@id/iv_member_portrait" n1:layout_width="@dimen/spacing_7x" n1:layout_height="@dimen/spacing_7x" n1:src="@mipmap/default_user_icon" n1:scaleType="centerCrop" n1:layout_centerVertical="true" />
+                <LinearLayout n1:orientation="vertical" n1:paddingLeft="@dimen/spacing_15dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_toRightOf="@id/iv_member_portrait" n1:layout_centerVertical="true" n1:paddingStart="@dimen/spacing_15dp">
+                    <TextView n1:textSize="@dimen/font_16sp" n1:textColor="@color/color_202020" n1:id="@id/tv_member_name" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                    <TextView n1:id="@id/tv_ride_number" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView n1:id="@id/tv_member_identity" n1:paddingRight="@dimen/spacing_18dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n1:paddingEnd="@dimen/spacing_18dp" />
+            </RelativeLayout>
+            <View n1:background="@color/color_d8d8d8" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_05dp" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginStart="@dimen/spacing_3x" />
+        </LinearLayout>
+    </RelativeLayout>
+</so.ofo.abroad.widget.SlidingButtonView>

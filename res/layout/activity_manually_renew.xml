@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/iv_manually_renew_icon" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:src="@mipmap/renew_top_icon" n1:scaleType="fitXY" />
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_3x" n1:layout_below="@id/iv_manually_renew_icon">
+        <TextView n1:textSize="@dimen/font_27dp" n1:textStyle="bold" n1:textColor="@color/color_202020" n1:id="@id/tv_manually_renew_one" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/renew_manually_renew_your_pass" />
+        <TextView n1:textSize="@dimen/spacing_18dp" n1:textColor="@color/color_202020" n1:id="@id/tv_manually_renew_two" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_3x" n1:text="@string/renew_manually_renew_fail" />
+        <TextView n1:textSize="@dimen/spacing_18dp" n1:textColor="@color/color_202020" n1:id="@id/tv_manually_renew_three" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_10dp" n1:text="@string/renew_manually_bind_card_tip" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:visibility="visible" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true">
+        <TextView n1:textSize="@dimen/font_17sp" n1:textStyle="bold" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/tv_manually_renew_bind_card" n1:background="@drawable/shape_rect_four_yellow_selector" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_54dp" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_3x" n1:layout_marginBottom="@dimen/spacing_18dp" n1:text="@string/renew_bind_new_card" n1:textAllCaps="true" />
+        <TextView n1:textSize="@dimen/font_17sp" n1:textStyle="bold" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/tv_manually_renew_pay_now" n1:background="@drawable/shape_rect_solid_ffffff_stroke_d2d2d2_r8" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_54dp" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_3x" n1:layout_marginBottom="@dimen/spacing_18dp" n1:text="@string/pay_now" n1:textAllCaps="true" />
+    </LinearLayout>
+</RelativeLayout>

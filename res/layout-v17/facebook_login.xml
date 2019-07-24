@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@color/white" n1:paddingBottom="@dimen/spacing_3x" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:paddingBottom="@dimen/spacing_19dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <TextView n1:background="@color/color_51_trabsparent_black" n1:paddingLeft="@dimen/spacing_3x" n1:layout_width="0.0dip" n1:layout_height="1.0dip" n1:layout_weight="1.0" n1:paddingStart="@dimen/spacing_3x" />
+        <TextView n1:textSize="@dimen/font_15" n1:textColor="@color/color_4c202020" n1:paddingLeft="@dimen/spacing_30" n1:paddingRight="@dimen/spacing_30" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="or" n1:paddingStart="@dimen/spacing_30" n1:paddingEnd="@dimen/spacing_30" />
+        <TextView n1:background="@color/color_51_trabsparent_black" n1:paddingRight="@dimen/spacing_3x" n1:layout_width="0.0dip" n1:layout_height="1.0dip" n1:layout_weight="1.0" n1:paddingEnd="@dimen/spacing_3x" />
+    </LinearLayout>
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:background="@drawable/facebook_login_btn_background" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_50">
+        <ImageView n1:layout_width="@dimen/spacing_10dp" n1:layout_height="@dimen/spacing_22" n1:layout_marginLeft="@dimen/spacing_45dp" n1:src="@mipmap/facebook_login_logo" n1:scaleType="fitXY" n1:layout_marginStart="@dimen/spacing_45dp" />
+        <TextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/white" n1:paddingLeft="@dimen/spacing_13dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/facebook_login_btn_content" n1:paddingStart="@dimen/spacing_13dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_3x"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/pass_title_container" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:gravity="left" n1:id="@id/pass_title" n1:background="@color/white" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/optional_bike_pass" />
+            <TextView n1:textSize="@dimen/font_13sp" n1:textColor="@color/white" n1:id="@id/pass_discount" n1:background="@drawable/shape_rect_solid_f12745_r6" n1:paddingLeft="@dimen/spacing_6dp" n1:paddingRight="@dimen/spacing_6dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_l" n1:text="" />
+        </LinearLayout>
+        <TextView n1:textSize="@dimen/font_14sp" n1:textColor="@color/color_cc202020" n1:id="@id/pass_discount_included" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_6dp" n1:text="@string/pass_discount_included" />
+    </LinearLayout>
+    <RelativeLayout n1:id="@id/id_pass_policy_item" n1:background="@drawable/shape_rect_solid_f5f5f5_r12" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_17x" n1:layout_marginTop="@dimen/spacing_18dp" n1:layout_marginBottom="@dimen/spacing_6dp" n1:layout_below="@id/pass_title_container">
+        <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_centerVertical="true">
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_13sp" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/tv_start_at" n1:paddingLeft="@dimen/spacing_3x" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:paddingStart="@dimen/spacing_3x" />
+            <RelativeLayout n1:orientation="horizontal" n1:id="@id/ll_pass" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_below="@id/tv_start_at">
+                <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_3x" n1:textColor="@color/color_202020" n1:gravity="center_vertical" n1:id="@id/id_pass_discount_price" n1:paddingLeft="@dimen/spacing_3x" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="$10" n1:maxLines="1" n1:layout_centerVertical="true" n1:paddingStart="@dimen/spacing_3x" />
+                <FrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_9dp" n1:layout_toLeftOf="@id/center_holder" n1:layout_toRightOf="@id/id_pass_discount_price" n1:layout_centerVertical="true">
+                    <so.ofo.abroad.widget.DelLineTextView n1:textSize="@dimen/font_14sp" n1:textColor="@color/color_66202020" n1:gravity="center_vertical" n1:id="@id/id_pass_price" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="$50.00" n2:line_color="@color/color_66202020" n2:line_height="@dimen/spacing_1dp" n2:line_location="center" n2:showline="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                </FrameLayout>
+                <View n1:id="@id/center_holder" n1:layout_width="@dimen/spacing_05dp" n1:layout_height="@dimen/spacing_1dp" n1:layout_centerInParent="true" />
+                <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_m" n1:textColor="@color/white" n1:gravity="center_vertical" n1:id="@id/id_pass_content" n1:background="@drawable/shape_rect_solid_f12745_r6" n1:paddingLeft="@dimen/spacing_m" n1:paddingTop="@dimen/spacing_3dp" n1:paddingRight="@dimen/spacing_m" n1:paddingBottom="@dimen/spacing_3dp" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="50% off" n1:maxLines="1" n1:layout_toRightOf="@id/center_holder" n1:layout_centerVertical="true" n1:paddingStart="@dimen/spacing_m" n1:paddingEnd="@dimen/spacing_m" />
+                <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_16sp" n1:textColor="@color/color_66202020" n1:gravity="center|right" n1:id="@id/id_pass_livetime" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/spacing_3x" n1:text="1 Month" n1:maxLines="1" n1:layout_toRightOf="@id/id_pass_content" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n1:layout_marginEnd="@dimen/spacing_3x" />
+            </RelativeLayout>
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_13sp" n1:textColor="@color/color_66202020" n1:gravity="center" n1:id="@id/tv_add_more" n1:paddingLeft="@dimen/spacing_3x" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_below="@id/ll_pass" n1:paddingStart="@dimen/spacing_3x" />
+        </RelativeLayout>
+        <ImageView n1:id="@id/id_pass_policy_select_iv" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/select_yellow" n1:layout_alignParentTop="true" n1:layout_alignParentRight="true" n1:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

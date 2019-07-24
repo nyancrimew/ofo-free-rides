@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/id_unlocking_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <RelativeLayout n1:layout_width="@dimen/spacing_172" n1:layout_height="@dimen/spacing_106" n1:layout_marginTop="@dimen/spacing_227">
+            <ImageView n1:id="@id/id_unlock_bike_iv" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:src="@mipmap/bike_common" />
+            <ImageView n1:id="@id/id_unlock_signal_iv" n1:background="@drawable/signal_level" n1:layout_width="@dimen/spacing_4x" n1:layout_height="@dimen/spacing_4x" n1:layout_marginTop="@dimen/spacing_6dp" n1:layout_marginRight="@dimen/spacing_13dp" n1:layout_alignParentTop="true" n1:layout_alignParentRight="true" n1:layout_marginEnd="@dimen/spacing_13dp" n1:layout_alignParentEnd="true" />
+            <ImageView n1:id="@id/id_unlock_front_wheel_iv" n1:layout_width="@dimen/spacing_61" n1:layout_height="@dimen/spacing_61" n1:src="@mipmap/circle" n1:layout_alignParentLeft="true" n1:layout_alignParentBottom="true" n1:layout_alignParentStart="true" />
+            <ImageView n1:id="@id/id_unlock_behind_wheel_iv" n1:layout_width="@dimen/spacing_61" n1:layout_height="@dimen/spacing_61" n1:layout_marginRight="@dimen/spacing_5dp" n1:src="@mipmap/circle" n1:layout_alignParentRight="true" n1:layout_alignParentBottom="true" n1:layout_marginEnd="@dimen/spacing_5dp" n1:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <so.ofo.abroad.widget.TypefaceTextView n1:textSize="@dimen/font_21sp" n1:textColor="@color/color_202020" n1:id="@id/id_unlock_progress_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_3x" />
+    </LinearLayout>
+    <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/id_unlock_prompt_layout" n1:visibility="visible" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_230">
+        <ImageView n1:id="@id/id_unlock_prompt_iv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        <TextView n1:textSize="@dimen/font_21sp" n1:textColor="@color/color_202020" n1:id="@id/id_unlock_prompt_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_4x" />
+    </LinearLayout>
+    <so.ofo.abroad.widget.ViewCarousel n1:id="@id/id_unlock_tip_vc" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/spacing_10x" n1:layout_alignParentBottom="true" />
+    <TextView n1:textSize="@dimen/font_s" n1:textColor="@color/color_202020" n1:background="@drawable/shape_rect_solid_ffe300_r6" n1:paddingLeft="@dimen/spacing_m" n1:paddingTop="@dimen/spacing_s" n1:paddingRight="@dimen/spacing_m" n1:paddingBottom="@dimen/spacing_s" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/spacing_18dp" n1:text="@string/tips" n1:layout_above="@id/id_unlock_tip_vc" n1:layout_centerHorizontal="true" n1:textAllCaps="true" />
+</RelativeLayout>

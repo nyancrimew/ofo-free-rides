@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<so.ofo.abroad.ui.userbike.scan.widget.ScanLayout n1:id="@id/id_scan_root_layout" n1:background="@color/color_2b2b2b" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/id_scan_layout" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <com.ofo.scan.views.ScanViewAdapter n1:id="@id/id_scan_view" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n2:support_env_change="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_30">
+            <so.ofo.abroad.widget.ViewCarousel n1:id="@id/id_scan_bike_logo_vc" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_centerHorizontal="true" />
+            <TextView n1:textSize="@dimen/font_s" n1:textColor="@color/color_ccffffff" n1:gravity="center_horizontal" n1:id="@id/id_lta_scan_tips" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_10dp" n1:text="Please scan the QR-code at the parking area." n1:layout_below="@id/id_scan_bike_logo_vc" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/id_scan_bottom_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <so.ofo.abroad.ui.userbike.widget.TypingLightView n1:id="@id/id_scan_type_light_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+        <LinearLayout n1:orientation="vertical" n1:id="@id/id_scan_typing_layout" n1:background="@drawable/shape_rect_solid_ffffff_tl_tr12" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <so.ofo.abroad.widget.IconMoonTypefaceEditTextView n1:textSize="@dimen/font_42" n1:gravity="center" n1:id="@id/id_scan_type_num_et" n1:background="@drawable/shape_rect_solid_0dffe300_stoke_ffe300_r12" n1:paddingTop="@dimen/spacing_15dp" n1:paddingBottom="@dimen/spacing_15dp" n1:focusable="true" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_30" n1:layout_marginTop="@dimen/spacing_58dp" n1:layout_marginRight="@dimen/spacing_30" n1:maxLines="1" n1:maxLength="8" n1:inputType="number" n1:textCursorDrawable="@drawable/shape_cursor_3d78ff" />
+            <TextView n1:textSize="@dimen/font_15" n1:textColor="@color/color_f14c64" n1:gravity="center" n1:id="@id/id_scan_msg_tv" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_58dp" n1:layout_marginLeft="@dimen/spacing_30" n1:layout_marginRight="@dimen/spacing_30" />
+            <so.ofo.abroad.widget.ButtonLoadingView n1:enabled="false" n1:gravity="center_horizontal" n1:id="@id/id_scan_get_code_tv" n1:background="@drawable/selector_ffe300_e8e8e8" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n3:lb_caps="true" n3:lb_isBold="true" n3:lb_text="@string/get_the_lock_code" n3:lb_textcolor="@drawable/selector_202020_66202020" n3:lb_textsize="@dimen/font_17sp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <include n1:id="@id/id_keyboard_view" layout="@layout/layout_keyboard_number" />
+        </LinearLayout>
+    </LinearLayout>
+</so.ofo.abroad.ui.userbike.scan.widget.ScanLayout>

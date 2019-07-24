@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:background="@color/white" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ScrollView n1:id="@id/content_scrollview" n1:scrollbars="none" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_above="@id/report_btn_submit">
+        <LinearLayout n1:orientation="vertical" n1:paddingBottom="@dimen/spacing_5x" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+            <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_l">
+                <View n1:background="@drawable/repair_content_flag" n1:layout_width="@dimen/spacing_m" n1:layout_height="@dimen/spacing_m" n1:layout_marginLeft="@dimen/spacing_m" />
+                <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_m" n1:text="@string/qr_number" />
+            </LinearLayout>
+            <so.ofo.abroad.widget.AutoStyledEditText n1:id="@id/report_edittext" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_10dp" n1:layout_marginRight="@dimen/spacing_3x" n2:hint="@string/repair_input_hint_text" n2:normal_line_color="@color/repair_input_line_color" n2:text_color="@color/color_202020" n2:text_size="@dimen/font_17sp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_l">
+                <View n1:background="@drawable/repair_content_flag" n1:layout_width="@dimen/spacing_m" n1:layout_height="@dimen/spacing_m" n1:layout_marginLeft="@dimen/spacing_m" />
+                <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_m" n1:text="@string/qr_photo" />
+            </LinearLayout>
+            <so.ofo.abroad.widget.uploadimg.UploadImageView n1:id="@id/report_upload_img_view" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_17dp" n1:layout_marginRight="@dimen/spacing_3x" n1:layout_marginBottom="@dimen/spacing_17dp" />
+        </LinearLayout>
+    </ScrollView>
+    <so.ofo.abroad.widget.ButtonLoadingView n1:id="@id/report_btn_submit" n1:background="@drawable/selector_enable_view_bg" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_54dp" n1:layout_alignParentBottom="true" n3:lb_caps="true" n3:lb_text="@string/submit_end_trip" n3:lb_textcolor="@color/submit_button_textcolor" n3:lb_textsize="@dimen/font_17sp" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

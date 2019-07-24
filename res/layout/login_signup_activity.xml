@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/bg_img" n1:background="@mipmap/login_bg" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentTop="true">
+        <View n1:id="@id/left_eye" n1:background="@drawable/shape_circular_solid_black" n1:layout_width="@dimen/spacing_3x" n1:layout_height="@dimen/spacing_3x" n1:layout_marginLeft="38.0dip" n1:layout_marginTop="76.0dip" n1:layout_alignParentLeft="true" />
+        <View n1:id="@id/right_eye" n1:background="@drawable/shape_circular_solid_black" n1:layout_width="@dimen/spacing_3x" n1:layout_height="@dimen/spacing_3x" n1:layout_marginLeft="130.0dip" n1:layout_marginTop="76.0dip" n1:layout_alignParentLeft="true" />
+    </RelativeLayout>
+    <RelativeLayout n1:id="@id/login_sign_view" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <so.ofo.abroad.widget.TabLayoutIndicator n1:id="@id/login_tab_indicator" n1:background="@null" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="154.0dip" n2:tl_indicator_drawable="@mipmap/triangle_white" n2:tl_tab_padding_bottom="@dimen/spacing_23dp" n2:tl_tab_padding_left="@dimen/spacing_3x" n2:tl_tab_padding_right="@dimen/spacing_3x" n2:tl_textSelectColor="@color/black" n2:tl_textUnselectColor="@color/color_99202020" n2:tl_textsize="@dimen/font_2x" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <android.support.v4.view.ViewPager n1:id="@id/login_signup_viewpager" n1:background="@drawable/shape_rect_solid_white_t0_r16" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_below="@id/login_tab_indicator" />
+    </RelativeLayout>
+    <FrameLayout n1:id="@id/verify_code_container" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginTop="34.0dip" />
+    <ImageView n1:id="@id/login_back_slices" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_31dp" n1:layout_marginRight="@dimen/spacing_3x" n1:src="@mipmap/login_back_slices" n1:layout_alignParentRight="true" />
+</RelativeLayout>

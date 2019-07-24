@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <so.ofo.abroad.widget.TypefaceTextView n1:textSize="@dimen/font_5x" n1:textStyle="bold" n1:textColor="@color/black" n1:layout_gravity="center_horizontal" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="104.0dip" n1:text="@string/this_trip_cost_me" n1:maxLines="1" />
+    <so.ofo.abroad.widget.TypefaceTextView n1:textSize="42.0sp" n1:textStyle="bold" n1:textColor="@color/black" n1:layout_gravity="center_horizontal" n1:id="@id/tv_use_bike_my_cost" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="@dimen/spacing_3x" />
+    <View n1:background="@color/gray_30" n1:visibility="invisible" n1:layout_width="fill_parent" n1:layout_height="1.0dip" n1:layout_marginLeft="@dimen/spacing_5x" n1:layout_marginRight="@dimen/spacing_5x" />
+    <RelativeLayout n1:padding="@dimen/spacing_3x" n1:visibility="invisible" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <so.ofo.abroad.widget.TypefaceTextView n1:textSize="@dimen/font_2x" n1:textStyle="bold" n1:textColor="@color/black" n1:id="@id/tv_use_bike_my_price" n1:visibility="invisible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentLeft="true" />
+        <so.ofo.abroad.widget.TypefaceTextView n1:textSize="@dimen/font_2x" n1:textStyle="bold" n1:textColor="@color/yellow" n1:id="@id/tv_use_bike_my_coupon" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_s" n1:textColor="@color/black" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:background="@drawable/shape_rect_solid_white_t0_r5" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_16x" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_3x" n1:text="@string/lock_the_bike" n1:lineSpacingMultiplier="1.2" />
+    <so.ofo.abroad.widget.TypefaceTextView n1:id="@id/got_it_tv" style="@style/GotItTextView" />
+</LinearLayout>

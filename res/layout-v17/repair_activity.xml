@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:background="@color/white" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <so.ofo.abroad.widget.ButtonLoadingView n1:id="@id/btn_submit" n1:background="@drawable/selector_enable_view_bg" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_54dp" n1:layout_alignParentBottom="true" n2:lb_caps="true" n2:lb_text="@string/submit" n2:lb_textcolor="@color/submit_button_textcolor" n2:lb_textsize="@dimen/font_17sp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ScrollView n1:id="@id/content_scrollview" n1:scrollbars="none" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_above="@id/btn_submit" n1:layout_alignParentLeft="true" n1:layout_alignParentStart="true">
+        <LinearLayout n1:orientation="vertical" n1:paddingBottom="@dimen/spacing_5x" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+            <View n1:background="@color/color_e2e2e2" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_1dp" />
+            <include layout="@layout/repair_input_bikecard" />
+            <so.ofo.abroad.widget.BikeLocationInputView n1:id="@id/repair_bike_loc_input" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_18dp">
+                <View n1:id="@id/repair_bike_part_flag" n1:background="@drawable/repair_content_flag" n1:layout_width="@dimen/spacing_m" n1:layout_height="@dimen/spacing_m" n1:layout_marginLeft="@dimen/spacing_9dp" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" />
+                <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:gravity="left" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_9dp" n1:text="@string/please_select_the_broken_bike_part" n1:layout_toRightOf="@id/repair_bike_part_flag" />
+            </RelativeLayout>
+            <include layout="@layout/repair_bike_part_layout" />
+            <RelativeLayout n1:background="@drawable/repair_input_background" n1:paddingLeft="@dimen/spacing_10dp" n1:paddingTop="@dimen/spacing_6dp" n1:paddingRight="@dimen/spacing_10dp" n1:paddingBottom="@dimen/spacing_6dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_3x">
+                <EditText n1:textSize="@dimen/font_s" n1:gravity="top" n1:id="@id/et_repair" n1:background="@null" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_62dp" n1:hint="@string/repair_input_bike_part_text" n1:textCursorDrawable="@drawable/shape_cursor_3d78ff" />
+            </RelativeLayout>
+            <TextView n1:textSize="@dimen/font_ss" n1:textColor="@color/repair_others_discrip_error_textcolor" n1:gravity="right" n1:id="@id/count_flag" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/spacing_6x" />
+            <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_18dp">
+                <View n1:id="@id/repair_photo_flag" n1:background="@drawable/repair_content_flag" n1:layout_width="@dimen/spacing_m" n1:layout_height="@dimen/spacing_m" n1:layout_marginLeft="@dimen/spacing_9dp" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" />
+                <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:gravity="left" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_9dp" n1:text="@string/please_repair_upload" n1:layout_toRightOf="@id/repair_photo_flag" />
+            </RelativeLayout>
+            <so.ofo.abroad.widget.uploadimg.UploadImageView n1:id="@id/repair_upload_img_view" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_17dp" n1:layout_marginRight="@dimen/spacing_3x" n1:layout_marginBottom="@dimen/spacing_17dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

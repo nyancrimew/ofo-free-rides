@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:id="@id/side_bar_gse_item" n1:paddingLeft="@dimen/spacing_26dp" n1:paddingTop="@dimen/spacing_2x" n1:paddingRight="@dimen/spacing_26dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/side_bar_gse_item_content" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_16sp" n1:textColor="@color/color_202020" n1:id="@id/gse" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="GSE Token" n1:layout_weight="1.0" />
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/gse_slide_icon" />
+                <TextView n1:textSize="@dimen/font_16sp" n1:textColor="@color/color_3d78ff" n1:id="@id/gse_value" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_9dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <View n1:background="@color/color_ededed" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_1dp" n1:layout_marginTop="@dimen/spacing_2x" n1:layout_below="@id/side_bar_gse_item_content" />
+    </RelativeLayout>
+    <RelativeLayout n1:id="@id/side_bar_invite_friend_item" n1:paddingLeft="@dimen/spacing_26dp" n1:paddingTop="@dimen/spacing_2x" n1:paddingRight="@dimen/spacing_26dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <LinearLayout n1:orientation="horizontal" n1:id="@id/side_bar_invite_friend_item_content" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_16sp" n1:textColor="@color/color_202020" n1:id="@id/inViteFriend" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/invite_friends" n1:layout_weight="1.0" />
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                <ImageView n1:id="@id/free_rides_icon" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/side_bar_free_rides_icon" />
+                <TextView n1:textSize="@dimen/font_16sp" n1:textColor="@color/color_f14c64" n1:id="@id/invite_friend_value" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_9dp" n1:text="@string/get_price" />
+            </LinearLayout>
+        </LinearLayout>
+        <View n1:id="@id/side_bar_invite_friend_line" n1:background="@color/color_ededed" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_1dp" n1:layout_marginTop="@dimen/spacing_2x" n1:layout_below="@id/side_bar_invite_friend_item_content" />
+    </RelativeLayout>
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/side_bar_wallet_item" n1:paddingLeft="@dimen/spacing_26dp" n1:paddingTop="@dimen/spacing_2x" n1:paddingRight="@dimen/spacing_26dp" n1:paddingBottom="@dimen/spacing_7dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_16sp" n1:textColor="@color/color_202020" n1:id="@id/mywallet" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/my_wallet" n1:layout_weight="1.0" />
+        <TextView n1:textSize="@dimen/font_16sp" n1:textColor="@color/color_80202020" n1:id="@id/myBalance" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    </LinearLayout>
+    <so.ofo.abroad.widget.MediumBoldTextView n1:id="@id/trips" n1:paddingLeft="@dimen/spacing_26dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/my_trips" style="@style/SideBar_Item_left" />
+    <so.ofo.abroad.widget.MediumBoldTextView n1:id="@id/reservation" n1:paddingLeft="@dimen/spacing_26dp" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/reservation" style="@style/SideBar_Item_left" />
+    <so.ofo.abroad.widget.MediumBoldTextView n1:id="@id/promotions" n1:paddingLeft="@dimen/spacing_26dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/promotions" style="@style/SideBar_Item_left" />
+</LinearLayout>

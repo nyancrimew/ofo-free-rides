@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:paddingLeft="@dimen/spacing_3x" n1:paddingRight="@dimen/spacing_3x" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_134dp" n1:layout_marginTop="@dimen/spacing_21" n1:layout_marginBottom="@dimen/spacing_34dp"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:background="@drawable/shape_rect_solid_098e7a_r5" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_marginLeft="@dimen/spacing_m" n1:layout_marginRight="@dimen/spacing_m" n1:layout_weight="1.0">
+        <TextView n1:textSize="@dimen/font_16sp" n1:textColor="@color/white" n1:gravity="center" n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="0.0dip" n1:text="@string/total_today" n1:layout_weight="1.0" />
+        <View n1:background="@color/white" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_xs" n1:layout_marginLeft="@dimen/spacing_6dp" n1:layout_marginRight="@dimen/spacing_6dp" />
+        <so.ofo.abroad.widget.IconMoonTypefaceTextView n1:textSize="@dimen/font_16sp" n1:textColor="@color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/earning_today_tv" n1:layout_width="wrap_content" n1:layout_height="0.0dip" n1:text="8" n1:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:background="@drawable/shape_rect_solid_3d78ff_r5" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_marginLeft="@dimen/spacing_m" n1:layout_marginRight="@dimen/spacing_m" n1:layout_weight="1.0">
+        <TextView n1:textSize="@dimen/font_16sp" n1:textColor="@color/white" n1:gravity="center" n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="0.0dip" n1:text="@string/total_week" n1:layout_weight="1.0" />
+        <View n1:background="@color/white" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_xs" n1:layout_marginLeft="@dimen/spacing_6dp" n1:layout_marginRight="@dimen/spacing_6dp" />
+        <so.ofo.abroad.widget.IconMoonTypefaceTextView n1:textSize="@dimen/font_16sp" n1:textColor="@color/white" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/earning_week_tv" n1:layout_width="wrap_content" n1:layout_height="0.0dip" n1:text="8" n1:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

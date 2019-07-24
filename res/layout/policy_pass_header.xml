@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:id="@id/pass_header_view" n1:visibility="gone" layout="@layout/policy_pass_header_content" />
+    <View n1:background="@color/white" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_1dp" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:paddingLeft="@dimen/spacing_3x" n1:paddingTop="@dimen/spacing_2x" n1:paddingRight="@dimen/spacing_3x" n1:paddingBottom="@dimen/spacing_x" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_m" n1:textColor="@color/gray" n1:gravity="center" n1:id="@id/coupon_tip_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/coupon_tip" n1:lineSpacingMultiplier="1.2" />
+    <LinearLayout n1:orientation="horizontal" n1:background="@mipmap/coupon_small" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="@dimen/spacing_l">
+        <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="179.0">
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_xs" n1:textColor="@color/white" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/ofo" />
+            <so.ofo.abroad.widget.TypefaceTextView n1:textSize="@dimen/font_4x" n1:textColor="@color/white" n1:id="@id/coupon_name_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_xs" n1:layout_marginBottom="@dimen/spacing_xs" n1:text="@string/coupon_uppercase" n1:singleLine="true" />
+        </LinearLayout>
+        <so.ofo.abroad.widget.TypefaceTextView n1:textSize="@dimen/font_4x" n1:textColor="@color/black" n1:gravity="center" n1:id="@id/coupon_amount_tv" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:singleLine="true" n1:layout_weight="103.0" n1:lineSpacingMultiplier="1.2" />
+    </LinearLayout>
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_xs" n1:textColor="@color/gray" n1:gravity="center" n1:id="@id/coupon_expire_time_tv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/coupon_expire_time" />
+</LinearLayout>

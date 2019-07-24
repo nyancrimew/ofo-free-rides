@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="@color/transparent" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <so.ofo.abroad.widget.WebViewWithProgressBar n1:id="@id/task_webview" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+    <RelativeLayout n1:id="@id/task_loading_view" n1:background="@mipmap/task_loading_bg" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <com.airbnb.lottie.LottieAnimationView n1:id="@id/task_animation_view" n1:layout_width="62.0dip" n1:layout_height="58.0dip" n1:layout_centerInParent="true" n2:lottie_autoPlay="true" n2:lottie_fileName="loading.json" n2:lottie_loop="true" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+    <ImageView n1:id="@id/close_btn" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/circle_close" n1:layout_alignParentTop="true" n1:layout_alignParentRight="true" />
+</RelativeLayout>

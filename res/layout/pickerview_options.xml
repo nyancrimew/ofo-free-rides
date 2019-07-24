@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:layout_width="fill_parent" n1:layout_height="@dimen/pickerview_topbar_height" layout="@layout/include_pickerview_topbar" />
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/optionspicker" n1:background="@android:color/white" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <com.bigkoo.pickerview.lib.WheelView n1:id="@id/options1" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_weight="1.0" />
+        <com.bigkoo.pickerview.lib.WheelView n1:id="@id/options2" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_weight="1.0" />
+        <com.bigkoo.pickerview.lib.WheelView n1:id="@id/options3" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

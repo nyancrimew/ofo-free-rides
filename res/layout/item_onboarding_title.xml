@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_19sp" n1:textColor="@color/color_202020" n1:id="@id/onboarding_title" n1:paddingLeft="@dimen/spacing_3x" n1:paddingTop="@dimen/spacing_3x" n1:paddingRight="@dimen/spacing_3x" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_16sp" n1:textColor="@color/color_202020" n1:id="@id/onboarding_des" n1:paddingLeft="@dimen/spacing_3x" n1:paddingTop="@dimen/spacing_6dp" n1:paddingRight="@dimen/spacing_3x" n1:paddingBottom="@dimen/spacing_l" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/first_guide_bg" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginRight="-37.0dip" n1:src="@mipmap/tutorial_first_bg" />
+    <ImageView n1:id="@id/first_guide_bike" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_54dp" n1:layout_marginRight="-37.0dip" n1:src="@mipmap/tutorial_bike" n1:layout_alignParentRight="true" />
+    <ImageView n1:id="@id/first_guide_hand" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_189" n1:src="@mipmap/tutorial_hand" n1:layout_alignParentLeft="true" />
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_23sp" n1:textStyle="bold" n1:textColor="@color/color_202020" n1:gravity="left" n1:id="@id/first_guide_title" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_18dp" n1:layout_marginTop="@dimen/spacing_30" n1:layout_marginRight="@dimen/spacing_18dp" n1:text="@string/home_guide_p_one" n1:layout_below="@id/first_guide_hand" />
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:gravity="left" n1:id="@id/first_guide_content" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_18dp" n1:layout_marginTop="@dimen/spacing_xs" n1:layout_marginRight="@dimen/spacing_18dp" n1:text="@string/home_guide_c_one" n1:layout_below="@id/first_guide_title" />
+</RelativeLayout>

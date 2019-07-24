@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard n1:keyWidth="33.329998%p" n1:keyHeight="8.000004%p" n1:horizontalGap="0.0px" n1:verticalGap="0.0px"
+  xmlns:n1="http://schemas.android.com/apk/res/android">       <Row>
+        <Key n1:codes="49" n1:keyLabel="1" />               <Key n1:codes="50" n1:keyLabel="2" />               <Key n1:codes="51" n1:keyLabel="3" />
+    </Row>       <Row>               <Key n1:codes="52" n1:keyLabel="4" />               <Key n1:codes="53" n1:keyLabel="5" />               <Key n1:codes="54" n1:keyLabel="6" />               </Row>       <Row>               <Key n1:codes="55" n1:keyLabel="7" />               <Key n1:codes="56" n1:keyLabel="8" />               <Key n1:codes="57" n1:keyLabel="9" />               </Row>       <Row>               <Key n1:codes="-3" />             <Key n1:codes="48" n1:keyLabel="0" />               <Key n1:keyHeight="8.000004%p" n1:codes="-5" n1:keyEdgeFlags="right" n1:isRepeatable="true" n1:keyIcon="@drawable/icon_delete_32dp" />
+    </Row>
+</Keyboard>

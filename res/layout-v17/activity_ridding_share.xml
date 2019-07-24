@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@color/color_fed801" n1:fitsSystemWindows="true" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ScrollView n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_0dp" n1:layout_weight="1.0">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+            <ScrollView n1:id="@id/sv_share_area" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <so.ofo.abroad.widget.DragsView n1:visibility="visible" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                    <ImageView n1:id="@id/iv_share_picture" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_375" n1:src="@drawable/layer_picasso_loading_default" n1:scaleType="centerCrop" />
+                    <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_3x" n1:src="@mipmap/icon_share_ofo" />
+                    <LinearLayout n1:orientation="horizontal" n1:id="@id/ll_share_gradient" n1:background="@drawable/shape_gradient_black_00_to_ff" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_71dp" n1:layout_alignParentBottom="true">
+                        <RelativeLayout n1:gravity="center" n1:orientation="horizontal" n1:layout_width="@dimen/spacing_0dp" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+                            <so.ofo.abroad.widget.TypefaceItalicBoldTextView n1:textSize="@dimen/font_29" n1:textColor="@color/white" n1:id="@id/tv_distance_value" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:maxLength="6" />
+                            <so.ofo.abroad.widget.TypefaceItalicBoldTextView n1:textSize="@dimen/font_x" n1:textColor="@color/white" n1:id="@id/tv_distance_unit" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/spacing_xs" n1:layout_toRightOf="@id/tv_distance_value" n1:layout_alignBottom="@id/tv_distance_value" n1:layout_toEndOf="@id/tv_distance_value" />
+                        </RelativeLayout>
+                        <View n1:layout_gravity="center_vertical" n1:background="@color/white" n1:layout_width="@dimen/spacing_xs" n1:layout_height="@dimen/spacing_14dp" />
+                        <RelativeLayout n1:gravity="center" n1:orientation="horizontal" n1:layout_width="@dimen/spacing_0dp" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+                            <so.ofo.abroad.widget.TypefaceItalicBoldTextView n1:textSize="@dimen/font_29" n1:textColor="@color/white" n1:id="@id/tv_duration_value" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:maxLength="6" />
+                            <so.ofo.abroad.widget.TypefaceItalicBoldTextView n1:textSize="@dimen/font_x" n1:textColor="@color/white" n1:id="@id/tv_duration_unit" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/spacing_xs" n1:layout_toRightOf="@id/tv_duration_value" n1:layout_alignBottom="@id/tv_duration_value" n1:layout_toEndOf="@id/tv_duration_value" />
+                        </RelativeLayout>
+                        <View n1:layout_gravity="center_vertical" n1:background="@color/white" n1:layout_width="@dimen/spacing_xs" n1:layout_height="@dimen/spacing_14dp" />
+                        <RelativeLayout n1:gravity="center" n1:orientation="horizontal" n1:layout_width="@dimen/spacing_0dp" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+                            <so.ofo.abroad.widget.TypefaceItalicBoldTextView n1:textSize="@dimen/font_29" n1:textColor="@color/white" n1:id="@id/tv_calories_value" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:maxLength="6" />
+                            <so.ofo.abroad.widget.TypefaceItalicBoldTextView n1:textSize="@dimen/font_x" n1:textColor="@color/white" n1:id="@id/tv_calories_unit" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/spacing_xs" n1:layout_toRightOf="@id/tv_calories_value" n1:layout_alignBottom="@id/tv_calories_value" n1:layout_toEndOf="@id/tv_calories_value" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <so.ofo.abroad.widget.TypefaceItalicBoldTextView n1:textSize="@dimen/font_35" n1:textColor="@color/white" n1:gravity="center_horizontal" n1:id="@id/tv_share_comment" n1:layout_width="@dimen/spacing_176" n1:layout_height="wrap_content" n1:maxLines="2" n1:shadowColor="@color/color_7f000000" n1:layout_centerInParent="true" />
+                </so.ofo.abroad.widget.DragsView>
+            </ScrollView>
+            <RelativeLayout n1:id="@id/rl_shot_surplus" n1:visibility="visible" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_27dp" n1:layout_marginRight="@dimen/spacing_3x">
+                <FrameLayout n1:id="@id/fl_show_parameter" n1:background="@drawable/shape_circle_bg_ffc820" n1:layout_width="@dimen/spacing_59" n1:layout_height="@dimen/spacing_59" n1:layout_alignParentLeft="true" n1:layout_centerVertical="true" n1:layout_alignParentStart="true">
+                    <ImageView n1:layout_gravity="center" n1:id="@id/iv_show_parameter" n1:background="@null" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/selector_share_show_parameter" />
+                </FrameLayout>
+                <FrameLayout n1:id="@id/fl_take_picture" n1:background="@drawable/shape_circle_bg_ffc820" n1:layout_width="@dimen/spacing_78" n1:layout_height="@dimen/spacing_78" n1:layout_centerInParent="true">
+                    <ImageView n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/icon_take_pic" />
+                </FrameLayout>
+                <FrameLayout n1:id="@id/fl_show_slogan" n1:background="@drawable/shape_circle_bg_ffc820" n1:layout_width="@dimen/spacing_59" n1:layout_height="@dimen/spacing_59" n1:layout_alignParentRight="true" n1:layout_centerVertical="true" n1:layout_alignParentEnd="true">
+                    <ImageView n1:layout_gravity="center" n1:id="@id/iv_show_slogan" n1:background="@null" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/selector_share_show_slogan" />
+                </FrameLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout n1:orientation="horizontal" n1:paddingLeft="@dimen/spacing_3x" n1:paddingRight="@dimen/spacing_3x" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_50" n1:layout_marginTop="@dimen/spacing_23dp" n1:layout_marginBottom="@dimen/spacing_18dp">
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textStyle="bold" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/tv_share_third_party" n1:background="@drawable/shape_rect_solid_white_t0_r12" n1:layout_width="@dimen/spacing_0dp" n1:layout_height="fill_parent" n1:text="@string/share_your_ride" n1:layout_weight="3.0" n1:textAllCaps="true" />
+        <ImageView n1:layout_gravity="center" n1:id="@id/iv_download_share_pic" n1:background="@drawable/shape_rect_bg_ffc820_r12" n1:layout_width="@dimen/spacing_0dp" n1:layout_height="fill_parent" n1:layout_marginLeft="@dimen/spacing_l" n1:src="@mipmap/icon_share_download" n1:scaleType="centerInside" n1:layout_weight="1.0" n1:layout_marginStart="@dimen/spacing_l" />
+    </LinearLayout>
+</LinearLayout>

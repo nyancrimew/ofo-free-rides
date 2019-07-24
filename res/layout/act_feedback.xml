@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ScrollView n1:scrollbars="none" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+            <ImageView n1:background="@mipmap/feedback_logo" n1:layout_width="117.0dip" n1:layout_height="62.0dip" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_15dp" />
+            <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_x" n1:textStyle="bold" n1:textColor="@color/color_202020" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_3x" n1:text="@string/feedback_top_tips" />
+            <LinearLayout n1:orientation="vertical" n1:id="@id/feedback_content_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_3x" />
+            <RelativeLayout n1:background="@drawable/repair_input_background" n1:paddingLeft="@dimen/spacing_10dp" n1:paddingTop="@dimen/spacing_6dp" n1:paddingRight="@dimen/spacing_10dp" n1:paddingBottom="@dimen/spacing_6dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_3x">
+                <EditText n1:textSize="@dimen/font_s" n1:gravity="top" n1:id="@id/feedback_dicrip" n1:background="@null" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_62dp" n1:hint="@string/feedback_comment_edittext_hint" n1:textCursorDrawable="@drawable/shape_cursor_3d78ff" />
+            </RelativeLayout>
+            <TextView n1:textSize="@dimen/font_ss" n1:textColor="@color/repair_others_discrip_error_textcolor" n1:gravity="left" n1:id="@id/input_error_flag" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_3x" />
+        </LinearLayout>
+    </ScrollView>
+    <so.ofo.abroad.widget.ButtonLoadingView n1:id="@id/feedback_submit" n1:background="@drawable/repair_submit_btn_selector" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_54dp" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_18dp" n1:layout_marginBottom="@dimen/spacing_18dp" n2:lb_caps="true" n2:lb_text="@string/submit" n2:lb_textcolor="@color/submit_button_textcolor" n2:lb_textsize="@dimen/font_17sp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

@@ -1,0 +1,168 @@
+[
+    {
+        "cardName": "amex",
+        "preLetter": "3",
+        "numStartList": [
+            "34",
+            "37"
+        ],
+        "lenInterval": {
+            "min": 15,
+            "max": 15
+        },
+        "cvcLength": [
+            3,
+            4
+        ],
+        "luhn": true
+    },
+    {
+        "cardName": "JCB",
+        "preLetter": "3",
+        "numStartList": [
+            "35"
+        ],
+        "lenInterval": {
+            "min": 16,
+            "max": 16
+        },
+        "cvcLength": [
+            3
+        ],
+        "luhn": true
+    },
+    {
+        "cardName": "Diners",
+        "preLetter": "3",
+        "numStartList": [
+            "30",
+            "36",
+            "38",
+            "39"
+        ],
+        "lenInterval": {
+            "min": 14,
+            "max": 14
+        },
+        "cvcLength": [
+            3
+        ],
+        "luhn": true
+    },
+    {
+        "cardName": "Discover Card",
+        "preLetter": "6",
+        "numStartList": [
+            "60",
+            "64",
+            "65"
+        ],
+        "lenInterval": {
+            "min": 16,
+            "max": 16
+        },
+        "cvcLength": [
+            3
+        ],
+        "luhn": true
+    },
+    {
+        "cardName": "Maestro",
+        "preLetter": "5,6",
+        "numStartList": [
+            "5018",
+            "502",
+            "503",
+            "506",
+            "56",
+            "58",
+            "639",
+            "6220",
+            "67"
+        ],
+        "numStartListIN": [
+            "639",
+            "6220",
+            "67"
+        ],
+        "lenInterval": {
+            "min": 12,
+            "max": 19
+        },
+        "cvcLength": [
+            3
+        ],
+        "luhn": true
+    },
+    {
+        "cardName": "MasterCard",
+        "preLetter": "2,5",
+        "numIntervalList": [
+            {
+                "from": 22,
+                "to": 27,
+                "numStartLength": 2
+            },
+            {
+                "from": 51,
+                "to": 55,
+                "numStartLength": 2
+            }
+
+        ],
+        "lenInterval": {
+            "min": 16,
+            "max": 16
+        },
+        "cvcLength": [
+            3
+        ],
+        "luhn": true
+    },
+    {
+        "cardName": "Visa",
+        "preLetter": "4",
+        "numStartList": [
+            "4"
+        ],
+        "lenInterval": {
+            "min": 13,
+            "max": 16
+        },
+        "cvcLength": [
+            3
+        ],
+        "luhn": true
+    },
+    {
+        "cardName": "Union pay",
+        "preLetter": "6,8",
+        "numStartList": [
+            "88"
+        ],
+        "lenInterval": {
+            "min": 16,
+            "max": 19
+        },
+        "cvcLength": [
+            3
+        ],
+        "luhn": false
+    },
+    {
+        "cardName": "special card",
+        "preLetter": "6",
+        "numStartList": [
+            "62"
+        ],
+        "lenInterval": {
+            "min": 16,
+            "max": 19
+        },
+        "cvcLength": [
+            3
+        ],
+        "luhn": false,
+        "note": "622属于discover card,62属于Union pay,有重复，长度和luhn上会存在不一样，当成特殊卡号，扩大范围处理"
+    }
+]

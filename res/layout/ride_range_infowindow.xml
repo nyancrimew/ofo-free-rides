@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:background="@mipmap/parking_info_window" n1:paddingLeft="@dimen/spacing_9dp" n1:paddingRight="@dimen/spacing_14dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/range_bike_icon" n1:layout_width="@dimen/spacing_50" n1:layout_height="@dimen/spacing_50" n1:layout_marginTop="@dimen/spacing_s" n1:src="@mipmap/e_scooter_bike_icon" n1:layout_alignParentLeft="true" />
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="vertical" n1:paddingTop="@dimen/spacing_11dp" n1:paddingBottom="@dimen/spacing_11dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_5dp" n1:layout_toRightOf="@id/range_bike_icon">
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_17sp" n1:textStyle="bold" n1:textColor="@color/color_202020" n1:id="@id/range_value" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="15.6 km" />
+        <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_xs" n1:textColor="@color/color_202020" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Ride Range" />
+    </LinearLayout>
+</RelativeLayout>

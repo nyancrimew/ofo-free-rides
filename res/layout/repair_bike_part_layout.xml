@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_3x"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/repair_bike_view" n1:background="@mipmap/bike_icon" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_38dp" n1:layout_marginBottom="@dimen/spacing_34dp" n1:layout_centerHorizontal="true" />
+    <ImageView n1:id="@id/repair_bike_head_view" n1:background="@mipmap/bike_head" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_99dp" n1:layout_marginTop="@dimen/spacing_15dp" n1:layout_marginBottom="@dimen/spacing_6dp" />
+    <FrameLayout n1:orientation="horizontal" n1:id="@id/repair_head_part" n1:background="@drawable/repair_helmet_selector" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_15dp" n1:layout_alignParentLeft="true">
+        <TextView n1:textSize="@dimen/font_13sp" n1:textColor="@color/repair_text_color" n1:gravity="left" n1:layout_gravity="center|left" n1:paddingLeft="@dimen/spacing_25dp" n1:duplicateParentState="true" n1:layout_width="@dimen/spacing_74dp" n1:layout_height="wrap_content" n1:text="@string/part_helmet" n1:singleLine="true" />
+    </FrameLayout>
+    <FrameLayout n1:orientation="horizontal" n1:id="@id/repair_plate_part" n1:background="@drawable/repair_plate_selector" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_10dp" n1:layout_below="@id/repair_head_part" n1:layout_alignParentLeft="true">
+        <TextView n1:textSize="@dimen/font_13sp" n1:textColor="@color/repair_text_color" n1:gravity="left" n1:layout_gravity="center|left" n1:paddingLeft="@dimen/spacing_25dp" n1:duplicateParentState="true" n1:layout_width="@dimen/spacing_74dp" n1:layout_height="wrap_content" n1:text="@string/part_plate" n1:singleLine="true" />
+    </FrameLayout>
+    <FrameLayout n1:orientation="horizontal" n1:id="@id/repair_tire_part" n1:background="@drawable/repair_tire_selector" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_10dp" n1:layout_below="@id/repair_plate_part" n1:layout_alignParentLeft="true">
+        <TextView n1:textSize="@dimen/font_13sp" n1:textColor="@color/repair_text_color" n1:gravity="left" n1:layout_gravity="center|left" n1:paddingLeft="@dimen/spacing_25dp" n1:duplicateParentState="true" n1:layout_width="@dimen/spacing_74dp" n1:layout_height="wrap_content" n1:text="@string/part_tire" n1:singleLine="true" />
+    </FrameLayout>
+    <FrameLayout n1:orientation="horizontal" n1:id="@id/repair_other_part" n1:background="@drawable/repair_others_selector" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_10dp" n1:layout_below="@id/repair_tire_part" n1:layout_alignParentLeft="true">
+        <TextView n1:textSize="@dimen/font_13sp" n1:textColor="@color/repair_text_color" n1:gravity="left" n1:layout_gravity="center|left" n1:paddingLeft="@dimen/spacing_25dp" n1:duplicateParentState="true" n1:layout_width="@dimen/spacing_74dp" n1:layout_height="wrap_content" n1:text="@string/part_others" n1:singleLine="true" />
+    </FrameLayout>
+    <FrameLayout n1:orientation="horizontal" n1:id="@id/repair_seat_part" n1:background="@drawable/repair_seat_selector" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_15dp" n1:layout_alignParentRight="true">
+        <TextView n1:textSize="@dimen/font_13sp" n1:textColor="@color/repair_text_color" n1:gravity="left" n1:layout_gravity="right" n1:paddingLeft="@dimen/spacing_25dp" n1:duplicateParentState="true" n1:layout_width="@dimen/spacing_74dp" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_s" n1:layout_marginBottom="@dimen/spacing_14dp" n1:text="@string/part_seat" n1:singleLine="true" />
+    </FrameLayout>
+    <FrameLayout n1:orientation="horizontal" n1:id="@id/repair_lock_part" n1:background="@drawable/repair_lock_selector" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_below="@id/repair_seat_part" n1:layout_alignParentRight="true">
+        <TextView n1:textSize="@dimen/font_13sp" n1:textColor="@color/repair_text_color" n1:gravity="left" n1:layout_gravity="center|right" n1:paddingLeft="@dimen/spacing_25dp" n1:duplicateParentState="true" n1:layout_width="@dimen/spacing_74dp" n1:layout_height="wrap_content" n1:text="@string/part_lock" n1:singleLine="true" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/repair_chain_part" n1:background="@drawable/repair_chain_selector" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_10dp" n1:layout_below="@id/repair_lock_part" n1:layout_alignParentRight="true">
+        <TextView n1:textSize="@dimen/font_13sp" n1:textColor="@color/repair_text_color" n1:gravity="left" n1:layout_gravity="center|right" n1:paddingLeft="@dimen/spacing_25dp" n1:duplicateParentState="true" n1:layout_width="@dimen/spacing_74dp" n1:layout_height="wrap_content" n1:text="@string/part_chain" n1:singleLine="true" />
+    </FrameLayout>
+    <FrameLayout n1:orientation="horizontal" n1:id="@id/repair_pedal_part" n1:background="@drawable/repair_pedal_selector" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_xs" n1:layout_below="@id/repair_chain_part" n1:layout_alignParentRight="true">
+        <TextView n1:textSize="@dimen/font_13sp" n1:textColor="@color/repair_text_color" n1:gravity="left" n1:layout_gravity="bottom|center|right" n1:paddingLeft="@dimen/spacing_25dp" n1:paddingBottom="@dimen/spacing_s" n1:duplicateParentState="true" n1:layout_width="@dimen/spacing_74dp" n1:layout_height="wrap_content" n1:text="@string/part_pedal" n1:singleLine="true" />
+    </FrameLayout>
+</RelativeLayout>

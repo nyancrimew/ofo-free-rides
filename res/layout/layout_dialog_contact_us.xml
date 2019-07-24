@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:gravity="center" n1:orientation="vertical" n1:paddingLeft="@dimen/spacing_x" n1:paddingRight="@dimen/spacing_x" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/contact_us_dialog_close" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/activities_close" n1:layout_alignParentRight="true" />
+    <so.ofo.abroad.widget.TypefaceTextView n1:textSize="@dimen/font_5x" n1:textColor="@color/black" n1:gravity="center" n1:id="@id/tv_contact_us" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/contact_us" n1:layout_below="@id/contact_us_dialog_close" />
+    <so.ofo.abroad.widget.AutoSizingTextView n1:textSize="@dimen/font_m" n1:textColor="@color/gray" n1:gravity="center" n1:id="@id/contact_content_tv" n1:padding="@dimen/font_3x" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/contact_us_desc" n1:layout_below="@id/tv_contact_us" n1:lineSpacingMultiplier="1.3" />
+    <TextView n1:textSize="@dimen/font_l" n1:textStyle="bold" n1:textColor="@color/yellow" n1:id="@id/email_tv" n1:paddingBottom="@dimen/spacing_x" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:drawableLeft="@mipmap/ofo_email" n1:drawablePadding="@dimen/spacing_2x" n1:layout_below="@id/contact_content_tv" n1:layout_centerHorizontal="true" n1:lineSpacingMultiplier="1.3" />
+    <TextView n1:textSize="@dimen/font_l" n1:textStyle="bold" n1:textColor="@color/yellow" n1:id="@id/phone_tv" n1:paddingBottom="@dimen/spacing_x" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:drawableLeft="@mipmap/ofo_phone" n1:drawablePadding="@dimen/spacing_2x" n1:layout_below="@id/email_tv" n1:layout_alignLeft="@id/email_tv" n1:lineSpacingMultiplier="1.3" />
+</RelativeLayout>

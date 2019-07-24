@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:id="@id/id_card_default_layout" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:orientation="vertical" n1:background="@drawable/shape_rect_stroke_e2e2e2_r12" n1:padding="@dimen/spacing_18dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <TextView n1:textSize="@dimen/font_s" n1:textColor="@color/color_222222" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/default_payment_option" n1:layout_alignParentLeft="true" n1:layout_alignParentStart="true" />
+        <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/arrow_right2" n1:layout_alignParentRight="true" n1:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

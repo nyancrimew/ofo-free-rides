@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_above="@id/id_deposit_to_balance">
+        <ImageView n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:src="@mipmap/waive_deposit_bg" n1:scaleType="centerCrop" />
+        <so.ofo.abroad.widget.MediumBoldTextView n1:textSize="@dimen/font_35" n1:textColor="@color/color_202020" n1:id="@id/id_title_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_7x" n1:text="@string/deposit_title" />
+        <TextView n1:textSize="@dimen/font_19sp" n1:textStyle="normal" n1:textColor="@color/color_cc202020" n1:id="@id/id_deposit_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_3x" n1:layout_below="@id/id_title_tv" />
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/id_waive_ll" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_x" n1:layout_below="@id/id_deposit_tv">
+            <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/deposit_icon" />
+            <TextView n1:textSize="@dimen/font_17sp" n1:textStyle="normal" n1:textColor="@color/color_cc202020" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_9dp" n1:text="@string/deposit_waive" />
+        </LinearLayout>
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/id_ride_more_ll" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_x" n1:layout_below="@id/id_waive_ll">
+            <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@mipmap/deposit_icon" />
+            <TextView n1:textSize="@dimen/font_17sp" n1:textStyle="normal" n1:textColor="@color/color_cc202020" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_9dp" n1:text="@string/deposit_ride_more" />
+        </LinearLayout>
+        <TextView n1:textSize="@dimen/spacing_l" n1:textStyle="normal" n1:textColor="@color/black_50" n1:id="@id/id_terms_and_conditions" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/spacing_3x" n1:layout_marginBottom="@dimen/spacing_m" n1:text="@string/terms_and_conditions" n1:layout_alignParentRight="true" n1:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <TextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/id_deposit_to_balance" n1:background="@drawable/shape_rect_solid_fed801_r12" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_54dp" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginTop="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_3x" n1:layout_marginBottom="@dimen/spacing_15dp" n1:text="@string/deposit_to_balance" n1:layout_above="@id/id_deposit_wait_tv" n1:layout_centerHorizontal="true" />
+    <TextView n1:textSize="@dimen/font_17sp" n1:textColor="@color/color_202020" n1:id="@id/id_deposit_wait_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/spacing_14dp" n1:text="@string/deposit_wait" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true" />
+</RelativeLayout>

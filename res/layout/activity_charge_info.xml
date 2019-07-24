@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <so.ofo.abroad.ui.crowdsourcecharge.weight.ChargeMenuView n1:id="@id/id_charge_info_menu" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/spacing_10dp" n1:layout_marginRight="@dimen/spacing_10dp" />
+    <FrameLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_9dp" n1:layout_below="@id/id_charge_info_menu">
+        <so.ofo.abroad.ui.crowdsourcecharge.weight.ScooterInfoView n1:id="@id/id_charge_scooter_info_view" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        <so.ofo.abroad.ui.crowdsourcecharge.weight.DspotInfoView n1:id="@id/id_charge_dspot_info_view" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    </FrameLayout>
+</RelativeLayout>

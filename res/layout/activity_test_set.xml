@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ScrollView n1:background="@color/common_bg" n1:padding="20.0dip" n1:scrollbars="none" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:fillViewport="true">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+            <CheckBox n1:textColor="@color/color_f12745" n1:id="@id/id_test_open_cb" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="开启以下数据模拟或配置，注意：只有此选项勾选时，以下的设置才会起作用，选择完成后，退出此界面，杀掉app即可起作用;此选项不勾选时，将按打包时的默认数据进行配置" />
+            <TextView n1:id="@id/id_cur_mock_location_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="20.0dip" n1:text="当前没有模拟经纬度" />
+            <TextView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="位置模拟：" />
+            <Spinner n1:id="@id/id_test_country_sp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <TextView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="输入模拟经度:" />
+                <EditText n1:id="@id/id_test_lng" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:hint="输入经度" />
+                <TextView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="输入模拟纬度:" />
+                <EditText n1:id="@id/id_test_lat" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:hint="输入纬度" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="30.0dip">
+                <TextView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="当前server环境" />
+                <TextView n1:textColor="@color/black" n1:id="@id/id_cur_server_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="26dp" />
+                <Spinner n1:id="@id/id_test_mock_server_sp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_10dp" />
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="30.0dip">
+                <TextView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="当前H5环境" />
+                <TextView n1:textColor="@color/black" n1:id="@id/id_cur_h5_tv" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="26dp" />
+                <Spinner n1:id="@id/id_test_mock_h5_sp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_10dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:id="@id/no_permission_layout" n1:visibility="invisible" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_0dp" n1:layout_weight="1.0" layout="@layout/free_ride_layout" />
+    <include n1:id="@id/permission_layout" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_0dp" n1:layout_weight="1.0" layout="@layout/invite_friend_permission_layout" />
+    <include n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/spacing_10dp" n1:layout_marginBottom="@dimen/spacing_2x" layout="@layout/invite_share_code_layout" />
+    <TextView n1:textSize="@dimen/font_17sp" n1:textStyle="bold" n1:textColor="@color/color_202020" n1:gravity="center" n1:id="@id/invite_friend_button" n1:background="@drawable/shape_rect_four_yellow_selector" n1:layout_width="fill_parent" n1:layout_height="@dimen/spacing_54dp" n1:layout_marginLeft="@dimen/spacing_3x" n1:layout_marginRight="@dimen/spacing_3x" n1:layout_marginBottom="@dimen/spacing_18dp" n1:text="@string/invite_friends" n1:textAllCaps="true" />
+</LinearLayout>

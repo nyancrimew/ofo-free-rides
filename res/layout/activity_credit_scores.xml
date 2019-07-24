@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/profile_edit" n1:background="@color/common_bg" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v4.widget.SwipeRefreshLayout n1:id="@id/srl" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <android.support.v7.widget.RecyclerView n1:id="@id/list" n1:scrollbars="vertical" n1:descendantFocusability="blocksDescendants" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n2:layoutManager="LinearLayoutManager" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>
